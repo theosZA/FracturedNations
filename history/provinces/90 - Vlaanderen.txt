@@ -1,0 +1,21 @@
+# 90 Vlaanderen - Principal cities: Brugge
+
+owner = FLA
+controller = FLA
+capital = "Brugge"
+citysize = 75000
+culture = flemish
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = cloth
+manpower = 3
+add_core = FLA
+marketplace = yes
+courthouse = yes # Exception, organised in this region
+textile = yes
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

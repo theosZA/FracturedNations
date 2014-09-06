@@ -1,0 +1,19 @@
+# 199 Auvergne - Principal cities: Clermont-Ferrand
+
+owner = AUV
+controller = AUV 
+capital = "Clermont"
+citysize = 7000
+culture = occitain
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = iron
+manpower = 2
+add_core = AUV
+fort1 = yes
+temple = yes # Cathedral of Le Puy-en-Velay
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

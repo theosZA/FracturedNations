@@ -1,0 +1,20 @@
+# 89 Picardie - Principal cities: Amiens
+
+owner = CHP
+controller = CHP 
+capital = "Amiens"
+citysize = 15000
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = grain
+manpower = 5
+add_core = CHP
+add_core = FLA
+fort1 = yes
+temple = yes # Notre Dame d'Amiens
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

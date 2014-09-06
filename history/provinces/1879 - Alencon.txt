@@ -1,0 +1,20 @@
+# 1879 - Alençon
+
+owner = T11 # Maine
+controller = T11 # Maine
+capital = "Alençon"
+citysize = 11000
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = cloth
+manpower = 4
+add_core = ALE
+add_core = T11 # Maine
+fort1 = yes
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,18 @@
+# 191 Nevers - Principal cities: Nevers
+
+owner = NEV
+controller = NEV 
+capital = "Nevers"
+citysize = 4500
+culture = burgundian
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = grain
+manpower = 4
+add_core = NEV
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

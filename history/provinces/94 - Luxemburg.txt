@@ -1,0 +1,18 @@
+# 94 Luxembourg - Principal cities: Luxembourg
+
+owner = LUX
+controller = LUX 
+capital = "Luxemburg"
+citysize = 9000
+culture = wallonian
+religion = catholic 
+hre = yes
+base_tax = 6
+trade_goods = iron
+manpower = 2
+add_core = LUX
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

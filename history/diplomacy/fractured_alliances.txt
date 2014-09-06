@@ -5,3 +5,51 @@ vassal = {
 	start_date = 1444.1.1
 	end_date = 1822.1.1
 }
+
+# Berry, a vassal of Bourbonnais
+vassal = {
+	first = BOU
+	second = BER
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Nevers, a vassal of Bourbonnais
+vassal = {
+	first = BOU
+	second = NEV
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Dauphine, a vassal of Provence
+vassal = {
+	first = PRO
+	second = DAU
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Rethel, a vassal of Luxembourg
+vassal = {
+	first = LUX
+	second = T13
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Bar, a vassal of Luxembourg
+vassal = {
+	first = LUX
+	second = BAR
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Cambrai guaranteed by Luxembourg
+guarantee = {
+	first = LUX
+	second = T14
+	start_date = 1399.1.1
+	end_date = 1822.1.1
+}
