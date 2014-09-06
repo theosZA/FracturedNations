@@ -1,0 +1,18 @@
+#218 - Badajoz
+
+owner = T16 # Badajoz
+controller = T16 # Badajoz
+add_core = T16 # Badajoz
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 5
+trade_goods = wool 
+manpower = 4
+fort1 = yes
+capital = "Badajoz" 
+citysize = 4000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

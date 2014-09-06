@@ -1,0 +1,18 @@
+#219 - Toledo
+
+owner = T17 # Toledo
+controller = T17 # Toledo
+add_core = T17 # Toledo
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 8
+trade_goods = gold 
+manpower = 4
+fort1 = yes
+capital = "Toledo" 
+citysize = 26000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

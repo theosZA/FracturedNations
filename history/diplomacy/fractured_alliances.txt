@@ -53,3 +53,11 @@ guarantee = {
 	start_date = 1399.1.1
 	end_date = 1822.1.1
 }
+
+# Silves, vassal of Ceuta
+vassal = {
+	first = T19
+	second = T20
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}

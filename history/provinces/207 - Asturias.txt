@@ -1,0 +1,19 @@
+#207 - Asturias
+
+owner = T15 # Leon
+controller = T15 # Leon
+add_core = T15 # Leon
+culture = galician # TBD: asturian
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = salt 
+manpower = 3
+fort1 = yes
+capital = "Oviedo" 
+citysize = 4000
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,18 @@
+#221 - Murcia
+
+owner = T21 # Denia
+controller = T21 # Denia
+add_core = T21 # Denia
+culture = andalucian
+religion = sunni 
+hre = no
+base_tax = 6 
+trade_goods = grain 
+manpower = 4 
+fort1 = yes
+capital = "Cartagena" 
+citysize = 9000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

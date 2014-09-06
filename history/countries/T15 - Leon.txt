@@ -1,0 +1,5 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = galician # TBD: leonese and asturian
+capital = 208	# Leon

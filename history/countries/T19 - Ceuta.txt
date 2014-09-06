@@ -1,0 +1,5 @@
+government = despotic_monarchy
+technology_group = muslim
+religion = sunni
+primary_culture = berber
+capital = 1751	# Ceuta
