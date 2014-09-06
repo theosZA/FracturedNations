@@ -1,0 +1,5 @@
+government = feudal_monarchy
+primary_culture = norwegian
+religion = catholic
+technology_group = animist
+capital = 1978 # The Shetlands

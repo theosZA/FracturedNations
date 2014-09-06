@@ -1,0 +1,5 @@
+government = tribal_despotism
+primary_culture = sapmi
+religion = shamanism
+technology_group = nomad_group
+capital = 18 #Lappland

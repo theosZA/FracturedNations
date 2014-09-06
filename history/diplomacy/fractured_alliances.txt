@@ -2,7 +2,7 @@
 vassal = {
 	first = NRM
 	second = T04
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -10,7 +10,7 @@ vassal = {
 vassal = {
 	first = BOU
 	second = BER
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -18,7 +18,7 @@ vassal = {
 vassal = {
 	first = BOU
 	second = NEV
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -26,7 +26,7 @@ vassal = {
 vassal = {
 	first = PRO
 	second = DAU
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -34,7 +34,7 @@ vassal = {
 vassal = {
 	first = LUX
 	second = T13
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -42,7 +42,7 @@ vassal = {
 vassal = {
 	first = LUX
 	second = BAR
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -58,7 +58,7 @@ guarantee = {
 vassal = {
 	first = T19
 	second = T20
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -66,7 +66,7 @@ vassal = {
 vassal = {
 	first = VEN
 	second = T27
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -82,7 +82,7 @@ alliance = {
 vassal = {
 	first = GEN
 	second = T24
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -90,7 +90,7 @@ vassal = {
 vassal = {
 	first = T29
 	second = T25
-	start_date = 1444.1.1
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
 
@@ -99,5 +99,29 @@ alliance = {
 	first = PIS
 	second = T23
 	start_date = 1399.1.1
+	end_date = 1822.1.1
+}
+
+# Cimbria-Holstein alliance
+alliance = {
+	first = T33
+	second = SHL
+	start_date = 1399.1.1
+	end_date = 1822.1.1
+}
+
+# Gotland, vassal of Gotaland
+vassal = {
+	first = T37
+	second = GOT
+	start_date = 1443.12.1
+	end_date = 1822.1.1
+}
+
+# Shetland, vassal of Iceland
+vassal = {
+	first = T31
+	second = T32
+	start_date = 1443.12.1
 	end_date = 1822.1.1
 }

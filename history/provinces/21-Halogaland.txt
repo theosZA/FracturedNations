@@ -1,0 +1,16 @@
+#Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
+
+owner = T35 # Halogaland
+controller = T35 # Halogaland
+add_core = T35 # Halogaland
+culture = norwegian
+religion = animism
+hre = no
+base_tax = 1
+trade_goods = fish
+manpower = 1
+capital = "Steig"
+citysize = 1000 # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = T36 # Sapmi

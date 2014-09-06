@@ -1,0 +1,6 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = danish
+religion = catholic
+technology_group = western
+capital = 15 #Midtjylland

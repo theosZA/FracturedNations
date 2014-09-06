@@ -1,0 +1,20 @@
+#Skåne
+
+add_core = T34 # Skane
+owner = T34 # Skane
+controller = T34 # Skane
+culture = danish
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = grain
+manpower = 5
+fort1 = yes
+capital = "Lund"
+is_city = yes
+marketplace = yes
+temple = yes # Lund cathedral
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

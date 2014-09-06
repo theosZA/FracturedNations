@@ -1,0 +1,14 @@
+#371 - Akureyri
+
+owner = T31 # Iceland
+controller = T31 # Iceland
+add_core = T31 # Iceland
+culture = norwegian
+religion = animism
+hre = no
+base_tax = 1
+trade_goods = fish
+manpower = 1
+capital = "Akureyri"
+citysize = 1100		# Estimated
+discovered_by = western

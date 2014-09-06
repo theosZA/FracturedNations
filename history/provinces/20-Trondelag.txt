@@ -1,0 +1,17 @@
+#Tröndelag, incl. Trondheim, Frosta, Röros, Steinviksholm
+
+owner = T35 # Halogaland
+controller = T35 # Halogaland
+add_core = T35 # Halogaland
+culture = norwegian
+religion = animism
+hre = no
+base_tax = 2
+trade_goods = fish
+manpower = 2
+capital = "Trondheim"
+citysize = 1000 # Estimated
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = T36 # Sapmi

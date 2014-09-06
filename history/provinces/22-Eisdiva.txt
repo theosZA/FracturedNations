@@ -1,0 +1,18 @@
+#Oplandene, incl. Hamar, Lillehammer
+
+owner = T35 # Halogaland
+controller = T35 # Halogaland
+add_core = T35 # Halogaland
+culture = norwegian
+religion = animism
+hre = no
+base_tax = 1
+trade_goods = naval_supplies
+manpower = 1
+capital = "Hamar"
+fort1 = yes
+citysize = 1000 # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

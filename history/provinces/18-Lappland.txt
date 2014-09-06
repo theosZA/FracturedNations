@@ -1,0 +1,16 @@
+#Lapland, the far north wastelands.
+
+capital = "Kien Kasjarkka"
+culture = sapmi
+religion = shamanism
+hre = no
+base_tax = 1
+trade_goods = unknown
+manpower = 1
+discovered_by = eastern
+discovered_by = western
+owner = T36 # Sapmi
+controller = T36 # Sapmi 
+add_core = T36 # Sapmi
+is_city = yes
+trade_goods = fur
