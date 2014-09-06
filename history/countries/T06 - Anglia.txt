@@ -1,0 +1,16 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = english
+capital = 1860	# Norfolk (Suffolk)
+
+1428.5.7 = {
+	monarch = {
+		name = "Harald VII"
+		dynasty = "Sigurdsson"
+		birth_date = 1408.11.17
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,18 @@
+government = oligarchic_republic
+technology_group = western
+religion = catholic
+primary_culture = english
+capital = 236	# London
+
+add_opinion = { who = NRM modifier = lost_england }
+
+1443.12.21 = {
+	monarch = {
+		name = "Richard"
+		dynasty = "Whittington"
+		birth_date = 1381.11.12
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,19 @@
+#373 - Meath
+
+owner = T09 # Meath
+controller = T09 # Meath
+add_core = T09 # Meath
+culture = irish
+religion = catholic
+hre = no
+base_tax = 5
+trade_goods = grain
+manpower = 3
+capital = "Dublin"
+citysize = 3000
+fort1 = yes
+temple = yes # St. Patrick's Cathedral, Dublin
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

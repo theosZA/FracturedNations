@@ -1,0 +1,19 @@
+# 173 Labourd - Principal cities: Bayonne (can't change file name)
+
+owner = GUY
+controller = GUY
+capital = "Bayonne"
+citysize = 2500
+culture = basque
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = wine
+manpower = 4
+add_core = GUY
+fort1 = yes 
+temple = yes # La Cathédrale Sainte-Marie
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

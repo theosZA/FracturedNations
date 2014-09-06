@@ -1,0 +1,19 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = english
+capital = 234	# Wessex (Winchester)
+
+add_opinion = { who = NRM modifier = lost_england }
+
+1420.5.9 = {
+	monarch = {
+		name = "Cerdic"
+		dynasty = "Gewisse"
+		birth_date = 1390.4.12
+		adm = 4
+		dip = 4
+		mil = 3
+		leader = { name = "Cerdic"		type = general	rank = 1	fire = 0	shock = 1	manuever = 2	siege = 0 }
+	}
+}

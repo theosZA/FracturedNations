@@ -1,0 +1,7 @@
+# Boulogne, a vassal of Normandy
+vassal = {
+	first = NRM
+	second = T04
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}

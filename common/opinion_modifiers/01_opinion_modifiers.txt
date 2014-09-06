@@ -1,0 +1,8 @@
+##############
+# TIMED
+##############
+
+lost_england = {
+	opinion = -150
+	yearly_decay = 5
+}

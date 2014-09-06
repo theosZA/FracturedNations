@@ -1,0 +1,19 @@
+government = feudal_monarchy
+technology_group = western
+religion = catholic
+primary_culture = normand
+capital = 87	# Calais
+
+add_opinion = { who = NRM modifier = lost_england }
+
+1439.4.2 = {
+	monarch = {
+		name = "Mathieu"
+		dynasty = "de Guelders"
+		birth_date = 1412.6.29
+		adm = 2
+		dip = 4
+		mil = 4
+		leader = { name = "Mathieu"		type = general	rank = 1	fire = 1	shock = 3	manuever = 0	siege = 0 }
+	}
+}
