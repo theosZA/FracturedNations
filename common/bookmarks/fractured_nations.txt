@@ -1,0 +1,15 @@
+
+bookmark =
+{
+	name = "fractured_nations_bookmark"
+	desc = "fractured_nations_bookmark_DESC"
+	date = 1444.1.1
+	
+	country = T05 # Jorvik
+	country = T12 # Antwerp
+	country = T04 # Boulogne
+	country = GUY
+	country = T17 # Toledo
+	country = T28 # Benevento
+	country = AQU
+}
