@@ -1,0 +1,7 @@
+government = oligarchic_republic
+mercantilism = 0.2
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+technology_group = eastern
+capital = 285 # Kaffa

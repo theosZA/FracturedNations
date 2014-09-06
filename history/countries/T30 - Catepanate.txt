@@ -1,0 +1,7 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = greek
+religion = orthodox
+technology_group = eastern
+capital = 1933 # Bari
+historical_friend = BYZ

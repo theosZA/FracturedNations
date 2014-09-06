@@ -1,0 +1,19 @@
+#1875 - Cuneo (can't change filename)
+
+owner = T23 # Nice
+controller = T23 # Nice
+culture = lombard
+religion = catholic
+hre = yes
+base_tax = 5
+trade_goods = wine
+manpower = 5
+fort1 = yes
+capital = "Cuneo"
+citysize = 9000		# Estimated
+add_core = T23 # Nice
+add_core = SAV
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

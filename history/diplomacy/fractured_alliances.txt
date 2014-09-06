@@ -61,3 +61,43 @@ vassal = {
 	start_date = 1444.1.1
 	end_date = 1822.1.1
 }
+
+# Dalmatia as part of Venetian League
+vassal = {
+	first = VEN
+	second = T27
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Catepanate of Italy as a former "colony" of Byzantium
+alliance = {
+	first = BYZ
+	second = T30
+	start_date = 1200.1.1
+	end_date = 1822.1.1
+}
+
+# Azov, trading outpost of Genoa
+vassal = {
+	first = GEN
+	second = T24
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Kaffa, trading outpost of Amalfi
+vassal = {
+	first = T29
+	second = T25
+	start_date = 1444.1.1
+	end_date = 1822.1.1
+}
+
+# Nice mercantile alliance with Pisa
+alliance = {
+	first = PIS
+	second = T23
+	start_date = 1399.1.1
+	end_date = 1822.1.1
+}

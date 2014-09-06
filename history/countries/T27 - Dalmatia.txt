@@ -1,0 +1,6 @@
+government = merchant_republic
+mercantilism = 0.25
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 136 # Dalmatia

@@ -1,0 +1,5 @@
+government = noble_republic
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 102 # Nice

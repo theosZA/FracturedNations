@@ -1,0 +1,5 @@
+government = feudal_monarchy
+technology_group = western
+primary_culture = umbrian
+religion = catholic
+capital = 120	# Abruzzi (Beneventum - this could lie in Napoli (121) but Amalfi more accurately fits that province)
