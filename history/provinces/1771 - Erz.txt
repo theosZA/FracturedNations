@@ -1,0 +1,18 @@
+#1771 - Erz
+
+owner = T42 # Sudetes
+controller = T42 # Sudetes
+add_core = T42 # Sudetes
+capital = "Litomerice"
+culture = czech
+religion = catholic
+trade_goods = iron 
+hre = yes
+base_tax = 6
+manpower = 3
+citysize = 5500
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

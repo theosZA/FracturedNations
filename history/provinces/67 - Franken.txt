@@ -1,0 +1,21 @@
+# 67 - Franken
+
+owner = T40 # Nuremberg
+controller = T40 # Nuremberg
+add_core = T40 # Nuremberg
+add_core = BAV
+culture = bavarian
+religion = catholic
+base_tax = 12
+trade_goods = wine
+manpower = 3
+fort1 = yes
+capital = "Nürnberg"
+citysize = 34000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+marketplace = yes
+courthouse = yes 	# Nurnberg is one of the central towns of the HRE

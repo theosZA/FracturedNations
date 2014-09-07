@@ -1,0 +1,6 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = czech
+religion = catholic
+capital = 265 # Moravia
+technology_group = western

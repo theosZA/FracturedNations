@@ -1,0 +1,18 @@
+#1763 - Niederlausitz
+
+owner = T43 # Lusatia
+controller = T43 # Lusatia
+add_core = T43 # Lusatia
+capital = "Cottbus"
+culture = saxon
+religion = catholic
+trade_goods = grain
+hre = yes
+base_tax = 4
+manpower = 1
+citysize = 4000
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

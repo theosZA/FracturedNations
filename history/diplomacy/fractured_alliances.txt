@@ -125,3 +125,41 @@ vassal = {
 	start_date = 1443.12.1
 	end_date = 1822.1.1
 }
+
+# Alliance of Moravia and the Sudetes (against Bohemia)
+alliance = {
+	first = T41
+	second = T42
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}
+
+# Fledgling Hanseatic League
+
+alliance = {
+	first = T45
+	second = BRE
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}
+
+alliance = {
+	first = T45
+	second = HAM
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}
+
+alliance = {
+	first = BRE
+	second = HAM
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}
+
+alliance = {
+	first = T45
+	second = RIG
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}

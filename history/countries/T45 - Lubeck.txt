@@ -1,0 +1,6 @@
+government = merchant_republic
+mercantilism = 0.25
+technology_group = western
+religion = catholic
+primary_culture = hannoverian
+capital = 45	# Lübeck
