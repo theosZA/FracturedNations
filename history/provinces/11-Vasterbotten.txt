@@ -13,4 +13,3 @@ capital = "Umeå"
 citysize = 1050 # Estimated
 discovered_by = eastern
 discovered_by = western
-discovered_by = T36 # Sapmi

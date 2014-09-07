@@ -1,5 +1,5 @@
 government = tribal_despotism
 primary_culture = sapmi
 religion = shamanism
-technology_group = nomad_group
+technology_group = eastern # should be northern nomad
 capital = 18 #Lappland

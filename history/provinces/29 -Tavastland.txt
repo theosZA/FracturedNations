@@ -14,4 +14,3 @@ capital = "Tavastehus"
 citysize = 1050 # Estimated
 discovered_by = western
 discovered_by = eastern
-discovered_by = T36 # Sapmi

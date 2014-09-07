@@ -13,4 +13,3 @@ is_city = yes
 add_core = T35 # Halogaland
 discovered_by = eastern
 discovered_by = western
-discovered_by = T36 # Sapmi

@@ -14,4 +14,3 @@ citysize = 1000 # Estimated
 temple = yes
 discovered_by = eastern
 discovered_by = western
-discovered_by = T36 # Sapmi
