@@ -3,7 +3,7 @@ bookmark =
 {
 	name = "fractured_nations_bookmark"
 	desc = "fractured_nations_bookmark_DESC"
-	date = 1444.1.1
+	date = 1444.11.11
 	
 	country = T36 # Sapmi
 	country = T05 # Jorvik
