@@ -1,0 +1,18 @@
+#154 - Szepes
+
+owner = T58 # Jazygia
+controller = T58 # Jazygia  
+culture = hungarian # Should be Jasz
+religion = animism	# Pagan
+capital = "Érsekújvár"
+trade_goods = grain
+hre = no
+base_tax = 8
+manpower = 3
+citysize = 10200
+fort1 = yes
+add_core = T58 # Jazygia
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

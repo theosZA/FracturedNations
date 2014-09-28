@@ -1,0 +1,16 @@
+#Dorpat
+
+owner = T49 # Estonia
+controller = T49 # Estonia
+add_core = T49 # Estonia
+culture = latvian
+religion = animism	# Pagan (other)
+hre = no
+base_tax = 3
+trade_goods = grain
+manpower = 2
+capital = "Dorpat"
+citysize = 5000
+fort1 = yes
+discovered_by = western
+discovered_by = eastern

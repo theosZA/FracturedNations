@@ -1,0 +1,17 @@
+#37 - Livland
+
+owner = T49 # Estonia
+controller = T49 # Estonia
+culture = latvian
+religion = catholic
+capital = "Fellin"
+trade_goods = grain
+hre = no
+base_tax = 3
+manpower = 3
+citysize = 1500
+fort1 = yes
+add_core = T49 # Estonia
+add_core = LIV
+discovered_by = western
+discovered_by = eastern

@@ -1,0 +1,26 @@
+#280 - Kiev
+
+owner = T52 # Kiev
+controller = T52 # Kiev     
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 14	
+trade_goods = grain  
+manpower = 8	
+capital = "Kiev"
+citysize = 7980
+fort1 = yes
+add_core = T52 # Kiev
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+
+1000.1.1 = {
+	add_permanent_province_modifier = {
+		name = center_of_trade_modifier
+		duration = -1
+	}
+}

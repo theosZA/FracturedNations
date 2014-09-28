@@ -1,0 +1,16 @@
+#Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
+
+owner = T48 # Revala
+controller = T48 # Revala
+add_core = T48 # Revala
+culture = estonian
+religion = animism	# Pagan (Tharapita)
+hre = no
+base_tax = 3
+trade_goods = grain
+manpower = 2
+capital = "Reval"
+citysize = 7000
+fort1 = yes
+discovered_by = western
+discovered_by = eastern

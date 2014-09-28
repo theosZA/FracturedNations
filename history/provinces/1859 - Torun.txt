@@ -1,0 +1,18 @@
+#1859 - Torun
+
+owner = T46 # Greater Poland
+controller = T46 # Greater Poland
+capital = "Torun"
+citysize = 1700
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 3
+manpower = 2
+fort1 = yes
+add_core = T46 # Greater Poland
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

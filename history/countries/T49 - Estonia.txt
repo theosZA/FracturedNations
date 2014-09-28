@@ -1,0 +1,6 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = estonian
+religion = animism	# Pagan (Tharapita)
+technology_group = eastern
+capital = 37 # Sakala (Livland)

@@ -1,0 +1,17 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+capital = 259 # Sandomierz
+
+1443.4.1 = {
+	monarch = {
+		name = "Aleksander I"
+		dynasty = "Piast"
+		birth_date = 1425.12.1
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}

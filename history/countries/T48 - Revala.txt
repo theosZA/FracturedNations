@@ -1,0 +1,6 @@
+government = merchant_republic
+mercantilism = 0.3
+primary_culture = estonian
+religion = animism	# Pagan (Tharapita)
+technology_group = eastern
+capital = 36 # Reval

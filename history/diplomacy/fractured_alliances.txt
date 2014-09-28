@@ -163,3 +163,57 @@ alliance = {
 	start_date = 1380.1.1
 	end_date = 1822.1.1
 }
+
+# Piast royal marriages
+
+royal_marriage = {
+	first = KRA
+	second = T46
+	start_date = 1443.4.1
+	end_date = 1450.1.1
+}
+
+royal_marriage = {
+	first = KRA
+	second = T47
+	start_date = 1443.4.1
+	end_date = 1450.1.1
+}
+
+royal_marriage = {
+	first = KRA
+	second = SIL
+	start_date = 1443.4.1
+	end_date = 1450.1.1
+}
+
+royal_marriage = {
+	first = KRA
+	second = MAZ
+	start_date = 1443.4.1
+	end_date = 1450.1.1
+}
+
+# Revala, vassal of Estonia
+vassal = {
+	first = T49
+	second = T48
+	start_date = 1443.12.1
+	end_date = 1822.1.1
+}
+
+# Baltic Crusade
+
+alliance = {
+	first = TEU
+	second = LIV
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}
+
+alliance = {
+	first = RIG
+	second = LIV
+	start_date = 1380.1.1
+	end_date = 1822.1.1
+}

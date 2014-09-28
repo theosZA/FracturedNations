@@ -1,0 +1,24 @@
+government = feudal_monarchy
+#aristocracy_plutocracy = -5
+#centralization_decentralization = 4
+#innovative_narrowminded = -1
+mercantilism = 0.1
+#offensive_defensive = -3
+#land_naval = -3
+#quality_quantity = 0
+#serfdom_freesubjects = -4
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+capital = 262	# Krakow
+
+1440.5.3 = {
+	monarch = {
+		name = "Waclaw I"
+		dynasty = "Piast"
+		birth_date = 1425.5.3
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

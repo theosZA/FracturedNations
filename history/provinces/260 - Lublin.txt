@@ -1,0 +1,18 @@
+#260 - Lublin
+
+owner = T47 # Sandomierz
+controller = T47 # Sandomierz
+capital= "Lublin"
+culture = polish
+religion = catholic
+trade_goods = grain
+hre = no
+base_tax = 6
+manpower = 4
+citysize = 8500
+fort1 = yes
+add_core = T47 # Sandomierz
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

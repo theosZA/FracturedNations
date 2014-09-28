@@ -1,0 +1,18 @@
+#152 - Belovár
+
+owner = T56 # Balaton
+controller = T56 # Balaton
+culture = croatian
+religion = catholic
+capital = "Varazdin"
+trade_goods = cloth
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 4500
+fort1 = yes
+add_core = T56 # Balaton
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

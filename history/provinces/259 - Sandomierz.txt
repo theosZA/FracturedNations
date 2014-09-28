@@ -1,0 +1,18 @@
+#259 - Sandomierz
+
+owner = T47 # Sandomierz
+controller = T47 # Sandomierz
+capital = "Sandomierz"
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 6
+manpower = 2
+citysize = 5500
+fort1 = yes
+add_core = T47 # Sandomierz
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
