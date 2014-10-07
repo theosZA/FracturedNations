@@ -1,0 +1,6 @@
+government = oligarchic_republic
+mercantilism = 0.15
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 1955 # Kholmogory
