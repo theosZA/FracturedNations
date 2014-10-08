@@ -13,6 +13,7 @@ historical_idea_groups = {
 	religious_ideas
 	diplomatic_ideas
 	quality_ideas
+	administrative_ideas
 }
 
 # Copied from Novgorod
