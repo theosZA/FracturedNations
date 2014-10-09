@@ -1,0 +1,6 @@
+government = oligarchic_republic
+mercantilism = 0.2
+primary_culture = persian
+religion = shiite
+technology_group = muslim
+capital = 431 # Hormoz (Bandar Abbas)

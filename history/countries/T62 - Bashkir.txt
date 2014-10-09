@@ -1,0 +1,6 @@
+government = tribal_despotism
+mercantilism = 0.1
+primary_culture = siberian
+religion = shamanism
+technology_group = eastern # should be northern nomad
+capital = 180	# Bashkortostan
