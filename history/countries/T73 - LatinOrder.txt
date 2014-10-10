@@ -1,0 +1,6 @@
+government = theocratic_government
+mercantilism = 0.1
+primary_culture = umbrian # Empire reformed as Latin Order under direction of the Papacy
+religion = catholic
+technology_group = western
+capital = 151 # Constantinople

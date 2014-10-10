@@ -217,3 +217,27 @@ alliance = {
 	start_date = 1380.1.1
 	end_date = 1822.1.1
 }
+
+# Achaea, vassal of Athens
+vassal = {
+	first = ATH
+	second = ACH
+	start_date = 1443.12.1
+	end_date = 1822.1.1
+}
+
+# Albania, vassal of Epirus
+vassal = {
+	first = EPI
+	second = ALB
+	start_date = 1443.12.1
+	end_date = 1822.1.1
+}
+
+# Family ties within Bulgaria
+royal_marriage = {
+	first = T71
+	second = T70
+	start_date = 1443.4.1
+	end_date = 1450.1.1
+}
