@@ -1,0 +1,7 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = greek
+religion = orthodox
+technology_group = eastern
+historical_rival = T73 # Latin Order
+capital = 317 # Hudavenigar (Nicaea)
