@@ -1,0 +1,6 @@
+government = despotic_monarchy
+mercantilism = 0.1
+primary_culture = berber
+religion = sunni
+technology_group = muslim
+capital = 342	# Anfa aka Casablanca

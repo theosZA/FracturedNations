@@ -54,10 +54,18 @@ guarantee = {
 	end_date = 1822.1.1
 }
 
-# Silves, vassal of Ceuta
+# Silves as part of the Ceuti League
 vassal = {
 	first = T19
 	second = T20
+	start_date = 1443.12.1
+	end_date = 1822.1.1
+}
+
+# Oran as part of the Ceuti League
+vassal = {
+	first = T19
+	second = T80
 	start_date = 1443.12.1
 	end_date = 1822.1.1
 }

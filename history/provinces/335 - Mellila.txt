@@ -1,0 +1,19 @@
+#335 - Melilla
+
+owner = FEZ
+controller = FEZ
+culture = maghreb_arabic
+religion = sunni
+capital = "Melilla"
+trade_goods = grain
+hre = no
+base_tax = 5
+manpower = 2
+citysize = 4008
+fort1 = yes
+add_core = FEZ
+add_core = T19 # Ceuta
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

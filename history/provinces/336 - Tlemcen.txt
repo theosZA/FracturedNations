@@ -1,0 +1,18 @@
+#336 - Tlemcen
+
+owner = T79 # Tlemcen
+controller = T79 # Tlemcen  
+culture = berber
+religion = ibadi
+capital = "Tlemcen"
+trade_goods = wool
+hre = no
+base_tax = 4
+manpower = 2
+citysize = 69772
+fort1 = yes
+add_core = T79 # Tlemcen
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

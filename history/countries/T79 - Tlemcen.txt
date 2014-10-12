@@ -1,0 +1,6 @@
+government = despotic_monarchy 
+mercantilism = 0.1
+technology_group = muslim
+religion = ibadi
+primary_culture = berber
+capital = 336 # Tlemcen

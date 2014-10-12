@@ -1,19 +1,18 @@
-#334 - Tangiers
+#337 - Oran
 
-owner = T78 # Anfa
-controller = T78 # Anfa  
+owner = T80 # Oran
+controller = T80 # Oran
 culture = berber
 religion = sunni
-capital = "Tangier"
-trade_goods = fish
+capital = "Oran"
+trade_goods = wine
 hre = no
-base_tax = 8
-manpower = 2
-citysize = 5332
+base_tax = 6
+manpower = 3
+citysize = 18500
 fort1 = yes
-add_core = MOR
-add_core = T19 # Ceuta
-add_core = T78 # Anfa
+add_core = T80 # Oran
+add_core = ALG
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
