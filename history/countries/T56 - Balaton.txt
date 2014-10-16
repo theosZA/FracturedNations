@@ -1,6 +1,6 @@
 government = feudal_monarchy
 mercantilism = 0.1
-primary_culture = Hungarian
+primary_culture = hungarian
 religion = catholic
 technology_group = eastern
 capital = 135 # (Sopron)

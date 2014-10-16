@@ -1,6 +1,6 @@
 government = feudal_monarchy
 mercantilism = 0.1
-primary_culture = Hungarian # Should be Jasz
+primary_culture = hungarian # Should be Jasz
 religion = animism	# Pagan (Tharapita)
 technology_group = eastern
 capital = 154 # Szepes
