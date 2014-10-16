@@ -3,7 +3,7 @@
 owner = T32 # Shetland
 controller = T32 # Shetland
 culture = norwegian
-religion = animist
+religion = animism
 hre = no
 base_tax = 1
 trade_goods = fish
