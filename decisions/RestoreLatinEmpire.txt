@@ -1,0 +1,51 @@
+country_decisions = {
+
+	restore_latin_empire = {
+		major = yes
+		potential = {
+			tag = T73 # Latin Order
+			NOT = { exists = U03 }	# Latin Empire
+			is_colonial_nation = no
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				AND = {
+					adm_tech = 10
+					num_of_cities = 10
+					has_idea_group = aristocracy_ideas
+					NOT = {
+						has_idea_group = religious_ideas
+					}
+				}
+				AND = {
+					adm_tech = 10
+					num_of_cities = 12
+				}
+				AND = {
+					adm_tech = 22
+					num_of_cities = 8
+				}
+			}
+		}
+		effect = {
+			change_tag = U03	# Latin Empire
+			change_government = feudal_monarchy
+			# swap_free_idea_group = yes		# The Latin Empire does not yet have unique national ideas
+			every_neighbor_country = {
+				limit = { government = monarchy }
+				add_opinion = { who = ROOT modifier = secularized_monastic_order }
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

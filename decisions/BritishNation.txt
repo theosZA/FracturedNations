@@ -1,0 +1,46 @@
+country_decisions = {
+
+	british_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GBR }
+			OR = {
+				culture_group = british
+				primary_culture = welsh
+				primary_culture = irish
+			}
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			owns_core_province = 236		# London
+			owns_core_province = 248		# Lothian
+			owns_core_province = 242		# Gwynedd
+			owns_core_province = 373		# Meath
+			num_of_owned_provinces_with = {
+				value = 19
+				region = british_isles
+			}
+		}
+		effect = {
+			change_tag = GBR
+			british_isles = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = GBR
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

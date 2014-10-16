@@ -1,0 +1,52 @@
+country_decisions = {
+
+	form_hanseatic_league = {
+		major = yes
+		potential = {
+			NOT = { exists = HSA }
+			government = merchant_republic
+			OR = {
+				culture_group = germanic
+				primary_culture = estonian
+			}
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			is_colonial_nation = no
+		}
+		allow = {
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 3
+				region = formable_hansa
+			}
+		}
+		effect = {
+			change_tag = HSA
+			formable_hansa = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

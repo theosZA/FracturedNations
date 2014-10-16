@@ -1,0 +1,99 @@
+country_decisions = {
+
+	# Remove Westfalia decision
+
+
+	hannoverian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HAN }
+			primary_culture = hannoverian
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 6
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 10
+				region = formable_hannover
+			}
+		}
+		effect = {
+			change_tag = HAN
+			formable_hannover = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HAN
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+
+	}
+	
+	greek_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GRE }
+			primary_culture = greek
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 20
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 9
+				region = greece_region
+			}
+		}
+		effect = {
+			change_tag = GRE
+			greece_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = GRE
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

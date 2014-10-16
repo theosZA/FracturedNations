@@ -1,0 +1,50 @@
+country_decisions = {
+
+	andalusian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = U02 }	# Al-Andalus
+			culture_group = iberian
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SPA } # Spain is specifically excluded as they are the Christian Iberian nation
+			is_colonial_nation = no
+		}
+		allow = {
+			is_at_war = no
+			religion_group = muslim
+			num_of_owned_provinces_with = {
+				value = 11
+				region = formable_al_andalus
+			}
+		}
+		effect = {
+			change_tag = U02 # Al-Andalus
+			formable_al_andalus = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = U02 # Al-Andalus
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,64 @@
+country_decisions = {
+
+	german_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GER }
+			OR = { 
+				primary_culture = hannoverian
+				primary_culture = pommeranian
+				primary_culture = hessian
+				primary_culture = saxon
+				primary_culture = bavarian
+				primary_culture = prussian
+				primary_culture = rheinlaender
+			}
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			owns_core_province = 57		# Brunswick
+			owns_core_province = 1858	# Stettin
+			owns_core_province = 81		# Hessen
+			owns_core_province = 61		# Saxony
+			owns_core_province = 65		# Munchen
+			owns_core_province = 50		# Brandenburg
+			owns_core_province = 1876	# Frankfurt
+			num_of_owned_provinces_with = {
+				value = 39
+				region = german_region
+			}
+		}
+		effect = {
+			change_tag = GER
+			german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = GER
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

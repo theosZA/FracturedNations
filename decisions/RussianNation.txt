@@ -1,0 +1,61 @@
+country_decisions = {
+
+	russian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = RUS }
+			primary_culture = russian
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 6
+			is_at_war = no
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 25
+					region = formable_russia
+				}
+				AND = {
+					OR = {
+						owns_core_province = 295	# Moskva
+						owns_core_province = 310	# Novgorod
+					}
+					num_of_owned_provinces_with = {
+						value = 23
+						region = formable_russia
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = RUS
+			formable_russia = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = RUS
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}
