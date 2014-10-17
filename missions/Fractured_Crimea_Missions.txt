@@ -1,0 +1,68 @@
+fractured_mission_recover_crimea = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		tag = CRI
+		is_subject = no
+		primary_culture = tartar
+		284 = {		# Crimea
+			NOT = { owned_by = ROOT }
+		}
+		285 = {		# Kaffa
+			NOT = { owned_by = ROOT }
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+	success = {
+		owns = 284
+		owns = 285
+	}
+	chance = {
+		factor = 1500
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			any_neighbor_province = { owned_by = ROOT }
+		}
+		modifier = {
+			factor = 2
+			284 = {
+				NOT = {
+					culture = tartar
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			285 = {
+				NOT = {
+					culture = tartar
+				}
+			}
+		}
+	}
+	immediate = {
+		add_claim = 284
+		add_claim = 285
+	}
+	abort_effect = {
+		remove_claim = 284
+		remove_claim = 285
+	}
+	effect = {
+		add_prestige = 10
+		set_capital = 284
+		284 = {
+			change_culture = tartar
+		}
+	}
+}
