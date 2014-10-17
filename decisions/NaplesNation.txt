@@ -6,7 +6,10 @@ country_decisions = {
 			NOT = { exists = NAP }
 			OR = {
 				primary_culture = sicilian
-				tag = T30 # Catepenate of Italy - should only be possible with Italian ambitions
+				AND = {
+					tag = T30 # Catepanate of Italy
+					has_country_flag = catepanate_italian_ambitions
+				}
 			}
 			NOT = { tag = PAP } # Exclude Papacy
 			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
@@ -19,6 +22,10 @@ country_decisions = {
 			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
 			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
 			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = {
+				# Ensure no sneaky workaround for Greek-focused Catepanate to form Naples
+				has_country_flag = catepanate_greek_ambitions	
+			}
 			is_colonial_nation = no
 		}
 		allow = {

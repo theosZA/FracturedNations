@@ -67,6 +67,8 @@ country_decisions = {
 			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
 			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
 			is_colonial_nation = no
+			# Catepanate of Italy may only form Greece if they choose Greek Ambitions
+			NOT = { has_country_flag = catepanate_italian_ambitions }
 		}
 		allow = {
 			adm_tech = 20
