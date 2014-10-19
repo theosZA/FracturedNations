@@ -5,13 +5,17 @@ bookmark =
 	desc = "fractured_nations_bookmark_DESC"
 	date = 1444.11.11
 	
-	country = T36 # Sapmi
 	country = T05 # Jorvik
-	country = T12 # Antwerp
-	country = T04 # Boulogne
-	country = GUY
-	country = T17 # Toledo
-	country = T28 # Benevento
-	country = T38 # Ostmark
+	country = NRM # Normandy
+	country = T10 # Capet
+	country = T30 # Catepanate of Italy
+	country = T36 # Sapmi
+	country = T58 # Jazygia
 	country = T73 # Latin Order
+	country = T67 # Hormozgan
+	country = T77 # The Ayyubids
+	country = T19 # Ceuta
+	
+	easy_country = T10 # Capet
+	easy_country = T77 # The Ayyubids
 }
