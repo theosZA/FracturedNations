@@ -1,0 +1,89 @@
+# These ideas are loaded after all country ideas and other group ideas, but before default idea.
+
+taifa_ideas = {
+	start = {
+		idea_cost = -0.1
+		global_tax_modifier = 0.10
+	}
+	
+	bonus = {
+		infantry_power = 0.10
+	}
+	
+	trigger = {
+		OR = {
+			tag = T16 # Badajoz
+			tag = T17 # Toledo
+			tag = T18 # Seville
+			tag = T20 # Silves
+			tag = T21 # Denia
+		}
+	}
+	free = yes		#will be added at load.
+	
+	taifa_hold_back_the_reconquista = {
+		defensiveness = 0.15
+	}
+	taifa_remember_toledo = {
+		land_morale = 0.10
+	}
+	taifa_men_from_north_africa = {
+		global_manpower_modifier = 0.15
+	}
+	recover_al_andalus = {
+		core_creation = -0.15
+	}
+	taifa_christian_mercenaries = {
+		possible_mercenaries = 1.0
+	}
+	taifa_caliphate_of_cordoba = {
+		global_missionary_strength = 0.03
+	}
+	taifa_poets = {
+		prestige = 1
+	}
+}
+
+chr_iberia_ideas = {
+	start = {
+		stability_cost_modifier = -0.1
+		global_missionary_strength = 0.01
+	}
+	
+	bonus = {
+		trade_range_modifier = 0.30
+	}
+	
+	trigger = [
+		OR = {
+			tag = CAT # Catalunya
+			tag = GAL # Galicia
+			tag = T15 # Leon
+		}
+	}
+	free = yes		#will be added at load.
+
+	chr_iberia_christian_frontier = {
+		tolerance_own = 2
+		papal_influence = 2
+	}
+	chr_iberia_victory_at_covadonga = {
+		infantry_power = 0.10
+	}
+	chr_iberia_regnum_asturorum = {
+		legitimacy = 1
+	}
+	chr_iberia_shattered_the_umayyad = {
+		army_tradition = 1
+	}
+	chr_iberia_muslim_mercenaries = {
+		possible_mercenaries = 1.0
+	}
+	chr_iberia_continue_fighting = {
+		manpower_recovery_speed = 0.2
+	}
+	chr_iberia_spread_to_the_new_world = {
+		global_colonial_growth = 10
+		range = 0.10
+	}
+}
