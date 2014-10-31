@@ -1,18 +1,18 @@
-#1764 - Burgas
+#2750 - Plovdiv / Upper Thrace
 
-owner = T72 # Dobruja
-controller = T72 # Dobruja
+owner = T71 # Tarnovo
+controller = T71 # Tarnovo
 culture = bulgarian
 religion = orthodox
-capital = "Burgas"
+capital = "Plovdiv"
 trade_goods = grain
 hre = no
-base_tax = 5
+base_tax = 4
 manpower = 2
 citysize = 11000
 fort1 = yes
+add_core = T70 # Vidin
 add_core = T71 # Tarnovo
-add_core = T72 # Dobruja
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
