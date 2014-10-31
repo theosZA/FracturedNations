@@ -1,18 +1,18 @@
-#1848 - Hamid
+#2301 - Kayseri
 
-owner = MEN
-controller = MEN
+owner = KAR
+controller = KAR
 culture = turkish
 religion = sunni
-capital = "Isparta"
-trade_goods = grain
+capital = "Kayseri"
+trade_goods = iron
 hre = no
-base_tax = 4
+base_tax = 3
 manpower = 3
-citysize = 10330
+citysize = 5330
 fort1 = yes
-add_core = MEN
-add_core = SRU
+add_core = KAR
+add_core = ERE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

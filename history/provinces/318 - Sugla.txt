@@ -1,7 +1,7 @@
 #318 - Sugla
 
-owner = AYD
-controller = AYD
+owner = SRU
+controller = SRU
 culture = greek
 religion = orthodox
 capital = "Izmirni"
@@ -11,8 +11,8 @@ base_tax = 5
 manpower = 3
 citysize = 17500
 fort1 = yes
-add_core = AYD
 add_core = SRU
+add_core = AYD
 temple = yes	# Isabey Mosque
 discovered_by = western
 discovered_by = eastern

@@ -1,18 +1,17 @@
-#1848 - Hamid
+#2300 - Bozok
 
-owner = MEN
-controller = MEN
+owner = ERE
+controller = ERE
 culture = turkish
 religion = sunni
-capital = "Isparta"
+capital = "Yozgat"
 trade_goods = grain
 hre = no
-base_tax = 4
-manpower = 3
-citysize = 10330
+base_tax = 3
+manpower = 2
+citysize = 4450
 fort1 = yes
-add_core = MEN
-add_core = SRU
+add_core = ERE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
