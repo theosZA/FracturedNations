@@ -1,19 +1,19 @@
-#357 - Libya
+#2326 - Bardiyah
 
 owner = TRP
 controller = TRP
 culture = al_misr_arabic
 religion = sunni
-capital = "Derna"
+capital = "Bardiyah"
 trade_goods = wool
 hre = no
 base_tax = 1
 manpower = 1
-citysize = 1900
-add_local_autonomy = 50
+citysize = 1100
 fort1 = yes
 add_core = TRP
 add_core = MAM
+add_local_autonomy = 50
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

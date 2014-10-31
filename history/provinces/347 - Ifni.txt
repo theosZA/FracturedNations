@@ -1,0 +1,17 @@
+#347 - Ifni
+
+owner = SOS
+controller = SOS
+culture = moroccan
+religion = sunni
+capital = "Sidi Ifni"
+trade_goods = fish
+hre = no
+base_tax = 1
+manpower = 1
+citysize = 1400
+fort1 = yes
+add_core = SOS
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western

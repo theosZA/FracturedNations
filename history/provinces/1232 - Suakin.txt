@@ -1,8 +1,8 @@
 #1232 - Suakin
 
-owner = MAK
-controller = MAK
-add_core = MAM
+owner = ALO
+controller = ALO
+add_core = ALO
 add_core = MAK
 add_core = T77 # Ayyubid
 culture = nubian #beja
