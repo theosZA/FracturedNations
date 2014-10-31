@@ -1,16 +1,15 @@
 #408 - Basra
 
-owner = IRQ
-controller = IRQ
+owner = JAI
+controller = JAI
 culture = al_iraqiya_arabic
 religion = sunni
 capital = "Basra"
-trade_goods = spices
+trade_goods = salt
 hre = no
 base_tax = 3
-manpower = 7
+manpower = 5
 citysize = 5005
-add_core = IRQ
 add_core = JAI
 fort1 = yes
 discovered_by = muslim

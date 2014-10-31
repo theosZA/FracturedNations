@@ -1,18 +1,19 @@
-#411 - Mosul
+#2308 - Cizre
 
-owner = IRQ
-controller = IRQ
+owner = BHT
+controller = BHT
 culture = kurdish
 religion = sunni
-capital = "Al Mawsil"
-trade_goods = cloth
+capital = "Djeziret"
+trade_goods = sugar
 hre = no
-base_tax = 4
-manpower = 4
-citysize = 7140
+base_tax = 2
+manpower = 2
+citysize = 3140
 fort1 = yes
 add_core = IRQ
 add_core = JAI
+add_core = BHT
 add_core = QAR
 discovered_by = muslim
 discovered_by = indian

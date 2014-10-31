@@ -1,15 +1,15 @@
-#409 - Karbala
+#2311 - Samawah
 
 owner = JAI
 controller = JAI
 culture = al_iraqiya_arabic
 religion = shiite
-capital = "Kerbela"
+capital = "Najaf"
 trade_goods = wool
 hre = no
-base_tax = 2
+base_tax = 3
 manpower = 2
-citysize = 3540
+citysize = 1540
 add_core = IRQ
 add_core = JAI
 fort1 = yes
