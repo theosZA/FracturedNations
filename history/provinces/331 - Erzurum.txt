@@ -1,18 +1,17 @@
-#329 - Sivas
+#331 - Erserum
 
-owner = ERE
-controller = ERE
+owner = AKK
+controller = AKK
 culture = turkish
 religion = sunni
-capital = "Sivas"
-trade_goods = wool
+capital = "Erzurum"
+trade_goods = grain
 hre = no
 base_tax = 4
 manpower = 4
-citysize = 8300
+citysize = 20480
 fort1 = yes
-temple = yes #Divrigi Great Mosque
-add_core = ERE
+add_core = AKK
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

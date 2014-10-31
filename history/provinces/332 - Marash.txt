@@ -1,18 +1,17 @@
-#329 - Sivas
+#332 - Marash
 
-owner = ERE
-controller = ERE
+owner = DUL
+controller = DUL
 culture = turkish
 religion = sunni
-capital = "Sivas"
-trade_goods = wool
+capital = "Maras"
+trade_goods = cotton
 hre = no
-base_tax = 4
+base_tax = 5
 manpower = 4
-citysize = 8300
+citysize = 2546
 fort1 = yes
-temple = yes #Divrigi Great Mosque
-add_core = ERE
+add_core = DUL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
