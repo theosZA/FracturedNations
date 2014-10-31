@@ -1,9 +1,9 @@
 #1232 - Suakin
 
-owner = T76 # Nubia
-controller = T76 # Nubia
+owner = MAK
+controller = MAK
 add_core = MAM
-add_core = T76 # Nubia
+add_core = MAK
 add_core = T77 # Ayyubid
 culture = nubian #beja
 religion = sunni

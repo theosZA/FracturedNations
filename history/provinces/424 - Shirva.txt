@@ -1,7 +1,7 @@
 #424 - Ardabil
 
-owner = T65 # Tapuria
-controller = T65 # Tapuria
+owner = TAB
+controller = TAB
 culture = azerbadjani
 religion = shiite
 capital = "Ardabil"
@@ -10,7 +10,7 @@ hre = no
 base_tax = 3
 manpower = 2
 citysize = 2520
-add_core = T65 # Tapuria
+add_core = TAB
 add_core = QAR
 fort1 = yes
 discovered_by = muslim

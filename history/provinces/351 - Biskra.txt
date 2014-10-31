@@ -1,7 +1,7 @@
 #351 - Biskra
 
-owner = T79 # Tlemcen
-controller = T79 # Tlemcen 
+owner = TLC
+controller = TLC
 culture = berber
 religion = ibadi
 capital = "Biskra"
@@ -11,7 +11,7 @@ base_tax = 3
 manpower = 2
 citysize = 3668
 fort1 = yes
-add_core = T79 # Tlemcen
+add_core = TLC
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

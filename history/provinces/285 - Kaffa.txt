@@ -1,18 +1,18 @@
 #285 - Kaffa
 
-owner = T25 # Kaffa
-controller = T25 # Kaffa
+owner = FEO
+controller = FEO
 culture = greek
 religion = orthodox
 hre = no
 base_tax = 5
 trade_goods = wine
 manpower = 5
-capital = "Kaffa"
+capital = FEO
 citysize = 10000
 fort1 = yes
 marketplace = yes
-add_core = T25 # Kaffa
+add_core = FEO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

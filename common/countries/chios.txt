@@ -1,8 +1,8 @@
-#Country Name: Kaffa
+#Country Name: Chios
 
 graphical_culture = easterngfx
 
-color = { 127  121  82 }
+color = { 30  30  127 }
 
 # Merged Genoa, Naples, Crimea
 historical_idea_groups = {

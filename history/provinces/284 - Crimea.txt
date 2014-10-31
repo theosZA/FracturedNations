@@ -1,7 +1,7 @@
 #284 - Crimea
 
-owner = T61 # Theodoro
-controller = T61 # Theodoro
+owner = FEO
+controller = FEO
 culture = greek
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ manpower = 5
 capital = "Qirq-Yer"
 citysize = 3671
 fort1 = yes
-add_core = T61 # Theodoro
+add_core = FEO
 add_core = CRI
 discovered_by = western
 discovered_by = eastern

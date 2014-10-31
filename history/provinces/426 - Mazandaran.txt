@@ -1,7 +1,7 @@
 #426 - Mazandaran
 
-owner = T65 # Tapuria
-controller = T65 # Tapuria
+owner = TAB
+controller = TAB
 culture = persian
 religion = shiite
 capital = "Sari"
@@ -10,7 +10,7 @@ hre = no
 base_tax = 8
 manpower = 5
 citysize = 1600
-add_core = T65 # Tapuria
+add_core = TAB
 add_core = QAR
 discovered_by = eastern
 discovered_by = muslim

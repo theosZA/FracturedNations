@@ -1,7 +1,7 @@
 #417 - Gilan
 
-owner = T65 # Tapuria
-controller = T65 # Tapuria
+owner = TAB
+controller = TAB
 culture = persian
 religion = shiite
 capital = "Rasht"
@@ -10,7 +10,7 @@ hre = no
 base_tax = 4
 manpower = 2
 citysize = 3968
-add_core = T65 # Tapuria
+add_core = TAB
 add_core = QAR
 fort1 = yes
 discovered_by = muslim

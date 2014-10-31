@@ -4,4 +4,4 @@ primary_culture = lombard
 add_accepted_culture = greek
 religion = catholic
 technology_group = eastern
-capital = 285 # Kaffa
+capital = 2348 # Chios
