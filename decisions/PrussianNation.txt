@@ -11,7 +11,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			primary_culture = prussia
+			primary_culture = prussian
 			OR = {
 				AND = {
 					adm_tech = 10
