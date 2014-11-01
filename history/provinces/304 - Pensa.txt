@@ -1,17 +1,18 @@
 #304 - Pensa
 
-owner = GOL
-controller = GOL
-culture = tartar
+owner = T81 # Mukhsha
+controller = T81 # Mukhsha
+culture = kazani
 religion = sunni
 hre = no
-base_tax = 7
+base_tax = 3
 trade_goods = wool   
-manpower = 5
+manpower = 2
 capital = "Atemar"
 citysize = 5200
-add_core = GOL
+add_core = T81 # Mukhsha
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
+discovered_by = ottoman
 fort1 = yes

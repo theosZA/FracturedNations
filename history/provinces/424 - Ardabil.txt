@@ -1,7 +1,7 @@
 #424 - Ardabil
 
-owner = TAB
-controller = TAB
+owner = SRV
+controller = SRV
 culture = azerbaijani
 religion = shiite
 capital = "Ardabil"
@@ -11,7 +11,7 @@ base_tax = 2
 manpower = 2
 citysize = 2520
 add_core = QAR
-add_core = TAB
+add_core = SRV
 fort1 = yes
 discovered_by = muslim
 discovered_by = ottoman

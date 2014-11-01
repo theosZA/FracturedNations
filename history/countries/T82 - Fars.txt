@@ -1,0 +1,6 @@
+government = despotic_monarchy
+mercantilism = 0.1
+primary_culture = persian
+religion = shiite
+technology_group = muslim
+capital = 2218 # Shiraz (Sarvestan)

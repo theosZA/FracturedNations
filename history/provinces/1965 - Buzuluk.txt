@@ -1,7 +1,7 @@
 #1965 - Buzuluk
 
-owner = T62 # Bashkir
-controller = T62 # Bashkir
+owner = BSH
+controller = BSH
 culture = siberian
 religion = shamanism
 capital = "Buzuluk"
@@ -10,7 +10,7 @@ hre = no
 base_tax = 6
 manpower = 5
 citysize = 3140
-add_core = T62 # Bashkir
+add_core = BSH
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

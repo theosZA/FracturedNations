@@ -1,16 +1,17 @@
-#284 - Crimea
+#2414 - Azaraba
 
-owner = CRI
-controller = CRI
-culture = greek
-religion = orthodox
+owner = CIR
+controller = CIR
+culture = crimean
+religion = sunni
 hre = no
-base_tax = 7
-trade_goods = salt
-manpower = 5
-capital = "Qirq-Yer"
+base_tax = 2
+trade_goods = grain
+manpower = 4
+capital = "Azaraba"
 citysize = 3671
 fort1 = yes
+add_core = CIR
 add_core = CRI
 discovered_by = western
 discovered_by = eastern

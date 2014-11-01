@@ -1,17 +1,17 @@
-#284 - Crimea
+#2408 - Lipetsk
 
-owner = CRI
-controller = CRI
-culture = greek
-religion = orthodox
+owner = RYA
+controller = RYA
+culture = mishary
+religion = sunni
 hre = no
-base_tax = 7
-trade_goods = salt
-manpower = 5
-capital = "Qirq-Yer"
+base_tax = 2
+trade_goods = grain
+manpower = 1
+capital = "Lipetsk"
 citysize = 3671
 fort1 = yes
-add_core = CRI
+add_core = RYA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

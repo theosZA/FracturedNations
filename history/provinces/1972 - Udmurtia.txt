@@ -1,7 +1,7 @@
 #1972 - Udmurtia
 
-owner = T62 # Bashkir
-controller = T62 # Bashkir
+owner = BSH
+controller = BSH
 capital = "Izhkar"
 culture = uralic
 religion = shamanism
@@ -11,7 +11,8 @@ base_tax = 2
 manpower = 2
 citysize = 20050
 fort1 = yes
-add_core = T62 # Bashkir
+add_core = BSH
+add_core = PRM
 discovered_by = SIB
 discovered_by = NOG
 discovered_by = GOL

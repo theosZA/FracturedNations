@@ -1,16 +1,15 @@
-#432 - Kerman
+#2219 - Bandar Langeh
 
-owner = T82 # Fars
-controller = T82 # Fars
+owner = T67 # Hormozgan
+controller = T67 # Hormozgan
 culture = persian
 religion = shiite
-capital = "Kerman"
+capital = "Bandar Langeh"
 trade_goods = spices
 hre = no
 base_tax = 2
 manpower = 2
-citysize = 8102
-add_core = T82 # Fars
+citysize = 7670
 add_core = T67 # Hormozgan
 add_core = TIM
 discovered_by = muslim

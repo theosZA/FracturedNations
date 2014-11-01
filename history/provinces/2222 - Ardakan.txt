@@ -1,15 +1,15 @@
-#446 - Herat
+#2222 - Ardakan
 
 owner = KHO
 controller = KHO
-culture = khorasani
-religion = sunni
-capital = "Herat"
-trade_goods = wool
+culture = persian
+religion = shiite
+capital = "Ardakan"
+trade_goods = cloth
 hre = no
-base_tax = 5
-manpower = 4
-citysize = 4310
+base_tax = 2
+manpower = 1
+citysize = 3145
 add_core = TIM
 add_core = KHO
 discovered_by = muslim

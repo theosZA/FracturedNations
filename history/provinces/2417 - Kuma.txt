@@ -1,17 +1,18 @@
-#1974 - Yedishkul
+#2417 - Kuma
 
-owner = CRI
-controller = CRI
-culture = tartar
+owner = GAZ
+controller = GAZ
+culture = astrakhani
 religion = sunni
 hre = no
-base_tax = 3
-trade_goods = salt
+base_tax = 2
+trade_goods = iron 
 manpower = 2
-capital = "Kyzyl-Yar"
-citysize = 3671
+capital = "Kuma"
+citysize = 3206
 fort1 = yes
-add_core = CRI
+add_core = GAZ
+add_core = AST
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

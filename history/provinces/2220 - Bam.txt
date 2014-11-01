@@ -1,16 +1,15 @@
-#432 - Kerman
+#2220 - Bam
 
-owner = T82 # Fars
-controller = T82 # Fars
+owner = T67 # Hormozgan
+controller = T67 # Hormozgan
 culture = persian
 religion = shiite
-capital = "Kerman"
-trade_goods = spices
+capital = "Bam"
+trade_goods = wool
 hre = no
-base_tax = 2
-manpower = 2
-citysize = 8102
-add_core = T82 # Fars
+base_tax = 1
+manpower = 1
+citysize = 2240
 add_core = T67 # Hormozgan
 add_core = TIM
 discovered_by = muslim

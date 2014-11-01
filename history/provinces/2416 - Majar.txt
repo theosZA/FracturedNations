@@ -1,17 +1,18 @@
-#1974 - Yedishkul
+#2416 - Majar
 
-owner = CRI
-controller = CRI
-culture = tartar
+owner = CIR
+controller = CIR
+culture = astrakhani
 religion = sunni
 hre = no
-base_tax = 3
-trade_goods = salt
-manpower = 2
-capital = "Kyzyl-Yar"
+base_tax = 2
+trade_goods = grain
+manpower = 1
+capital = "Majar"
 citysize = 3671
 fort1 = yes
-add_core = CRI
+add_core = CIR
+add_core = AST
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

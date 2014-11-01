@@ -249,3 +249,11 @@ royal_marriage = {
 	start_date = 1443.4.1
 	end_date = 1450.1.1
 }
+
+# Mukhsha, guaranteed by Kazan
+guarantee = {
+	first = KAZ
+	second = T81
+	start_date = 1399.1.1
+	end_date = 1822.1.1
+}

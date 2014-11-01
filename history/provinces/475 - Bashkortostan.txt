@@ -1,7 +1,7 @@
 #475 - Bashkortostan
 
-owner = T62 # Bashkir
-controller = T62 # Bashkir
+owner = BSH
+controller = BSH
 culture = siberian
 religion = shamanism
 capital = "Bashkort"
@@ -10,7 +10,7 @@ hre = no
 base_tax = 7
 manpower = 5
 citysize = 1550
-add_core = T62 # Bashkir
+add_core = BSH
 discovered_by = nomad_group
 discovered_by = GOL
 discovered_by = KAZ
