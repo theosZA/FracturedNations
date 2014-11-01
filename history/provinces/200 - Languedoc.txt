@@ -1,15 +1,16 @@
 # 200 Languedoc - Principal cities: Montpellier
 
-owner = TOU
-controller = TOU
+owner = T84 # Rouergue
+controller = T84 # Rouergue
 capital = "Montpellier"
 citysize = 4500
 culture = occitain
 religion = catholic
 hre = no
-base_tax = 9
-trade_goods = wine
+base_tax = 6
+trade_goods = cloth
 manpower = 6
+add_core = T84 # Rouergue
 add_core = TOU
 fort1 = yes
 discovered_by = eastern

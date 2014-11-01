@@ -1,0 +1,17 @@
+#Sogn, Nordre Bergenhus
+
+owner = T35 # Halogoland
+controller = T35 # Halogoland
+add_core = T35 # Halogoland
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+manpower = 1
+is_city = yes
+capital = "Sogndal"
+fort1 = yes
+citysize = 1000
+discovered_by = western
+discovered_by = eastern

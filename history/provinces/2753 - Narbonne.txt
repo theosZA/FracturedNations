@@ -1,0 +1,18 @@
+# Narbonne - Principal cities: Narbonne
+
+owner = TOU
+controller = TOU
+capital = "Narbonne"
+citysize = 4500
+culture = occitain
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = wine
+manpower = 1
+add_core = TOU
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
