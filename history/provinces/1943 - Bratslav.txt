@@ -1,7 +1,7 @@
 #Bratslav/East Podolia
 
-owner = T53 # Ruthenia
-controller = T53 # Ruthenia
+owner = ZAZ
+controller = ZAZ
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,9 @@ manpower = 2
 capital = "Bratslav"
 citysize = 3100
 fort1 = yes
-add_core = T53 # Ruthenia
+add_local_autonomy = 25
+add_core = VOL
+add_core = ZAZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

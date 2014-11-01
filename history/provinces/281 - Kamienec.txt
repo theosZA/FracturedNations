@@ -1,7 +1,7 @@
 #281 - Podolia
 
-owner = T53 # Ruthenia
-controller = T53 # Ruthenia
+owner = VOL
+controller = VOL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ manpower = 3
 capital = "Kamienec"
 citysize = 3100
 fort1 = yes
-add_core = T53 # Ruthenia
+add_core = VOL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

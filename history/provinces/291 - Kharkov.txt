@@ -1,19 +1,18 @@
-#Cherkasy
+#291 - Kharkov
 
-owner = ZAZ
-controller = ZAZ
+owner = T54 # Pereyaslavl
+controller = T54 # Pereyaslavl
 culture = ruthenian
 religion = orthodox
 hre = no
 base_tax = 3
-trade_goods = grain
-manpower = 2
-capital = "Cherkasy"
-citysize = 7050
+trade_goods = iron 
+manpower = 3
+capital = "Belgorod"
+citysize = 3206
 fort1 = yes
-add_local_autonomy = 25
-add_core = KIE
-add_core = ZAZ
+add_core = T54 # Pereyaslavl
+add_core = CRI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

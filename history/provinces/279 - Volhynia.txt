@@ -1,7 +1,7 @@
 #279 - Volhynia
 
-owner = T51 # Turov
-controller = T51 # Turov
+owner = VOL
+controller = VOL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -12,7 +12,7 @@ capital = "Volodymyr"
 citysize = 28450
 fort1 = yes
 add_core = T51 # Turov
-add_core = T53 # Ruthenia
+add_core = VOL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

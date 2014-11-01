@@ -1,7 +1,7 @@
 #Novgorod-Seversky
 
-owner = T55 # Chernigov
-controller = T55 # Chernigov
+owner = CHR
+controller = CHR
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ manpower = 2
 capital = "Novgorod-Seversky"
 citysize = 5706
 fort1 = yes
-add_core = T55 # Chernigov
+add_core = CHR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

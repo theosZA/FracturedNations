@@ -1,7 +1,7 @@
 #Belz
 
-owner = T53 # Ruthenia
-controller = T53 # Ruthenia
+owner = VOL
+controller = VOL
 capital= "Belz"
 culture = ruthenian
 religion = orthodox
@@ -11,7 +11,7 @@ base_tax = 3
 manpower = 2
 citysize = 4500
 fort1 = yes
-add_core = T53 # Ruthenia
+add_core = VOL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,7 @@
 #Zhytomyr
 
-owner = T52 # Kiev
-controller = T52 # Kiev     
+owner = KIE
+controller = KIE
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ manpower = 2
 capital = "Zhytomyr"
 citysize = 2000
 fort1 = yes
-add_core = T52 # Kiev
+add_core = KIE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
