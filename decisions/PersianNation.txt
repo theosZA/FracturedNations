@@ -24,19 +24,64 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 10
-				region = formable_persia
+			calc_true_if = {
+				owns_core_province = 412
+				owns_core_province = 413
+				owns_core_province = 414
+				owns_core_province = 417
+				owns_core_province = 426
+				owns_core_province = 428
+				owns_core_province = 429
+				owns_core_province = 430
+				owns_core_province = 431
+				owns_core_province = 432
+				owns_core_province = 433
+				owns_core_province = 2209
+				owns_core_province = 2213
+				owns_core_province = 2215
+				owns_core_province = 2216
+				owns_core_province = 2217
+				owns_core_province = 2218
+				owns_core_province = 2219
+				owns_core_province = 2220
+				owns_core_province = 2222
+				owns_core_province = 2223
+				owns_core_province = 2234
+				amount = 16
 			}
 		}
 		effect = {
-			change_tag = PER
-			formable_persia = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 412
+						province_id = 413
+						province_id = 414
+						province_id = 417
+						province_id = 426
+						province_id = 428
+						province_id = 429
+						province_id = 430
+						province_id = 431
+						province_id = 432
+						province_id = 433
+						province_id = 2209
+						province_id = 2213
+						province_id = 2215
+						province_id = 2216
+						province_id = 2217
+						province_id = 2218
+						province_id = 2219
+						province_id = 2220
+						province_id = 2222
+						province_id = 2223
+						province_id = 2234
+					}
 				}
 				add_claim = PER
 			}
+			change_tag = PER
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

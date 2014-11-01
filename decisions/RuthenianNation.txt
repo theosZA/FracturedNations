@@ -1,6 +1,6 @@
 country_decisions = {
 
-	ukrainian_nation = {
+	ruthenian_nation = {
 		major = yes
 		potential = {
 			NOT = { exists = UKR }
@@ -21,19 +21,54 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 7
-				region = formable_ukraine
+			calc_true_if = {
+				owns_core_province = 2424
+				owns_core_province = 1940
+				owns_core_province = 261
+				owns_core_province = 279
+				owns_core_province = 281
+				owns_core_province = 1942
+				owns_core_province = 280
+				owns_core_province = 289
+				owns_core_province = 1945
+				owns_core_province = 1943
+				owns_core_province = 282
+				owns_core_province = 1944
+				owns_core_province = 2406
+				owns_core_province = 283
+				owns_core_province = 2407
+				owns_core_province = 290
+				owns_core_province = 291
+				amount = 12
 			}
 		}
 		effect = {
-			change_tag = UKR
-			formable_ukraine = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 2424
+						province_id = 1940
+						province_id = 261
+						province_id = 279
+						province_id = 281
+						province_id = 1942
+						province_id = 280
+						province_id = 289
+						province_id = 1945
+						province_id = 1943
+						province_id = 282
+						province_id = 1944
+						province_id = 2406
+						province_id = 283
+						province_id = 2407
+						province_id = 290
+						province_id = 291
+					}
 				}
 				add_claim = UKR
 			}
+			change_tag = UKR
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

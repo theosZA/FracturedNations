@@ -21,19 +21,34 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 5
-				region = formable_scotland
+			calc_true_if = {
+				owns_core_province = 248
+				owns_core_province = 249
+				owns_core_province = 250
+				owns_core_province = 251
+				owns_core_province = 252
+				owns_core_province = 253
+				owns_core_province = 369
+				amount = 5
 			}
 		}
 		effect = {
-			change_tag = SCO
-			formable_scotland = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 248
+						province_id = 249
+						province_id = 250
+						province_id = 251
+						province_id = 252
+						province_id = 253
+						province_id = 369
+					}
 				}
 				add_claim = SCO
 			}
+			change_tag = SCO
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

@@ -23,19 +23,54 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 12
-				region = formable_aquitaine
+			calc_true_if = {
+				owns_core_province = 173
+				owns_core_province = 174
+				owns_core_province = 175
+				owns_core_province = 176
+				owns_core_province = 180
+				owns_core_province = 194
+				owns_core_province = 195
+				owns_core_province = 196
+				owns_core_province = 197
+				owns_core_province = 198
+				owns_core_province = 199
+				owns_core_province = 200
+				owns_core_province = 201
+				owns_core_province = 202
+				owns_core_province = 203
+				owns_core_province = 204
+				owns_core_province = 2753
+				amount = 13
 			}
 		}
 		effect = {
-			change_tag = U01 # Aquitaine
-			formable_aquitaine = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 173
+						province_id = 174
+						province_id = 175
+						province_id = 176
+						province_id = 180
+						province_id = 194
+						province_id = 195
+						province_id = 196
+						province_id = 197
+						province_id = 198
+						province_id = 199
+						province_id = 200
+						province_id = 201
+						province_id = 202
+						province_id = 203
+						province_id = 204
+						province_id = 2753
+					}
 				}
 				add_claim = U01 # Aquitaine
 			}
+			change_tag = U01 # Aquitaine
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

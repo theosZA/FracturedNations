@@ -21,19 +21,32 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 5
-				region = formable_netherlands
+			calc_true_if = {
+				owns_core_province = 95
+				owns_core_province = 96
+				owns_core_province = 97
+				owns_core_province = 98
+				owns_core_province = 99
+				owns_core_province = 100
+				amount = 5
 			}
 		}
 		effect = {
-			change_tag = NED
-			formable_netherlands = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 95
+						province_id = 96
+						province_id = 97
+						province_id = 98
+						province_id = 99
+						province_id = 100
+					}
 				}
 				add_claim = NED
 			}
+			change_tag = NED
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

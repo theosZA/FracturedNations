@@ -21,12 +21,31 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			owns_core_province = 150 # Tarnovo
-			owns_core_province = 159 # Silistria
-			owns_core_province = 1764 # Burgas
-			owns_core_province = 1765 # Sofia
+			calc_true_if = {
+				owns_core_province = 2746
+				owns_core_province = 1765
+				owns_core_province = 150
+				owns_core_province = 2750
+				owns_core_province = 159
+				owns_core_province = 1764
+				amount = 5
+			}
 		}
 		effect = {
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 2746
+						province_id = 1765
+						province_id = 150
+						province_id = 2750
+						province_id = 159
+						province_id = 1764
+					}
+				}
+				add_claim = BUL
+			}
 			change_tag = BUL
 			add_country_modifier = {
 				name = "centralization_modifier"

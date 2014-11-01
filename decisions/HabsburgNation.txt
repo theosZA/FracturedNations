@@ -22,19 +22,42 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 8
-				region = formable_austria
+			calc_true_if = {
+				owns_core_province = 73
+				owns_core_province = 76
+				owns_core_province = 110
+				owns_core_province = 128
+				owns_core_province = 129
+				owns_core_province = 132
+				owns_core_province = 133
+				owns_core_province = 134
+				owns_core_province = 1768
+				owns_core_province = 1770
+				owns_core_province = 1863
+				amount = 8
 			}
 		}
 		effect = {
-			change_tag = HAB
-			formable_austria = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 73
+						province_id = 76
+						province_id = 110
+						province_id = 128
+						province_id = 129
+						province_id = 132
+						province_id = 133
+						province_id = 134
+						province_id = 1768
+						province_id = 1770
+						province_id = 1863
+					}
 				}
 				add_claim = HAB
 			}
+			change_tag = HAB
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

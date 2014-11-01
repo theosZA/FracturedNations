@@ -21,19 +21,30 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 4
-				region = formable_ireland
+			calc_true_if = {
+				owns_core_province = 372
+				owns_core_province = 373
+				owns_core_province = 374
+				owns_core_province = 375
+				owns_core_province = 376
+				amount = 4
 			}
 		}
 		effect = {
-			change_tag = IRE
-			formable_ireland = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 372
+						province_id = 373
+						province_id = 374
+						province_id = 375
+						province_id = 376
+					}
 				}
 				add_claim = IRE
 			}
+			change_tag = IRE
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

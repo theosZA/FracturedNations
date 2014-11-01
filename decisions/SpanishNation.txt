@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = SPA }
 			culture_group = iberian
+			religion_group = christian
 			NOT = { tag = PAP } # Exclude Papacy
 			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
 			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
@@ -21,20 +22,57 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			religion_group = christian
-			num_of_owned_provinces_with = {
-				value = 14
-				region = formable_spain
+			calc_true_if = {
+				owns_core_province = 206
+				owns_core_province = 207
+				owns_core_province = 208
+				owns_core_province = 209
+				owns_core_province = 210
+				owns_core_province = 211
+				owns_core_province = 212
+				owns_core_province = 213
+				owns_core_province = 214
+				owns_core_province = 215
+				owns_core_province = 216
+				owns_core_province = 217
+				owns_core_province = 228
+				owns_core_province = 231
+				owns_core_province = 232
+				owns_core_province = 1745
+				owns_core_province = 1746
+				owns_core_province = 1851
+				owns_core_province = 2755
+				amount = 14
 			}
 		}
 		effect = {
-			change_tag = SPA
-			formable_spain = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 206
+						province_id = 207
+						province_id = 208
+						province_id = 209
+						province_id = 210
+						province_id = 211
+						province_id = 212
+						province_id = 213
+						province_id = 214
+						province_id = 215
+						province_id = 216
+						province_id = 217
+						province_id = 228
+						province_id = 231
+						province_id = 232
+						province_id = 1745
+						province_id = 1746
+						province_id = 1851
+					}
 				}
 				add_claim = SPA
 			}
+			change_tag = SPA
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

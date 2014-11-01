@@ -24,19 +24,34 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 3
-				region = formable_hansa
+			calc_true_if = {
+				owns_core_province = 36
+				owns_core_province = 38
+				owns_core_province = 43
+				owns_core_province = 44
+				owns_core_province = 45
+				owns_core_province = 1744
+				owns_core_province = 1874
+				amount = 3
 			}
 		}
 		effect = {
-			change_tag = HSA
-			formable_hansa = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 36
+						province_id = 38
+						province_id = 43
+						province_id = 44
+						province_id = 45
+						province_id = 1744
+						province_id = 1874
+					}
 				}
 				add_claim = HSA
 			}
+			change_tag = HSA
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

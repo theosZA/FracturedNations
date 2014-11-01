@@ -23,19 +23,42 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 8
-				region = formable_poland
+			calc_true_if = {
+				owns_core_province = 254
+				owns_core_province = 255
+				owns_core_province = 256
+				owns_core_province = 257
+				owns_core_province = 258
+				owns_core_province = 259
+				owns_core_province = 260
+				owns_core_province = 262
+				owns_core_province = 1859
+				owns_core_province = 1938
+				owns_core_province = 1939
+				amount = 8
 			}
 		}
 		effect = {
-			change_tag = POL
-			formable_poland = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 254
+						province_id = 255
+						province_id = 256
+						province_id = 257
+						province_id = 258
+						province_id = 259
+						province_id = 260
+						province_id = 262
+						province_id = 1859
+						province_id = 1938
+						province_id = 1939
+					}
 				}
 				add_claim = POL
 			}
+			change_tag = POL
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

@@ -31,22 +31,38 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			owns_core_province = 121	# Napoli
-			num_of_owned_provinces_with = {
-				value = 7
-				region = two_sicilies
+			calc_true_if = {
+				owns_core_province = 120
+				owns_core_province = 122
+				owns_core_province = 123
+				owns_core_province = 124
+				owns_core_province = 125
+				owns_core_province = 126
+				owns_core_province = 1933
+				owns_core_province = 1934
+				amount = 6
 			}
 		}
 		effect = {
-			change_tag = NAP
-			NAP = {
-				set_capital = 121 # Napoli
-			}
-			two_sicilies = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 120
+						province_id = 121
+						province_id = 122
+						province_id = 123
+						province_id = 124
+						province_id = 125
+						province_id = 126
+						province_id = 1933
+						province_id = 1934
+					}
 				}
 				add_claim = NAP
 			}
+			change_tag = NAP
+			set_capital = 121 # Napoli
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

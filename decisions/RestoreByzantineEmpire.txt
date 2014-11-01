@@ -24,27 +24,70 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			OR = {
-				num_of_owned_provinces_with = {
-					value = 11
-					region = formable_byzantium
+				calc_true_if = {
+					owns_core_province = 142
+					owns_core_province = 143
+					owns_core_province = 144
+					owns_core_province = 145
+					owns_core_province = 146
+					owns_core_province = 147
+					owns_core_province = 148
+					owns_core_province = 149
+					owns_core_province = 164
+					owns_core_province = 316
+					owns_core_province = 317
+					owns_core_province = 1773
+					owns_core_province = 1853
+					owns_core_province = 2296
+					amount = 12
 				}
 				AND = {
 					owns_core_province = 151	# Constantinople
-					num_of_owned_provinces_with = {
-						value = 10
-						region = formable_byzantium
+					calc_true_if = {
+						owns_core_province = 142
+						owns_core_province = 143
+						owns_core_province = 144
+						owns_core_province = 145
+						owns_core_province = 146
+						owns_core_province = 147
+						owns_core_province = 148
+						owns_core_province = 149
+						owns_core_province = 164
+						owns_core_province = 316
+						owns_core_province = 317
+						owns_core_province = 1773
+						owns_core_province = 1853
+						owns_core_province = 2296
+						amount = 10
 					}
 				}
 			}
 		}
 		effect = {
-			change_tag = BYZ
-			formable_byzantium = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 142
+						province_id = 143
+						province_id = 144
+						province_id = 145
+						province_id = 146
+						province_id = 147
+						province_id = 148
+						province_id = 149
+						province_id = 151
+						province_id = 164
+						province_id = 316
+						province_id = 317
+						province_id = 1773
+						province_id = 1853
+						province_id = 2296
+					}
 				}
 				add_claim = BYZ
 			}
+			change_tag = BYZ
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

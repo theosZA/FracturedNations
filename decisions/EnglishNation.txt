@@ -23,19 +23,36 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 6
-				region = formable_england
+			calc_true_if = {
+				owns_core_province = 233
+				owns_core_province = 234
+				owns_core_province = 235
+				owns_core_province = 236
+				owns_core_province = 237
+				owns_core_province = 239
+				owns_core_province = 240
+				owns_core_province = 244
+				amount = 6
 			}
 		}
 		effect = {
-			change_tag = ENG
-			formable_england = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 233
+						province_id = 234
+						province_id = 235
+						province_id = 236
+						province_id = 237
+						province_id = 239
+						province_id = 240
+						province_id = 244
+					}
 				}
 				add_claim = ENG
 			}
+			change_tag = ENG
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

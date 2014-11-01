@@ -21,12 +21,29 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			owns_core_province = 160 # Oltenia
-			owns_core_province = 161 # Muntenia
-			owns_core_province = 268 # Moldavia
-			owns_core_province = 1756 # Bessarabia
+			calc_true_if = {
+				owns_core_province = 160
+				owns_core_province = 161
+				owns_core_province = 1756
+				owns_core_province = 268
+				owns_core_province = 2405
+				amount = 4
+			}
 		}
 		effect = {
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 160
+						province_id = 161
+						province_id = 1756
+						province_id = 268
+						province_id = 2405
+					}
+				}
+				add_claim = RMN
+			}
 			change_tag = RMN
 			add_country_modifier = {
 				name = "centralization_modifier"

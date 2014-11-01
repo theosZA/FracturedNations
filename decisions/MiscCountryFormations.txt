@@ -24,19 +24,46 @@ country_decisions = {
 		allow = {
 			adm_tech = 6
 			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 10
-				region = formable_hannover
+			calc_true_if = {
+				owns_core_province = 44
+				owns_core_province = 45
+				owns_core_province = 53
+				owns_core_province = 54
+				owns_core_province = 55
+				owns_core_province = 56
+				owns_core_province = 57
+				owns_core_province = 86
+				owns_core_province = 1758
+				owns_core_province = 1775
+				owns_core_province = 1857
+				owns_core_province = 1874
+				owns_core_province = 1931
+				amount = 10
 			}
 		}
 		effect = {
-			change_tag = HAN
-			formable_hannover = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 44
+						province_id = 45
+						province_id = 53
+						province_id = 54
+						province_id = 55
+						province_id = 56
+						province_id = 57
+						province_id = 86
+						province_id = 1758
+						province_id = 1775
+						province_id = 1857
+						province_id = 1874
+						province_id = 1931
+					}
 				}
 				add_claim = HAN
 			}
+			change_tag = HAN
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

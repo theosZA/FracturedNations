@@ -25,27 +25,79 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			OR = {
-				num_of_owned_provinces_with = {
-					value = 14
-					region = gallia
+				calc_true_if = {
+					owns_core_province = 87
+					owns_core_province = 89
+					owns_core_province = 167
+					owns_core_province = 168
+					owns_core_province = 177
+					owns_core_province = 178
+					owns_core_province = 179
+					owns_core_province = 182
+					owns_core_province = 184
+					owns_core_province = 185
+					owns_core_province = 186
+					owns_core_province = 190
+					owns_core_province = 191
+					owns_core_province = 192
+					owns_core_province = 193
+					owns_core_province = 1877
+					owns_core_province = 1879
+					amount = 14
 				}
 				AND = {
 					owns_core_province = 183	# Île-de-France
-					num_of_owned_provinces_with = {
-						value = 13
-						region = gallia
+					calc_true_if = {
+						owns_core_province = 87
+						owns_core_province = 89
+						owns_core_province = 167
+						owns_core_province = 168
+						owns_core_province = 177
+						owns_core_province = 178
+						owns_core_province = 179
+						owns_core_province = 182
+						owns_core_province = 184
+						owns_core_province = 185
+						owns_core_province = 186
+						owns_core_province = 190
+						owns_core_province = 191
+						owns_core_province = 192
+						owns_core_province = 193
+						owns_core_province = 1877
+						owns_core_province = 1879
+						amount = 12
 					}
 				}
 			}
 		}
 		effect = {
-			change_tag = FRA
-			gallia = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 87
+						province_id = 89
+						province_id = 167
+						province_id = 168
+						province_id = 177
+						province_id = 178
+						province_id = 179
+						province_id = 182
+						province_id = 183
+						province_id = 184
+						province_id = 185
+						province_id = 186
+						province_id = 190
+						province_id = 191
+						province_id = 192
+						province_id = 193
+						province_id = 1877
+						province_id = 1879
+					}
 				}
 				add_claim = FRA
 			}
+			change_tag = FRA
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

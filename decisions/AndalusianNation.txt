@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = U02 }	# Al-Andalus
 			culture_group = iberian
+			religion_group = muslim
 			NOT = { tag = PAP } # Exclude Papacy
 			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
 			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
@@ -21,20 +22,55 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			religion_group = muslim
-			num_of_owned_provinces_with = {
-				value = 11
-				region = formable_al_andalus
+			calc_true_if = {
+				owns_core_province = 227
+				owns_core_province = 229
+				owns_core_province = 1747
+				owns_core_province = 219
+				owns_core_province = 1750
+				owns_core_province = 218
+				owns_core_province = 221
+				owns_core_province = 230
+				owns_core_province = 224
+				owns_core_province = 225
+				owns_core_province = 1748
+				owns_core_province = 1749
+				owns_core_province = 226
+				owns_core_province = 223
+				owns_core_province = 222
+				owns_core_province = 220
+				owns_core_province = 2751
+				owns_core_province = 2754
+				amount = 14
 			}
 		}
 		effect = {
-			change_tag = U02 # Al-Andalus
-			formable_al_andalus = {
+			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 227
+						province_id = 229
+						province_id = 1747
+						province_id = 219
+						province_id = 1750
+						province_id = 218
+						province_id = 221
+						province_id = 230
+						province_id = 224
+						province_id = 225
+						province_id = 1748
+						province_id = 1749
+						province_id = 226
+						province_id = 223
+						province_id = 222
+						province_id = 220
+						province_id = 2751
+					}
 				}
 				add_claim = U02 # Al-Andalus
 			}
+			change_tag = U02 # Al-Andalus
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
