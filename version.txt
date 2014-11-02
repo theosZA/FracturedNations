@@ -1,2 +1,2 @@
 Fractured Nations
-version 0.1a
+version 0.2a
