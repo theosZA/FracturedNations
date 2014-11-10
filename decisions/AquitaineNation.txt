@@ -7,6 +7,7 @@ country_decisions = {
 			OR = {
 				primary_culture = aquitaine
 				primary_culture = occitain
+				primary_culture = gascon
 			}
 			NOT = { tag = PAP } # Exclude Papacy
 			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
