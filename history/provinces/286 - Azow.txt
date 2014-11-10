@@ -2,8 +2,8 @@
 
 owner = T24 # Azov
 controller = T24 # Azov
-culture = tartar
-religion = sunni
+culture = lombard
+religion = catholic
 hre = no
 base_tax = 4 
 trade_goods = salt

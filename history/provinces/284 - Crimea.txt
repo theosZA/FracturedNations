@@ -2,8 +2,8 @@
 
 owner = CRI
 controller = CRI
-culture = greek
-religion = orthodox
+culture = crimean
+religion = sunni
 hre = no
 base_tax = 7
 trade_goods = salt

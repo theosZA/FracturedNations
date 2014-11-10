@@ -2,7 +2,7 @@
 
 owner = T59 # Murom
 controller = T59 # Murom
-culture = tartar
+culture = qasim
 religion = sunni
 hre = no
 base_tax = 4

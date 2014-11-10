@@ -1,7 +1,6 @@
 government = merchant_republic
 mercantilism = 0.25
 primary_culture = lombard
-add_accepted_culture = tartar
 religion = catholic
 technology_group = eastern
 capital = 286 # Azov

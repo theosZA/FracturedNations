@@ -2,7 +2,7 @@
 
 owner = AST
 controller = AST
-culture = tartar
+culture = astrakhani
 religion = sunni
 capital = "Sarai"
 trade_goods = wool
