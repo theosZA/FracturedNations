@@ -1,0 +1,7 @@
+l_english:
+ fractured_catepanate.1.t: "Forging our own path"
+ fractured_catepanate.1.d: "The Catepanate of Italy was the westernmost bastion of the Byzantine Empire in the 11th century, holding out defiantly against the upstart Norman Kingdom of Sicily. Constantinople fell to Catholic Crusaders in 1204 and the Byzantine Empire was forcibly disbanded, the Latin Empire (later the Latin Order) taking control of Thrace. The Catepanate was forced to fend for itself for the first time, but able governers have led this nation to stability and have even recovered some of the lands lost to Sicily centuries ago. Our nation is starting to establish its own identity separate from the homeland and now needs its [Root.Monarch.GetTitle] to guide it on a new path."
+ fractured_catepanate.1.a: "Don't let our history hold us back; our future lies on the Italian peninsula"
+ fractured_catepanate.1.tta: "Italian Ambitions - [Root.GetName] may form the nation of [NAP.GetName]"
+ fractured_catepanate.1.b: "It is up to us to restore the glory of Byzantium"
+ fractured_catepanate.1.ttb: "Greek Ambitions - [Root.GetName] may form the nations of [BYZ.GetName] and [GRE.GetName]"
