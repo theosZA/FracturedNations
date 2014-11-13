@@ -133,3 +133,54 @@ kurdish_ideas = {
 		enemy_core_creation = 1.0
 	}
 }
+
+italian_republic_ideas = {
+	start = {
+		tolerance_own = 3
+		global_tax_modifier = 0.10
+	}
+
+	bonus = {
+		trade_steering = 0.10
+	}
+	
+	trigger = {
+		culture_group = latin
+		capital_scope = { region = italian_region }
+		OR = {
+			government = oligarchic_republic
+			government = merchant_republic
+		}
+	}
+
+	free = yes		#will be added at load.
+	
+	italian_republic_threw_back_the_normans = {
+		land_morale = 0.15
+	}
+	
+	italian_renaissance = {
+		idea_cost = -0.05
+	}
+	
+	italian_republic_guaranteed_by_rome = {
+		enemy_core_creation = 1.0
+	}
+	
+	italian_republic_med_trade = {
+		global_foreign_trade_power = 0.10
+	}
+	
+	italian_republic_ships_for_the_crusades = {
+		light_ship_power = 0.1
+	}
+	
+	italian_republic_med_colonies = {
+		vassal_income = 0.10
+		global_prov_trade_power_modifier = 0.1
+	}
+
+	high_renaissance_art_and_architecture = {
+		prestige = 1
+	}
+}
