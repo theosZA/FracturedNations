@@ -87,3 +87,49 @@ chr_iberia_ideas = {
 		range = 0.10
 	}
 }
+
+kurdish_ideas = {
+	start = {
+		free_leader_pool = 1
+		stability_cost_modifier = -0.1
+	}
+
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		primary_culture = kurdish
+	}
+
+	free = yes		#will be added at load.
+
+	kurdish_saladins_legacy = {
+		core_creation = -0.20
+	}
+
+	kurdish_unite_the_kurds = {
+		global_autonomy = -0.05
+	}
+
+	kurdish_soldiery = {
+		infantry_cost = -0.2
+	}
+	
+	kurdish_religious_toleration = {
+		tolerance_heretic = 2
+	}
+
+	kurdish_promote_alevism = {
+		religious_unity = 0.20
+		legitimacy = 0.5
+	}
+
+	kurdish_hybrid_culture = {
+		accepted_culture_threshold = -0.15
+	}
+
+	kurdish_nationalism = {
+		enemy_core_creation = 1.0
+	}
+}
