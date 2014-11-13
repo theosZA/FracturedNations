@@ -39,3 +39,48 @@ ceuta_ideas = {
 		global_prov_trade_power_modifier = 0.1
 	}
 }
+
+catepanate_ideas = {
+	start = {
+		privateer_efficiency = 0.10
+		envoy_travel_time = -0.20
+	}
+
+	bonus = {
+		relations_decay_of_me = 0.3
+	}
+	
+	trigger = {
+		tag = T30 # Catepanate
+	}
+
+	free = yes		#will be added at load.
+
+	catepanate_katepano_of_italy = {
+		army_tradition = 0.5
+	}
+
+	catepanate_bastion_of_the_orthodox = {
+		global_heretic_missionary_strength = 0.02
+	}
+	
+	catepanate_march_of_rome = {
+		global_manpower_modifier = 0.15
+	}
+
+	catepanate_guard_against_crusaders  = {
+		reinforce_speed = 0.25
+	}
+
+	catepanate_promote_bari = {
+		global_foreign_trade_power = 0.1
+	}
+
+	catepanate_byzantine_culture = {
+		technology_cost = -0.10
+	}
+
+	catepanate_reclaim_greece = {
+		province_warscore_cost = -0.15
+	}
+}
