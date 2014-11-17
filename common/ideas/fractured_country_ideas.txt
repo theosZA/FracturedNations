@@ -84,3 +84,94 @@ catepanate_ideas = {
 		province_warscore_cost = -0.15
 	}
 }
+
+jorvik_ideas = {
+	start = {
+		navy_tradition_decay = -0.01
+		global_trade_goods_size = 0.10
+	}
+
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = T05 # Jorvik
+	}
+
+	free = yes		#will be added at load.
+
+	norse_the_old_gods = {
+		extra_manpower_at_religious_war = yes
+	}
+
+	norse_remember_the_great_heathen_army = {
+		land_forcelimit_modifier = 0.20 
+	}
+	
+	norse_remember_our_gods = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+
+	jorvik_an_english_saga = {
+		culture_conversion_cost = -0.20 
+	}
+
+	norse_create_the_heathen_navy  = {
+		global_ship_recruit_speed = -0.25 
+	}
+
+	jorvik_a_dream_of_great_jorvik = {
+		fabricate_claims_time = -0.20
+	}
+
+	norse_promote_the_northern_trade = {
+		merchants = 1
+	}
+}
+
+london_ideas = {
+	start = {
+		global_trade_income_modifier = 0.10
+		advisor_pool = 1
+	}
+
+	bonus = {
+		inflation_reduction = 0.1
+	}
+	
+	trigger = {
+		tag = T03 # London
+	}
+
+	free = yes		#will be added at load.
+
+	london_the_river_thames = {
+		trade_efficiency = 0.10 
+	}
+
+	london_corperation = {
+		republican_tradition = 0.005 
+	}
+	
+	london_center_of_wool_trade = {
+		production_efficiency = 0.1
+	}
+
+	london_center_of_england  = {
+		diplomatic_reputation = 1
+	}
+
+	london_international_center_of_trade = {
+		trade_range_modifier = 0.33
+	}
+
+	english_dissolve_the_monastaries = {
+		global_tax_modifier = 0.10
+	}
+
+	london_promote_the_theaters = {
+		idea_cost = -0.1
+	}
+}
