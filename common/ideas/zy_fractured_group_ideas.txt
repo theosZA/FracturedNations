@@ -184,3 +184,112 @@ italian_republic_ideas = {
 		prestige = 1
 	}
 }
+
+norse_ideas = {
+	start = {
+		navy_tradition_decay = -0.01
+		hostile_attrition = 1
+	}
+
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		religion = animism
+		capital_scope = {
+			OR = {
+				region = scandinavian_region
+				region = icelandic_region
+				region = shetland_and_faroarna
+			}
+		}
+	}
+
+	free = yes		#will be added at load.
+	
+	norse_the_old_gods = {
+		extra_manpower_at_religious_war = yes
+	}
+
+	norse_remember_the_great_heathen_army = {
+		land_forcelimit_modifier = 0.20 
+	}
+	
+	norse_remember_our_gods = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+
+	norse_skaldic_tradition = {
+		prestige = 1
+	}
+
+	norse_create_the_heathen_navy  = {
+		global_ship_recruit_speed = -0.25 
+	}
+
+	norse_foreign_adventures = {
+		leader_naval_manuever = 1
+		leader_land_shock = 1
+	}
+	
+	norse_promote_the_northern_trade = {
+		merchants = 1
+	}
+}
+
+chr_scandinavia_ideas = {
+	start = {
+		prestige_from_land = 1.0
+		defensiveness = 0.20
+	}
+	
+	bonus = {
+		land_morale = 0.15
+	}
+	
+	trigger = [
+		religion_group = christian
+		capital_scope = {
+			OR = {
+				region = scandinavian_region
+				region = icelandic_region
+				region = shetland_and_faroarna
+			}
+		}
+	}
+	free = yes		#will be added at load.
+
+	chr_scandinavia_baptism = {
+		religious_unity	= 0.10
+		legitimacy = 0.5
+	}
+	
+	chr_scandinavia_hammer_and_cross = {
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+
+	chr_scandinavia_hanseatic_competition = {
+		trade_efficiency = 0.1
+	}
+	
+	chr_scandinavia_failed_union = {
+		diplomats = 1
+	}
+	
+	chr_scandinavia_peace_of_smaland = {
+		manpower_recovery_speed = 0.05
+	}
+	
+	chr_scandinavia_fjords_and_mountains = {
+		idea_cost = -0.05
+		prestige = 0.5
+	}
+	
+	chr_scandinavia_legacy_of_leif = {
+		range = 0.10
+		global_colonial_growth = 10
+	}
+}

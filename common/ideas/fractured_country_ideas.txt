@@ -175,3 +175,49 @@ london_ideas = {
 		idea_cost = -0.1
 	}
 }
+
+sami_ideas = {
+	start = {
+		infantry_cost = -0.10		
+		enemy_core_creation = 0.5
+	}
+
+	bonus = {
+		global_missionary_strength = 0.01
+	}
+	
+	trigger = {
+		tag = T36 # Sapmi
+	}
+
+	free = yes		#will be added at load.
+
+	sami_arctic_north = {
+		hostile_attrition = 1.0
+	}
+	
+	sami_warrior_tradition = {
+		global_manpower_modifier = 0.15
+	}
+	
+	sami_reindeer_nomads = {
+		leader_land_manuever = 1
+	}
+	
+	sami_trading_hides_and_furs = {
+		global_trade_income_modifier = 0.1
+	}
+	
+	sami_fishing_communities = {
+		light_ship_cost = -0.20
+	}
+	
+	sami_free_folk = {
+		global_unrest = -2
+	}
+	
+	sami_tribal_union = {
+		legitimacy = 1
+		republican_tradition = 0.005
+	}
+}
