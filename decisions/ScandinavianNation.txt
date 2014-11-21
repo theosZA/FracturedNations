@@ -1,0 +1,114 @@
+country_decisions = {
+
+	scandinavian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SCA }
+			culture_group = scandinavian
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SCA } # Exclude Cultural Unions (Scandinavia)
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 15
+			is_at_war = no
+			owns_core_province = 1		    # Stockholm
+			owns_core_province = 17 		# Akershus
+			owns_core_province = 12			# Sjaelland
+			calc_true_if = {
+				owns_core_province = 13
+				owns_core_province = 15
+				owns_core_province = 1984
+				owns_core_province = 14
+				owns_core_province = 1983
+				owns_core_province = 1981
+				owns_core_province = 6
+				owns_core_province = 26
+				owns_core_province = 1982
+				owns_core_province = 7
+				owns_core_province = 3
+				owns_core_province = 2
+				owns_core_province = 25
+				owns_core_province = 1930
+				owns_core_province = 1985
+				owns_core_province = 4
+				owns_core_province = 9
+				owns_core_province = 11
+				owns_core_province = 8
+				owns_core_province = 5
+				owns_core_province = 16
+				owns_core_province = 24
+				owns_core_province = 23
+				owns_core_province = 2752
+				owns_core_province = 22
+				owns_core_province = 20
+				owns_core_province = 10
+				owns_core_province = 21
+				owns_core_province = 18
+				owns_core_province = 315
+				amount = 17
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 13
+						province_id = 15
+						province_id = 1984
+						province_id = 14
+						province_id = 1983
+						province_id = 1981
+						province_id = 6
+						province_id = 26
+						province_id = 1982
+						province_id = 7
+						province_id = 3
+						province_id = 2
+						province_id = 25
+						province_id = 1930
+						province_id = 1985
+						province_id = 4
+						province_id = 9
+						province_id = 11
+						province_id = 8
+						province_id = 5
+						province_id = 16
+						province_id = 24
+						province_id = 23
+						province_id = 2752
+						province_id = 22
+						province_id = 20
+						province_id = 10
+						province_id = 21
+						province_id = 18
+						province_id = 315
+					}
+				}
+				add_claim = SCA
+			}
+			change_tag = SCA
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -17,6 +17,7 @@ country_decisions = {
 			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
 			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
 			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SCA } # Exclude Cultural Unions (Scandinavia)
 			is_colonial_nation = no
 			# Catepanate of Italy may only Restore the Byzantine Empire if they choose Greek Ambitions
 			NOT = { has_country_flag = catepanate_italian_ambitions }

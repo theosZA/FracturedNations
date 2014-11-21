@@ -19,6 +19,7 @@ country_decisions = {
 			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
 			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
 			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SCA } # Exclude Cultural Unions (Scandinavia)
 			NOT = { tag = ATH } # Specifically exclude Athens
 			is_colonial_nation = no
 		}

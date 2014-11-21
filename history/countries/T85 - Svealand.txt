@@ -1,0 +1,7 @@
+government = feudal_monarchy
+mercantilism = 0.1
+technology_group = western
+unit_type = western
+primary_culture = swedish
+religion = catholic
+capital = 1	#Stockholm

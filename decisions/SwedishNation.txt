@@ -1,10 +1,10 @@
 country_decisions = {
 
-	netherlands_nation = {
+	swedish_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = NED }
-			primary_culture = dutch
+			NOT = { exists = SWE }
+			primary_culture = swedish
 			NOT = { tag = PAP } # Exclude Papacy
 			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
 			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
@@ -20,16 +20,24 @@ country_decisions = {
 			is_colonial_nation = no
 		}
 		allow = {
-			adm_tech = 6
 			is_at_war = no
 			calc_true_if = {
-				owns_core_province = 95
-				owns_core_province = 96
-				owns_core_province = 97
-				owns_core_province = 98
-				owns_core_province = 99
-				owns_core_province = 100
-				amount = 5
+				owns_core_province = 1
+				owns_core_province = 2
+				owns_core_province = 3
+				owns_core_province = 4
+				owns_core_province = 5
+				owns_core_province = 6
+				owns_core_province = 7
+				owns_core_province = 8
+				owns_core_province = 9
+				owns_core_province = 10
+				owns_core_province = 11
+				owns_core_province = 25
+				owns_core_province = 26
+				owns_core_province = 1982
+				owns_core_province = 1985
+				amount = 12
 			}
 		}
 		effect = {
@@ -37,17 +45,26 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					OR = {
-						province_id = 95
-						province_id = 96
-						province_id = 97
-						province_id = 98
-						province_id = 99
-						province_id = 100
+						province_id = 1
+						province_id = 2
+						province_id = 3
+						province_id = 4
+						province_id = 5
+						province_id = 6
+						province_id = 7
+						province_id = 8
+						province_id = 9
+						province_id = 10
+						province_id = 11
+						province_id = 25
+						province_id = 26
+						province_id = 1982
+						province_id = 1985
 					}
 				}
-				add_claim = NED
+				add_claim = SWE
 			}
-			change_tag = NED
+			change_tag = SWE
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

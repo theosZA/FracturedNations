@@ -22,6 +22,7 @@ country_decisions = {
 			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
 			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
 			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SCA } # Exclude Cultural Unions (Scandinavia)
 			NOT = {
 				# Ensure no sneaky workaround for Greek-focused Catepanate to form Naples
 				has_country_flag = catepanate_greek_ambitions	
