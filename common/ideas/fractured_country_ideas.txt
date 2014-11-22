@@ -167,12 +167,59 @@ london_ideas = {
 		trade_range_modifier = 0.33
 	}
 
-	english_dissolve_the_monastaries = {
+	london_dissolve_the_monastaries = {
 		global_tax_modifier = 0.10
 	}
 
 	london_promote_the_theaters = {
 		idea_cost = -0.1
+	}
+}
+
+east_anglian_ideas = {
+	start = {
+		accepted_culture_threshold = -0.2
+		prestige_from_land = 1.0
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = T06 # East Anglia
+	}
+
+	free = yes		#will be added at load.
+
+	chr_scandinavia_baptism = {
+		religious_unity	= 0.10
+		legitimacy = 0.5
+	}
+	
+	chr_scandinavia_hammer_and_cross = {
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+	
+	east_anglia_harald_hardrada = {
+		ae_impact = -0.15
+	}
+
+	east_anglia_defence_against_the_english = {
+		defensiveness = 0.20
+	}
+
+	chr_scandinavia_failed_union = {
+		diplomats = 1
+	}
+	
+	chr_scandinavia_peace_of_smaland = {
+		manpower_recovery_speed = 0.05
+	}
+
+	east_anglia_independence_from_norway = {
+		global_tax_modifier = 0.10
 	}
 }
 
