@@ -219,7 +219,8 @@ east_anglian_ideas = {
 	}
 
 	east_anglia_independence_from_norway = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
+		global_trade_income_modifier = 0.05
 	}
 }
 
