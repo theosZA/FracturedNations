@@ -1,4 +1,4 @@
-#Country Name: Uberenns
+#Country Name: Oberenns
 
 graphical_culture = westerngfx
 
