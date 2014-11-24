@@ -383,3 +383,48 @@ scottish_ideas = {
 		ae_impact = -0.15
 	}
 }
+
+austrian_ideas = {
+	start = {
+		land_morale = 0.10
+		relations_decay_of_me = 0.3
+	}
+	
+	bonus = {
+		heir_chance = 0.50
+	}
+	
+	trigger = {
+		primary_culture = austrian
+		government = monarchy
+	}
+	free = yes		#will be added at load.
+
+	austrian_marcha_orientalis = {
+		defensiveness = 0.20
+	}
+	
+	austrian_defend_against_the_magyars = {
+		global_manpower_modifier = 0.10
+	}
+	
+	austrian_privilegium_minus = {
+		core_creation = -0.15
+	}
+	
+	austrian_frederick_the_quarrelsome = {
+		global_unrest = -1
+	}
+	
+	austrian_battle_on_the_marchfeld = {
+		discipline = 0.05
+	}
+	
+	austrian_compromise_of_vienna = {
+		relations_decay_of_me = 0.3
+	}
+
+	austrian_court = {
+		diplomatic_upkeep = 1
+	}
+}
