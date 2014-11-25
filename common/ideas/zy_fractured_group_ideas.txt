@@ -428,3 +428,49 @@ austrian_ideas = {
 		diplomatic_upkeep = 1
 	}
 }
+
+czech_ideas = {
+	start = {
+		imperial_authority = 0.10
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+	
+	trigger = {
+		primary_culture = czech
+	}
+	free = yes
+
+	czech_great_moravia = {
+		prestige = 1
+	}
+	
+	czech_march_of_moravia = {
+		defensiveness = 0.10
+		legitimacy = 0.5
+	}
+	
+	czech_hussite_wars = {
+		land_morale = 0.10
+		idea_cost = -0.05
+	}
+	
+	czech_zizka = {
+		army_tradition = 1
+	}
+	
+	czech_basel_compacts = {
+		tolerance_heretic = 3
+	}
+	
+	wagenburg = {
+		infantry_power = 0.10
+	}
+	
+	letter_of_majesty = {
+		global_unrest = -1
+	}
+}
