@@ -474,3 +474,113 @@ czech_ideas = {
 		global_unrest = -1
 	}
 }
+
+imperial_city_ideas = {
+	start = {
+		defensiveness = 0.05
+		mercenary_cost = -0.20
+	}
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			government = oligarchic_republic
+			government = administrative_republic
+		}
+		culture_group = germanic
+		NOT = {
+			num_of_cities = 2
+		}
+	}
+	free = yes        #will be added at load.
+	
+	imperial_city_imperial_immediacy = {
+		stability_cost_modifier = -0.1
+	}
+	
+	imperial_city_stadtebunde = {
+		diplomatic_upkeep = 1
+	}
+	
+	imperial_city_host_of_the_imperial_diets = {
+		prestige = 1
+	}
+	
+	imperial_city_ratsverwandte = {
+		republican_tradition = 0.002
+		global_tax_modifier = 0.10
+	}
+	
+	imperial_city_reichsstadtekollegium = {
+		diplomatic_reputation = 1		
+	}
+	
+	zunft = {
+		production_efficiency = 0.10
+	}
+	
+	fruhlings_und_herbstmesse = {
+		global_own_trade_power = 0.10
+		global_trade_income_modifier = 0.05
+	}
+}
+
+hanseatic_city_ideas = {
+	start = {
+		defensiveness = 0.05
+		mercenary_cost = -0.20
+	}
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		government = merchant_republic
+		culture_group = germanic
+		NOT = {
+			num_of_cities = 2
+		}
+	}
+	free = yes        #will be added at load.
+
+	start = {
+		trade_range_modifier = 0.15
+		trade_steering = 0.10
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.10
+	}
+	
+	imperial_city_imperial_immediacy = {
+		stability_cost_modifier = -0.1
+	}
+	
+	imperial_city_stadtebunde = {
+		diplomatic_upkeep = 1
+	}
+	
+	hanseatic_city_rise_of_the_hansa = {
+		trade_efficiency = 0.10
+	}
+	
+	end_of_victual_brothers = {
+		global_trade_power = 0.10
+	}
+	
+	strong_league_obligations = {
+		merchants = 1
+	}
+	
+	hsa_shipbuilding = {
+		light_ship_cost = -0.20
+	}
+	
+	the_hansa_bank = {
+		interest = -1
+	}
+}
