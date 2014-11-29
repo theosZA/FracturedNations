@@ -384,6 +384,50 @@ scottish_ideas = {
 	}
 }
 
+flemish_ideas = {
+	start = {
+		global_trade_income_modifier = 0.10 
+		build_power_cost = -0.2
+	}
+
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	
+	trigger = {
+		primary_culture = flemish
+	}
+	free = yes		#will be added at load.
+
+	flemish_the_wool_trade = {
+		global_trade_goods_size = 0.10 
+	}
+
+	flemish_lessons_from_golden_spurs = {
+		infantry_power = 0.15 
+	}
+
+	flemish_the_riches_of_antwerpen  = {
+		trade_efficiency = 0.125 
+	}
+
+	flemish_nationalism = {
+		enemy_core_creation = 1.0 
+	}
+	
+	flemish_the_northern_renaissance = {
+		dip_tech_cost_modifier = -0.1
+	}
+
+	flemish_center_of_calvinism = {
+		missionaries = 1
+	}
+
+	flemish_beeldenstorm = {
+		global_heretic_missionary_strength = 0.04
+	}
+}
+
 austrian_ideas = {
 	start = {
 		land_morale = 0.10
