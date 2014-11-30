@@ -428,6 +428,51 @@ flemish_ideas = {
 	}
 }
 
+french_ideas = {
+	start = {
+		cavalry_power = 0.1
+		fabricate_claims_time = -0.20 
+	}
+
+	bonus = {
+		legitimacy = 1
+	}
+	
+	trigger = {
+		primary_culture = cosmopolitan_french
+	}
+	free = yes		#will be added at load.
+
+	french_the_three_estates = {
+		global_manpower_modifier = 0.05
+		papal_influence = 1
+	}
+	
+	french_language_in_all_courts = {
+		culture_conversion_cost = -0.20 
+	}
+
+	french_establish_the_taille = {
+		global_tax_modifier = 0.10
+	}
+
+	french_establish_the_legions = {
+		land_forcelimit_modifier = 0.25 
+	}
+
+	elan = {
+		land_morale = 0.20
+	}
+
+	vauban_fortifications = {
+		defensiveness = 0.3
+	}
+
+	the_philosophes = {
+		technology_cost = -0.1
+	}
+}
+
 austrian_ideas = {
 	start = {
 		land_morale = 0.10
