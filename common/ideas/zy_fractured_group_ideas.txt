@@ -473,6 +473,52 @@ french_ideas = {
 	}
 }
 
+occitan_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		build_cost = -0.2 
+	}
+
+	bonus = {
+		relations_decay_of_me = 0.3
+	}
+	
+	trigger = {
+		primary_culture = occitain
+	}
+	free = yes		#will be added at load.
+
+	occitan_freedom_of_the_south = {
+		legitimacy = 1
+	}
+	
+	occitan_rise_of_montpellier = {
+		global_unrest = -1 
+		tolerance_heathen = 1
+	}
+
+	occitan_heretic_crusades = {
+		defensiveness = 0.10
+		tolerance_heretic = 1
+	}
+
+	occitan_lenga_doc = {
+		culture_conversion_cost = -0.20 
+	}
+
+	occitan_troubadours = {
+		prestige_decay = -0.02 
+	}
+	
+	occitan_mediterranean_trade = {
+		global_foreign_trade_power = 0.1
+	}
+
+	occitan_mimic_the_swiss = {
+		discipline = 0.025 
+	}
+}
+
 austrian_ideas = {
 	start = {
 		land_morale = 0.10
