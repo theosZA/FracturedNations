@@ -269,3 +269,49 @@ sami_ideas = {
 		republican_tradition = 0.005
 	}
 }
+
+capet_ideas = {
+	start = {
+		heir_chance = 0.25
+		vassal_income = 0.25
+	}
+	
+	bonus = {
+		advisor_pool = 1
+	}
+	
+	trigger = {
+		tag = T10 # Capet
+	}
+
+	free = yes		#will be added at load.
+
+	capet_duke_of_the_franks = {
+		prestige = 1
+	}
+	
+	capet_end_of_the_carolingians = {
+		legitimacy = 1
+	}
+	
+	capet_support_of_the_church = {
+		papal_influence = 2
+	}
+	
+	capet_succession_crisis = {
+		diplomatic_upkeep = 1
+	}
+	
+	french_establish_the_taille = {
+		global_tax_modifier = 0.10
+	}
+
+	french_establish_the_legions = {
+		land_forcelimit_modifier = 0.25 
+	}
+
+	french_elan = {
+		land_morale = 0.10
+		army_tradition_decay = -0.005
+	}
+}
