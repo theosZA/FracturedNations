@@ -223,6 +223,8 @@ l_english:
  french_establish_the_taille_desc: "The taille is a direct land tax on non-nobles, but is an extrondinary tax levied only in times of great need such as war. Starting in the middle of the 15th century, an increasing number of nations made the taille a permanent tax."
  french_establish_the_legions: "Establish the Legions"
  french_establish_the_legions_desc: "French armies are traditionally raised as levies from vassals. The time has come to transition to a professional national army."
+ french_elan: "French Élan"
+ french_elan_desc: "As our people are being increasingly inspired by French nationalism, their zeal translates into our army. The enthusiasm shown by our soldiers gives us a clear advantage on the battlefield."
  occitan_ideas: "Occitan Ideas"
  occitan_ideas_start: "Occitan Traditions"
  occitan_ideas_bonus: "Occitan Ambitions"

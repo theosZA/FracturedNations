@@ -460,8 +460,9 @@ french_ideas = {
 		land_forcelimit_modifier = 0.25 
 	}
 
-	elan = {
-		land_morale = 0.20
+	french_elan = {
+		land_morale = 0.10
+		army_tradition_decay = -0.005
 	}
 
 	vauban_fortifications = {
