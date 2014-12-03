@@ -315,3 +315,48 @@ capet_ideas = {
 		army_tradition_decay = -0.005
 	}
 }
+
+normandy_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		light_ship_cost = -0.20
+	}
+	
+	bonus = {
+		improve_relation_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = NRM # Normandy
+	}
+
+	free = yes		#will be added at load.
+
+	normandy_tready_of_saint_clair = {
+		core_creation = -0.20
+	}
+	
+	normandy_rollo = {
+		ae_impact = -0.10
+	}
+	
+	normandy_language = {
+		accepted_culture_threshold = -0.2
+	}
+	
+	normandy_william_the_conqueror = {
+		leader_land_shock = 1
+	}
+	
+	normandy_interest_in_france = {
+		global_manpower_modifier = 0.1
+	}
+	
+	normandy_treaty_of_albeville = {
+		diplomatic_reputation = 1
+	}
+	
+	normandy_english_restriction = {
+		vassal_income = 0.25
+	}
+}

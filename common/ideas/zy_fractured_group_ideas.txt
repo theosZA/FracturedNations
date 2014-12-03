@@ -439,7 +439,11 @@ french_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = cosmopolitan_french
+		OR = {
+			primary_culture = cosmopolitan_french
+			primary_culture = normand
+		}
+		
 	}
 	free = yes		#will be added at load.
 
