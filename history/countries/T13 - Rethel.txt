@@ -1,5 +1,5 @@
 government = feudal_monarchy
 technology_group = western
 religion = catholic
-primary_culture = Wallonian
+primary_culture = wallonian
 capital = 181 # Rethel

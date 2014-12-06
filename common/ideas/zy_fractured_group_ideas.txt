@@ -428,6 +428,52 @@ flemish_ideas = {
 	}
 }
 
+wallonian_ideas = {
+	start = {
+		stability_cost_modifier = -0.15
+		global_trade_goods_size = 0.1
+	}
+
+	bonus = {
+		production_efficiency = 0.1
+	}
+	
+	trigger = {
+		primary_culture = wallonian
+		
+	}
+	free = yes		#will be added at load.
+
+	wallonian_between_east_and_west = {
+		defensiveness = 0.15
+	}
+	
+	wallonian_family_ties = {
+		diplomatic_upkeep = 1
+	}
+	
+	wallonian_crusaders = {
+		land_morale = 0.1
+	}
+	
+	wallonian_prince_bishopric = {
+		tolerance_own = 1
+		papal_influence = 1
+	}
+	
+	wallonian_luxembourg = {
+		prestige = 1
+	}
+	
+	wallonian_burgundy_question = {
+		global_tax_modifier = 0.10
+	}
+	
+	flemish_beeldenstorm = {
+		global_heretic_missionary_strength = 0.04
+	}
+}
+
 french_ideas = {
 	start = {
 		cavalry_power = 0.1
