@@ -1,5 +1,5 @@
 government = feudal_monarchy
 technology_group = western
 religion = catholic
-primary_culture = lombard
+primary_culture = burgundian
 capital = 1867 # Vaud
