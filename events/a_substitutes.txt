@@ -1,0 +1,16 @@
+# Remove base game events
+
+# The Iberian Wedding
+country_event = {
+	id = flavor_spa.3716
+}
+
+# Ruler of Burgundy Dies
+country_event = {
+	id = flavor_bur.1
+}
+
+# Fate of Burgundy
+country_event = {
+	id = flavor_bur.2
+}
