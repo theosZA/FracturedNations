@@ -360,3 +360,48 @@ normandy_ideas = {
 		vassal_income = 0.25
 	}
 }
+
+pomory_ideas = {
+	start = {
+		land_attrition = -0.10 
+		trade_range_modifier = 0.25
+	}
+	
+	bonus = {
+		diplomats = 1
+	}
+	
+	trigger = {
+		tag = T60 # Pomory
+	}
+	free = yes
+	
+	pomory_white_sea_settlements = {
+		production_efficiency = 0.1
+	}
+	
+	pomory_people_of_the_sea = {
+		navy_tradition = 1
+	}
+	
+	pomory_scandinavian_trade = {
+		global_trade_power = 0.1
+	}
+	
+	pomory_free_peasants = {
+		republican_tradition = 0.005
+	}
+	
+	pomory_russenorsk = {
+		global_foreign_trade_power = 0.1
+	}
+
+	pomory_the_old_believers = {
+		tolerance_own = 2
+	}
+	
+	pomory_settlers_of_the_north  = {
+		colonists = 1
+		auto_explore_adjacent_to_colony = yes
+	}
+}
