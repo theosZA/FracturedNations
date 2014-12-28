@@ -17,6 +17,7 @@ taifa_ideas = {
 			tag = T18 # Seville
 			tag = T20 # Silves
 			tag = T21 # Denia
+			tag = T83 # Valencia
 		}
 	}
 	free = yes		#will be added at load.
