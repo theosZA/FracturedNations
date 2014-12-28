@@ -863,3 +863,49 @@ hanseatic_city_ideas = {
 		interest = -1
 	}
 }
+
+polish_ideas = {
+	start = {
+		cavalry_cost = -0.2
+		accepted_culture_threshold = -0.15
+	}
+	
+	bonus = {
+		global_regiment_cost = -0.10
+	}
+	
+	trigger = {
+		primary_culture = polish
+	}
+	free = yes		#will be added at load.
+
+	polish_baptism_of_poland = {
+		tolerance_own = 1
+		tolerance_heretic = 1
+	}
+	
+	polish_testament_of_boleslaw = {
+		stability_cost_modifier = -0.10
+	}
+	
+	polish_reunification_of_the_part = {
+		diplomatic_upkeep = 1
+	}
+	
+	polish_teutonic_wars = {
+		global_manpower_modifier = 0.25
+	}
+	
+	winged_hussars = {
+		cavalry_power = 0.33
+	}
+	
+	folwark_system = {
+		production_efficiency = 0.1
+	}
+
+	focus_on_field_defences = {
+		land_morale = 0.15
+	}
+}
+
