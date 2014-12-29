@@ -909,3 +909,49 @@ polish_ideas = {
 	}
 }
 
+greek_ideas = {
+	start = {
+		advisor_cost = -0.20 
+		land_morale = 0.10 
+	}
+
+	bonus = {
+		legitimacy = 1
+	}
+	
+	trigger = {
+		primary_culture = greek
+	}
+
+	free = yes		#will be added at load.
+
+	greek_byzantine_administration = {
+		global_tax_modifier = 0.10
+	}
+
+	greek_foreign_guard = {
+		possible_mercenaries = 1.0
+	}
+
+	greek_centers_of_orthodoxy = {
+		global_missionary_strength = 0.02
+		tolerance_own = 1
+	}
+	
+	greek_break_the_latin_trade = {
+		global_trade_power = 0.1
+	}
+
+	greek_rise_of_the_cretan_school = {
+		prestige = 1
+	}
+
+	greek_renaissance = {
+		technology_cost = -0.075 
+	}
+
+	greek_control_the_despotes = {
+		vassal_income = 0.15
+		diplomatic_annexation_cost = -0.10
+	}
+}
