@@ -405,3 +405,49 @@ pomory_ideas = {
 		auto_explore_adjacent_to_colony = yes
 	}
 }
+
+latin_order_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		missionaries = 1
+	}
+	
+	bonus = {
+		culture_conversion_cost = -0.1
+	}
+	
+	trigger = {
+		tag = T73 # Latin Order
+	}
+	free = yes
+
+	latin_order_fourth_crusade = {
+		land_morale = 0.15
+	}
+	
+	latin_order_latin_empire = {
+		prestige = 1
+	}
+	
+	latin_order_defence_of_constantinople = {
+		defensiveness = 0.20
+	}
+	
+	latin_order_papal_reform = {
+		papal_influence = 2
+		infantry_cost = -0.05
+	}
+	
+	latin_order_consolidation = {
+		production_efficiency = 0.10
+	}
+	
+	holy_order = {
+		discipline = 0.05
+	}
+
+	church_administration = {
+		stability_cost_modifier = -0.10
+		core_creation = -0.10
+	}
+}
