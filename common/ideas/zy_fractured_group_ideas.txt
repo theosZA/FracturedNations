@@ -955,3 +955,54 @@ greek_ideas = {
 		diplomatic_annexation_cost = -0.10
 	}
 }
+
+latin_colonies_ideas =  {
+	start = {
+		global_prov_trade_power_modifier = 0.1
+		advisor_pool = 1
+	}
+	
+	bonus = {
+		diplomatic_reputation = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = T24 # Azov
+			tag = T25 # Chios 
+			tag = T27 # Dalmatia
+			tag = CEP # Cyprus
+		}
+	}
+	free = yes
+	
+	latin_colonies_italian_diaspora = {
+		advisor_cost = -0.20 
+	}
+	
+	latin_colonies_trade_outposts = {
+		global_trade_income_modifier = 0.10 
+	}
+	
+	latin_colonies_italian_naval_construction = {
+		naval_forcelimit_modifier = 0.20 
+	}
+	
+	latin_colonies_the_renaissance_abroad = {
+		prestige_decay = -0.015 
+		technology_cost = -0.03
+	}
+	
+	latin_colonies_fortify_against_incursions = {
+		defensiveness = 0.20 
+	}
+	
+	latin_colonies_merchant_republicanism = {
+		republican_tradition = 0.002
+		global_own_trade_power = 0.1
+	}
+	
+	latin_colonies_defend_the_trade_routes = {
+		light_ship_power = 0.1
+	}
+}
