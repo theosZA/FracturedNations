@@ -909,6 +909,51 @@ polish_ideas = {
 	}
 }
 
+bulgarian_ideas = {
+	start = {	
+		merchants = 1
+		core_creation = -0.1		
+	}
+	
+	bonus = {
+		infantry_power = 0.15
+	}
+	
+	trigger = {
+		primary_culture = bulgarian
+	}
+	free = yes
+
+	bulgarian_old_church_slavonic = {
+		culture_conversion_cost = -0.2
+	}
+	
+	bulgarian_golden_age = {
+		prestige = 1
+	}
+	
+	bulgarian_theme = {
+		global_tax_modifier = 0.10
+	}
+	
+	bulgarian_second_empire = {
+		ae_impact = -0.10
+	}
+	
+	bulgarian_civil_war = {
+		manpower_recovery_speed = 0.1
+		war_exhaustion_cost = -0.05
+	}
+	
+	bul_idea_2 = {
+		global_heretic_missionary_strength = 0.02		
+	}
+	
+	bul_idea_6 = {
+		land_morale = 0.10
+	}
+}
+
 greek_ideas = {
 	start = {
 		advisor_cost = -0.20 
