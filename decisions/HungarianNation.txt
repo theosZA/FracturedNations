@@ -1,0 +1,74 @@
+country_decisions = {
+
+	hungarian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HUN }
+			primary_culture = hungarian
+			NOT = { tag = PAP } # Exclude Papacy
+			NOT = { tag = TEU } # Exclude Holy Orders (Teutonic Order)
+			NOT = { tag = LIV } # Exclude Holy Orders (Livonian Order)
+			NOT = { tag = KNI } # Exclude Holy Orders (Knights of Rhodes)
+			NOT = { tag = T73 } # Exclude Holy Orders (Latin Order)
+			NOT = { tag = KOJ } # Exclude Crusader State (Kingdom of Jerusalem)
+			NOT = { tag = HLR } # Exclude Empires (Holy Roman Empire)
+			NOT = { tag = BYZ } # Exclude Empires (Byzantium)
+			NOT = { tag = U03 } # Exclude Empires (Latin Empire)
+			NOT = { tag = GBR } # Exclude Cultural Unions (Great Britain)
+			NOT = { tag = GER } # Exclude Cultural Unions (Germany)
+			NOT = { tag = SCA } # Exclude Cultural Unions (Scandinavia)
+			is_colonial_nation = no
+		}
+		allow = {
+			is_at_war = no
+			calc_true_if = {
+				owns_core_province = 135
+				owns_core_province = 1864
+				owns_core_province = 1772
+				owns_core_province = 153
+				owns_core_province = 154
+				owns_core_province = 1953
+				owns_core_province = 155
+				owns_core_province = 1954
+				owns_core_province = 156
+				owns_core_province = 157
+				owns_core_province = 1951
+				owns_core_province = 158
+				amount = 9
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						province_id = 135
+						province_id = 1864
+						province_id = 1772
+						province_id = 153
+						province_id = 154
+						province_id = 1953
+						province_id = 155
+						province_id = 1954
+						province_id = 156
+						province_id = 157
+						province_id = 1951
+						province_id = 158
+					}
+				}
+				add_claim = HUN
+			}
+			change_tag = HUN
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

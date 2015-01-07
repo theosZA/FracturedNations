@@ -1,0 +1,29 @@
+government = feudal_monarchy
+mercantilism = 0.1
+primary_culture = hungarian
+religion = catholic
+technology_group = eastern
+capital = 153 # (Pest)
+
+1441.1.12 = {
+	monarch = {
+		name = "John I"
+		dynasty = "Arpad"
+		birth_date = 1406.4.28
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1443.2.23 = {
+	heir = {
+		name = "Matthias"
+		dynasty = "Arpad"
+		birth_date = 1443.2.23
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}

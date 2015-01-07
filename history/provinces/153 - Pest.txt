@@ -1,17 +1,16 @@
-#1864 - Somogy
+#153 - Pest
 
-owner = T56 # Balaton
-controller = T56 # Balaton 
+owner = T86 # Arpad
+controller = T86 # Arpad 
 culture = hungarian
 religion = catholic
-capital = "Kaposvár"
+capital = "Buda"
 trade_goods = grain
 hre = no
-base_tax = 3
+base_tax = 5
 manpower = 1
 citysize = 4500
 fort1 = yes
-add_core = T56 # Balaton
 add_core = T86 # Arpad
 discovered_by = western
 discovered_by = eastern
