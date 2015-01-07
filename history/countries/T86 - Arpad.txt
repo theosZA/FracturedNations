@@ -19,11 +19,14 @@ capital = 153 # (Pest)
 1443.2.23 = {
 	heir = {
 		name = "Matthias"
+		monarch_name = "Matthias I"
 		dynasty = "Arpad"
 		birth_date = 1443.2.23
+		death_date = 1490.4.6
 		claim = 95
 		adm = 2
 		dip = 2
 		mil = 6
 	}
 }
+
