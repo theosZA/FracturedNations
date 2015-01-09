@@ -406,6 +406,52 @@ pomory_ideas = {
 	}
 }
 
+jasz_ideas = {
+	start = {
+		global_manpower_modifier = 0.20
+		prestige_from_land = 0.50
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.10
+	}
+	
+	trigger = {
+		tag = T58 # Jaszsag
+	}
+	free = yes
+
+	jasz_sarmatians = {
+		army_tradition = 0.5
+		army_tradition_decay = -0.01
+	}
+	
+	jasz_ossetic = {
+		culture_conversion_cost = -0.1
+	}
+	
+	jasz_mongols = {
+		leader_land_manuever = 1
+	}
+	
+	jasz_pannonian_plain = {
+		production_efficiency = 0.1
+	}
+
+	jasz_cuman_cavalry = {
+		cavalry_cost = -0.05
+		cavalry_power = 0.10
+	}
+
+	jasz_expansion = {
+		ae_impact = -0.1
+	}
+	
+	jasz_protection_of_tengrism = {
+		global_missionary_strength = 0.02
+	}
+}
+
 latin_order_ideas = {
 	start = {
 		manpower_recovery_speed = 0.15
