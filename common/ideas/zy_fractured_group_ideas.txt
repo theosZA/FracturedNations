@@ -957,6 +957,52 @@ estonian_ideas = {
 	}
 }
 
+belarus_ideas = {
+	start = {
+		infantry_power = 0.10
+		tolerance_heretic = 2
+	}
+
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		primary_culture = byelorussian
+	}
+	free = yes
+
+	belarus_drevlians = {
+		land_morale = 0.1
+	}
+	
+	belarus_yotvingians = {
+		land_attrition = -0.20
+	}
+	
+	belarus_bruno_of_querfurt = {
+		missionaries = 1
+	}
+	
+	belarus_turau = {
+		trade_steering = 0.10
+		global_trade_income_modifier = 0.05
+	}
+	
+	belarus_bransk = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	belarus_lithuanian_cooperation = {
+		relations_decay_of_me = 0.25
+	}
+	
+	forest_of_europe = {
+		build_cost = -0.1
+		build_power_cost = -0.1
+	}
+}
+
 hungarian_ideas = {
 	start = {
 		recover_army_morale_speed = 0.05
