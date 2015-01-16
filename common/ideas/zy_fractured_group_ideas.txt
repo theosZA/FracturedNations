@@ -1049,6 +1049,56 @@ hungarian_ideas = {
 	}
 }
 
+frontier_russian_ideas = {
+	start = {
+		land_attrition = -0.10
+		cavalry_power = 0.1
+	}
+	
+	bonus = {
+		diplomats = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = T59 # Murom
+			tag = NZH # Nizhny Novgorod
+		}
+	}
+	free = yes
+	
+	frontier_russian_kievan_rus = {
+		global_prov_trade_power_modifier = 0.15
+	}
+	
+	frontier_russian_liubech = {
+		relations_decay_of_me = 0.20
+		diplomatic_reputation = 1
+	}
+	
+	frontier_russian_posadniks = {
+		production_efficiency = 0.05
+		global_tax_modifier = 0.05
+	}
+	
+	frontier_russian_tatar_yoke = {
+		army_tradition_decay = -0.01
+	}
+	
+	frontier_russian_tokhtamysh = {
+		manpower_recovery_speed = 0.15
+	}
+	
+	frontier_russian_kazan_wars = {
+		discipline = 0.05
+	}
+
+	siberian_frontier = {
+		colonists = 1
+		auto_explore_adjacent_to_colony = yes
+	}
+}
+
 bulgarian_ideas = {
 	start = {	
 		merchants = 1
