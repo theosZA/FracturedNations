@@ -543,3 +543,48 @@ ayyubid_ideas = {
 		technology_cost = -0.10
 	}
 }
+
+makurian_ideas = {
+	start = {
+		heir_chance = 0.25
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		enemy_core_creation = 0.5
+	}
+	
+	trigger = {
+		tag = MAK # Makuria
+	}
+	free = yes
+
+	makurian_new_constantine = {
+		global_missionary_strength = 0.02
+	}
+	
+	makurian_fatimids = {
+		global_trade_income_modifier = 0.1
+	}
+	
+	makuria_rise_of_islam = {
+		tolerance_heathen = 2
+	}
+	
+	makuria_egyptian_civil_war = {
+		infantry_power = 0.1
+	}
+	
+	makuria_independence = {
+		land_morale = 0.05
+		prestige = 1
+	}
+	
+	makuria_muslim_rule = {
+		stability_cost_modifier = -0.15
+	}
+	
+	makuria_banu_kanz = {
+		legitimacy = 1
+	}
+}
