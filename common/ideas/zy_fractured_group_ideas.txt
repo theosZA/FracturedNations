@@ -1241,3 +1241,48 @@ latin_colonies_ideas =  {
 		light_ship_power = 0.1
 	}
 }
+
+uzbek_iqta_ideas = {
+	start = {
+		global_trade_power = 0.1
+		legitimacy = 1
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.1
+	}
+	
+	trigger = {
+		primary_culture = uzbehk
+		government = iqta
+	}
+	free = yes
+
+	uzbek_iqta_battle_of_talas	= {
+		land_morale = 0.10
+	}
+	
+	uzbek_iqta_a_golden_age = {
+		advisor_cost = -0.15
+	}
+	
+	uzbek_iqta_kara_khanid = {
+		culture_conversion_cost = -0.1
+	}
+	
+	uzbek_iqta_mongols = {
+		cavalry_power = 0.10
+	}
+	
+	uzbek_iqta_rebuilding_samarkand = {
+		build_cost = -0.20
+	}
+	
+	uzbek_iqta_observatory = {
+		technology_cost = -0.05
+	}
+	
+	uzbek_iqta_shah_i_zinda = {
+		tolerance_own = 2
+	}
+}
