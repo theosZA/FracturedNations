@@ -634,3 +634,49 @@ alodian_ideas = {
 		global_manpower_modifier = 0.05
 	}
 }
+
+seljuk_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		global_unrest = -1
+	}
+	
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	
+	trigger = {
+		tag = T64 # Seljuk
+	}
+	free = yes
+	
+	seljuk_ideas_battle_of_dandanaqan = {
+		leader_land_manuever = 1
+		discipline = 0.05
+	}
+	
+	seljuk_ideas_great_seljuk_empire = {
+		ae_impact = -0.15
+	}
+	
+	seljuk_ideas_turko_persian_tradition = {
+		accepted_culture_threshold = -0.15
+	}
+	
+	seljuk_ideas_zenith = {
+		prestige = 1
+	}
+	
+	seljuk_ideas_division_of_empire = {
+		legitimacy = 1
+		heir_chance = 0.50
+	}
+	
+	seljuk_ideas_first_crusade = {
+		extra_manpower_at_religious_war = yes
+	}
+	
+	seljuk_ideas_resurgence = {
+		diplomatic_reputation = 1
+	}
+}
