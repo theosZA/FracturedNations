@@ -1242,6 +1242,50 @@ latin_colonies_ideas =  {
 	}
 }
 
+persian_ideas = {
+	start = {
+		infantry_power = 0.1
+		global_manpower_modifier = 0.2
+	}
+	
+	bonus = {
+		stability_cost_modifier = -0.1
+	}
+	
+	trigger = {
+		primary_culture = persian
+	}
+	free = yes
+	
+	persian_achaemenid_empire = {
+		core_creation = -0.15
+	}
+	
+	persian_sasanian_empire = {
+		culture_conversion_cost = -0.1
+	}
+	
+	persian_muslim_conquest = {
+		global_missionary_strength = 0.02
+	}
+	
+	persian_khwarazmian_dynasty = {
+		ae_impact = -0.10
+	}
+	
+	persian_dulafids = {
+		global_tax_modifier = 0.1
+	}
+	
+	persian_trading_port = {
+		global_trade_power = 0.1
+	}
+	
+	persian_resurgence = {
+		recover_army_morale_speed = 0.05
+	}
+}
+
 uzbek_iqta_ideas = {
 	start = {
 		global_trade_power = 0.1
