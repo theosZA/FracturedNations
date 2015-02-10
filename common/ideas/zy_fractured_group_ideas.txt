@@ -1286,6 +1286,55 @@ persian_ideas = {
 	}
 }
 
+iranian_ideas = {
+	start = {
+		stability_cost_modifier = -0.10
+		land_morale = 0.10
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = mazandarani
+			primary_culture = khorasani
+		}
+	}
+	free = yes
+
+	persian_achaemenid_empire = {
+		core_creation = -0.15
+	}
+
+	iranian_hyrcania = {
+		production_efficiency = 0.1
+	}
+	
+	iranian_tabaristan_resistance = {
+		defensiveness = 0.15
+	}
+	
+	iranian_zaidiyyah = {
+		tolerance_own = 2
+		tolerance_heretic = 1
+	}
+	
+	iranian_ziyarids = {
+		ae_impact = -0.10
+	}
+	
+	iranian_new_persian = {
+		culture_conversion_cost = -0.1
+	}
+	
+	iranian_cultural_importance = {
+		advisor_cost = -0.05
+		adm_tech_cost_modifier = -0.05
+	}
+}
+
 uzbek_iqta_ideas = {
 	start = {
 		global_trade_power = 0.1
