@@ -1,8 +1,8 @@
-#Country Name: Bukhara
+#Country Name: Samarkand
 
 graphical_culture = muslimgfx
 
-color = { 149  194  226 } 
+color = { 180 70 80 } 
 
 # Merged Timurid and Uzbek
 historical_idea_groups = {

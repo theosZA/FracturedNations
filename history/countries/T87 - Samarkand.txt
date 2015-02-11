@@ -1,6 +1,6 @@
-government = despotic_monarchy
+government = iqta
 mercantilism = 0.1
 primary_culture = uzbehk
 religion = sunni
 technology_group = muslim
-capital = 442 # Bukhara
+capital = 454 #Samarkand

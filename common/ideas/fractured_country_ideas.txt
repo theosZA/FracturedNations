@@ -360,3 +360,323 @@ normandy_ideas = {
 		vassal_income = 0.25
 	}
 }
+
+pomory_ideas = {
+	start = {
+		land_attrition = -0.10 
+		trade_range_modifier = 0.25
+	}
+	
+	bonus = {
+		diplomats = 1
+	}
+	
+	trigger = {
+		tag = T60 # Pomory
+	}
+	free = yes
+	
+	pomory_white_sea_settlements = {
+		production_efficiency = 0.1
+	}
+	
+	pomory_people_of_the_sea = {
+		navy_tradition = 1
+	}
+	
+	pomory_scandinavian_trade = {
+		global_trade_power = 0.1
+	}
+	
+	pomory_free_peasants = {
+		republican_tradition = 0.005
+	}
+	
+	pomory_russenorsk = {
+		global_foreign_trade_power = 0.1
+	}
+
+	pomory_the_old_believers = {
+		tolerance_own = 2
+	}
+	
+	pomory_settlers_of_the_north  = {
+		colonists = 1
+		auto_explore_adjacent_to_colony = yes
+	}
+}
+
+jasz_ideas = {
+	start = {
+		global_manpower_modifier = 0.20
+		prestige_from_land = 0.50
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.10
+	}
+	
+	trigger = {
+		tag = T58 # Jaszsag
+	}
+	free = yes
+
+	jasz_sarmatians = {
+		army_tradition = 0.5
+		army_tradition_decay = -0.01
+	}
+	
+	jasz_ossetic = {
+		culture_conversion_cost = -0.1
+	}
+	
+	jasz_mongols = {
+		leader_land_manuever = 1
+	}
+	
+	jasz_pannonian_plain = {
+		production_efficiency = 0.1
+	}
+
+	jasz_cuman_cavalry = {
+		cavalry_cost = -0.05
+		cavalry_power = 0.10
+	}
+
+	jasz_expansion = {
+		ae_impact = -0.1
+	}
+	
+	jasz_protection_of_tengrism = {
+		global_missionary_strength = 0.02
+	}
+}
+
+latin_order_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		missionaries = 1
+	}
+	
+	bonus = {
+		culture_conversion_cost = -0.1
+	}
+	
+	trigger = {
+		tag = T73 # Latin Order
+	}
+	free = yes
+
+	latin_order_fourth_crusade = {
+		land_morale = 0.15
+	}
+	
+	latin_order_latin_empire = {
+		prestige = 1
+	}
+	
+	latin_order_defence_of_constantinople = {
+		defensiveness = 0.20
+	}
+	
+	latin_order_papal_reform = {
+		papal_influence = 2
+		infantry_cost = -0.05
+	}
+	
+	latin_order_consolidation = {
+		production_efficiency = 0.10
+	}
+	
+	holy_order = {
+		discipline = 0.05
+	}
+
+	church_administration = {
+		stability_cost_modifier = -0.10
+		core_creation = -0.10
+	}
+}
+
+ayyubid_ideas = {
+	start = {
+		prestige = 1
+		cavalry_power = 0.10
+	}
+	
+	bonus = {
+		advisor_pool = 1
+	}
+	
+	trigger = {
+		tag = T77 # Ayyubids
+	}
+	free = yes
+	
+	ayyubid_saladin = {
+		legitimacy = 1
+	}
+	
+	ayyubid_conquest_of_nubia = {
+		land_morale = 0.1
+	}
+	
+	ayyubid_defend_the_third_crusade = {
+		extra_manpower_at_religious_war = yes
+	}
+	
+	ayyubid_cairo = {
+		stability_cost_modifier = -0.15
+	}
+	
+	ayyubid_economic_prosperity = {
+		global_prov_trade_power_modifier = 0.05
+		production_efficiency = 0.05
+	}
+	
+	ayyubid_madrasas = {
+		tolerance_own = 1
+		religious_unity = 0.10
+	}
+	
+	ayyubid_intellectual_patronage = {
+		technology_cost = -0.10
+	}
+}
+
+makurian_ideas = {
+	start = {
+		heir_chance = 0.25
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		enemy_core_creation = 0.5
+	}
+	
+	trigger = {
+		tag = MAK # Makuria
+	}
+	free = yes
+
+	makurian_new_constantine = {
+		global_missionary_strength = 0.02
+	}
+	
+	makurian_fatimids = {
+		global_trade_income_modifier = 0.1
+	}
+	
+	makuria_rise_of_islam = {
+		tolerance_heathen = 2
+	}
+	
+	makuria_egyptian_civil_war = {
+		infantry_power = 0.1
+	}
+	
+	makuria_independence = {
+		land_morale = 0.05
+		prestige = 1
+	}
+	
+	makuria_muslim_rule = {
+		stability_cost_modifier = -0.15
+	}
+	
+	makuria_banu_kanz = {
+		legitimacy = 1
+	}
+}
+
+alodian_ideas = {
+	start = {
+		land_maintenance_modifier = -0.25
+		dip_tech_cost_modifier  = -0.15
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.10
+	}
+	
+	trigger = {
+		tag = ALO # Alodia
+	}
+	free = yes
+
+	alodian_christian_nubia = {
+		global_missionary_strength = 0.01
+	}
+	
+	alodian_soba = {
+		tolerance_own = 1
+		global_tax_modifier = 0.05
+	}
+	
+	alodian_conflicts_with_aksum = {
+		infantry_power = 0.1
+	}
+	
+	alodian_dynastic_ties = {
+		diplomatic_upkeep = 1
+	}
+	
+	alodian_wealth_of_alodia = {
+		production_efficiency = 0.1
+	}
+
+	alodia_eastern_trade_routes	= {
+		global_own_trade_power = 0.10
+		trade_steering = 0.05
+	}
+	
+	increased_manpower = {
+		global_manpower_modifier = 0.05
+	}
+}
+
+seljuk_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		global_unrest = -1
+	}
+	
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	
+	trigger = {
+		tag = T64 # Seljuk
+	}
+	free = yes
+	
+	seljuk_battle_of_dandanaqan = {
+		leader_land_manuever = 1
+		discipline = 0.05
+	}
+	
+	seljuk_great_seljuk_empire = {
+		ae_impact = -0.15
+	}
+	
+	seljuk_turko_persian_tradition = {
+		accepted_culture_threshold = -0.15
+	}
+	
+	seljuk_zenith = {
+		prestige = 1
+	}
+	
+	seljuk_division_of_empire = {
+		legitimacy = 1
+		heir_chance = 0.50
+	}
+	
+	seljuk_first_crusade = {
+		extra_manpower_at_religious_war = yes
+	}
+	
+	seljuk_resurgence = {
+		diplomatic_reputation = 1
+	}
+}
