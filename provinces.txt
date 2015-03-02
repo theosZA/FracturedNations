@@ -71,6 +71,7 @@ T80: 337 # Oran
 T81: 302,304 # Mukhsha
 T82: 432,2217,2218,2223,2234 # Fars
 T83: 220,2751 # Valencia
+T84: 198,200 # Rouergue
 T85: 1,4,9,11,1985,(cores),1930 # Svealand
 T86: 153,1772,(cores),155,1864,1953 # Arpad
 T87: 454 # Samarkand
@@ -132,10 +133,10 @@ DAN: 12,14,1983,(cores),13 # Denmark
 DAU: 203,204 # Dauphine
 DNZ: 43 # Danzig
 DUL: 332,407,2303 # Dulkadir
-EFT: 1931 # East Frisia
+EFR: 1931 # East Frisia
 EPI: 144,1853 # Epirus
 ERE: 329,1846,2300,(cores),2301,2305 # Eretna
-FRO: 285,287,2410,2447 # Theodoro
+FEO: 285,287,2410,2447 # Theodoro
 FER: 113,114 # Ferrara
 FEZ: 335,343,2467,(cores),346,349 # Fez
 FIN: 19,27,28,29,30,31,1930,(cores),32,33 # Finland
@@ -169,7 +170,7 @@ KIE: 280,1942,(cores),1944 # Kiev
 KLE: 84 # Cleves
 KNI: 320 # The Knights
 KOJ: 379,380,381,1854,1855,(cores),378 # Jerusalem
-KOK: 457,458,1967,2356,(cores),1968 # Kokkand
+KOK: 457,458,1967,1968,2356 # Kokkand
 KOL: 82,85 # Cologne
 KRA: 258,262 # Krakow
 LAU: 1857 # Saxe-Lauenburg
@@ -190,6 +191,7 @@ MEN: 319,1848,2298 # Mentese
 MKL: 46 # Mecklenburg
 MLO: 104,1862,(cores),105,107 # Milan
 MNS: 375 # Munster (Ireland)
+MOD: 105 # Modena
 MOL: 268,1756,2405 # Moldavia
 MON: 138 # Montenegro [DEAD]
 MOR: 344,345,2468,2469,2470,(cores),2467 # Morocco
