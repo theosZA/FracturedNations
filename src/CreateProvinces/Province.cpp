@@ -2,6 +2,7 @@
 
 #include <cctype>
 #include <fstream>
+#include <sstream>
 #include <stdexcept>
 
 #include "StringUtility.h"
@@ -28,6 +29,121 @@ bool IsDate(const std::string& text)
          text[startPos + 4] == '.';
 }
 
+// Find the first trade goods value (other than unknown).
+std::string FindTradeGoods(const std::string& sourceFileName)
+{
+  std::ifstream source(sourceFileName);
+  std::string line;
+  while (std::getline(source, line))
+  {
+    if (StringUtility::StartsWith(StringUtility::Trim(line), "trade_goods"))
+    {
+      auto tradeGoods = StringUtility::GetValueFromKeyValueLine(line);
+      if (tradeGoods != "unknown")
+        return tradeGoods;
+    }
+  }
+  return "";
+}
+
+struct ProvinceWriteState
+{
+  int commentLines;
+  int successiveBlankLines;
+  int dateLines;
+  bool tagsWritten;
+};
+
+struct ProvinceWriteData
+{
+  bool hasOwner;
+  std::string tagsLines;
+  std::string culture;
+  std::string religion;
+  std::string sourceFileName;
+};
+
+void WriteProvinceLine(const std::string& line, std::ostream& out, ProvinceWriteState& state, const ProvinceWriteData& data)
+{
+  // Stop at the first date line.
+  if (IsDate(line))
+  {
+    ++state.dateLines;
+    return;
+  }
+
+  if (line.empty())
+  { // Only write the first blank line in a row.
+    if (state.successiveBlankLines == 0)
+      out << '\n';
+    ++state.successiveBlankLines;
+    return;
+  }
+  state.successiveBlankLines = 0;
+
+  // Write comments.
+  if (line[0] == '#')
+  {
+    out << line << '\n';
+    ++state.commentLines;
+    return;
+  }
+
+  if (!state.tagsWritten)
+  { // Write tags.
+    out << data.tagsLines;
+    state.tagsWritten = true;
+  }
+
+  if (data.hasOwner)
+  { // Ignore native elements.
+    if (StringUtility::StartsWith(line, "native_"))
+      return;
+    // Replace trade goods if unknown.
+    if (StringUtility::StartsWith(line, "trade_goods") && StringUtility::GetValueFromKeyValueLine(line) == "unknown")
+    {
+      out << "trade_goods = " << FindTradeGoods(data.sourceFileName) << '\n';
+      return;
+    }
+    // Culture is replaced by owner culture.
+    if (StringUtility::StartsWith(line, "culture"))
+    {
+      out << "culture = " << data.culture << '\n';
+      return;
+    }
+    // Religion is replaced by owner religion.
+    if (StringUtility::StartsWith(line, "religion"))
+    {
+      out << "religion = " << data.religion << '\n';
+      return;
+    }
+  }
+
+  // Ignore cores, controller, owner and local autonomy.
+  if (StringUtility::StartsWith(line, "add_core") ||
+      StringUtility::StartsWith(line, "owner") ||
+      StringUtility::StartsWith(line, "controller") ||
+      StringUtility::StartsWith(line, "add_local_autonomy"))
+    return;
+    
+  out << line << '\n';
+}
+
+void WriteProvinceDateEntry(std::string& currentLine, std::istream& in, std::ostream& out)
+{
+  out << currentLine << '\n';
+  // Write everything (except blank lines) until the next dated entry.
+  while (std::getline(in, currentLine))
+  {
+    if (!currentLine.empty())
+    {
+      if (IsDate(currentLine))
+        return;
+      out << currentLine << '\n';
+    }
+  }
+}
+
 Province::Province(int id) 
 : m_id(id) 
 {}
@@ -52,75 +168,46 @@ void Province::CopyProvinceFile(const std::string& sourceFileName, const std::st
 {
   if (m_ownerTag.empty())
     throw std::runtime_error("Province " + std::to_string(m_id) + " does not have an owner");
-  bool hasOwner = (m_ownerTag != "(none)");
 
   std::ifstream inputFile(sourceFileName);
   std::ofstream outputFile(destFileName);
-  // Copy everything until the first dated entries.
   std::string line;
-  bool commented = false;
-  bool previousLineWasBlank = false;
-  bool datedEntry = false;
-  while (!datedEntry && std::getline(inputFile, line))
+
+  ProvinceWriteData data;
+  data.sourceFileName = sourceFileName;
+  data.hasOwner = (m_ownerTag != "(none)");
+  if (data.hasOwner)
   {
-    datedEntry = IsDate(line);
-    if (!datedEntry)
-    {
-      // Ignore successive blank lines in sequence.
-      if (line.empty())
-      {
-        if (!previousLineWasBlank)
-          outputFile << line << '\n';
-        previousLineWasBlank = true;
-      }
-      else
-      {
-        previousLineWasBlank = false;
-        // Culture/religion are replaced by owner culture/religion.
-        if (hasOwner && StringUtility::StartsWith(line, "culture"))
-          outputFile << "culture = " << countries.GetCountry(m_ownerTag).GetCulture() << '\n';
-        else if (hasOwner && StringUtility::StartsWith(line, "religion"))
-          outputFile << "religion = " << countries.GetCountry(m_ownerTag).GetReligion() << '\n';
-        // Ignore all but the first comment line.
-        else if (line[0] == '#')
-        {
-          if (!commented)
-            outputFile << line << '\n';
-          commented = true;
-        }
-        // Ignore cores, controller, owner (and local autonomy).
-        else if (!StringUtility::StartsWith(line, "add_core") &&
-                 !StringUtility::StartsWith(line, "owner") &&
-                 !StringUtility::StartsWith(line, "controller") &&
-                 !StringUtility::StartsWith(line, "add_local_autonomy"))
-          outputFile << line << '\n';
-      }
-    }
+    const auto& country = countries.GetCountry(m_ownerTag);
+    data.culture = country.GetCulture();
+    data.religion = country.GetReligion();
   }
-  // Write the new cores, controller, owner.
-  if (hasOwner)
-    outputFile << "owner = " << m_ownerTag << " # " << countries.GetCountry(m_ownerTag).GetName() << '\n'
-               << "controller = " << m_ownerTag << " # " << countries.GetCountry(m_ownerTag).GetName() << '\n';
+  std::ostringstream tagsLines;
+  if (data.hasOwner)
+    tagsLines << "owner = " << m_ownerTag << " # " << countries.GetCountry(m_ownerTag).GetName() << '\n'
+              << "controller = " << m_ownerTag << " # " << countries.GetCountry(m_ownerTag).GetName() << '\n';
   for (auto& coreTag : m_coreTags)
-    if (coreTag != "(none)")
-      outputFile << "add_core = " << coreTag << " # " << countries.GetCountry(coreTag).GetName() << '\n';
+  if (coreTag != "(none)")
+    tagsLines << "add_core = " << coreTag << " # " << countries.GetCountry(coreTag).GetName() << '\n';
+  data.tagsLines = tagsLines.str();
+
+  ProvinceWriteState state;
+  state.commentLines = 0;
+  state.successiveBlankLines = 0;
+  state.dateLines = 0;
+  state.tagsWritten = false;
+
+  while (state.dateLines == 0 && std::getline(inputFile, line))
+  {
+    WriteProvinceLine(line, outputFile, state, data);
+  }
+
   // For the dated entries, we only want the permanent modifiers set at 1000.1.1
   do
   {
     while (StringUtility::StartsWith(line, "1000.1.1"))
     {
-      outputFile << '\n' << line << '\n';
-      // Copy everything until the next dated entry.
-      bool datedEntry = false;
-      while (std::getline(inputFile, line) && !datedEntry)
-      {
-        if (!line.empty())
-        {
-          datedEntry = IsDate(line);
-          if (!datedEntry)
-            outputFile << line << '\n';
-        }
-      }
+      WriteProvinceDateEntry(line, inputFile, outputFile);
     }
   } while (std::getline(inputFile, line));
 }

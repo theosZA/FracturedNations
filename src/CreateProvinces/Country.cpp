@@ -4,15 +4,6 @@
 
 #include "StringUtility.h"
 
-std::string GetValueFromKeyValueLine(const std::string& keyValueLine)
-{
-  auto equalPos = keyValueLine.find('=');
-  if (equalPos == std::string::npos || equalPos + 1 == keyValueLine.size())
-    return "";
-
-  return StringUtility::Trim(keyValueLine.substr(equalPos + 1));
-}
-
 std::string GetCountryNameFromFileName(const std::string& fileName)
 {
   auto dashPos = fileName.find_last_of('-');
@@ -34,8 +25,8 @@ void Country::ReadFromFile(const std::string& fileName)
   while (std::getline(inputFile, line))
   {
     if (StringUtility::StartsWith(line, "religion"))
-      m_religion = GetValueFromKeyValueLine(line);
+      m_religion = StringUtility::GetValueFromKeyValueLine(line);
     else if (StringUtility::StartsWith(line, "primary_culture"))
-      m_culture = GetValueFromKeyValueLine(line);
+      m_culture = StringUtility::GetValueFromKeyValueLine(line);
   }
 }
