@@ -2,6 +2,8 @@
 
 #include <dirent\dirent.h>
 
+#include "StringUtility.h"
+
 void ProvinceSet::ParseTagInfo(const std::string& tagInfo)
 {
   // Get tag.
@@ -32,10 +34,10 @@ void ProvinceSet::ParseTagInfo(const std::string& tagInfo)
   }
 }
 
-void ProvinceSet::CopyProvinceFiles(const char* sourcePath, const char* destPath) const
+void ProvinceSet::CopyProvinceFiles(const std::string& sourcePath, const std::string& destPath, const CountrySet& countries) const
 {
   struct dirent* ent;
-  DIR* dir = opendir(sourcePath);
+  DIR* dir = opendir(sourcePath.c_str());
   if (!dir) // path not found
     return;
 
@@ -49,8 +51,9 @@ void ProvinceSet::CopyProvinceFiles(const char* sourcePath, const char* destPath
       auto findIter = m_provinces.find(provinceID);
       if (findIter != m_provinces.end())
       {
-        findIter->second.CopyProvinceFile(sourcePath + std::string("\\") + fileName,
-                                          destPath + std::string("\\") + fileName);
+        findIter->second.CopyProvinceFile(sourcePath + "\\" + fileName,
+                                          destPath + "\\" + fileName,
+                                          countries);
       }
     }
   }

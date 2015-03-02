@@ -80,11 +80,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Country.cpp" />
+    <ClCompile Include="CountrySet.cpp" />
     <ClCompile Include="CreateProvinces.cpp" />
+    <ClCompile Include="Province.cpp" />
     <ClCompile Include="ProvinceSet.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dirent\dirent.h" />
+    <ClInclude Include="Country.h" />
+    <ClInclude Include="CountrySet.h" />
     <ClInclude Include="StringUtility.h" />
     <ClInclude Include="Province.h" />
     <ClInclude Include="ProvinceSet.h" />

@@ -1,17 +1,14 @@
 #include <fstream>
 #include <iostream>
+#include <stdexcept>
 
+#include "CountrySet.h"
 #include "ProvinceSet.h"
 
-int main(int argc, char* argv[])
+ProvinceSet BuildProvinceSet(const char* provincesFileName)
 {
-  if (argc < 4)
-  {
-    std::cout << "Insufficient arguments\nFORMAT: CreateProvinces [province file] [source province path] [destination province path]" << std::endl;
-    return 1;
-  }
-  std::ifstream provincesInput(argv[1]);
   ProvinceSet provinces;
+  std::ifstream provincesInput(provincesFileName);
   while (provincesInput)
   {
     std::string tagInfoLine;
@@ -22,8 +19,34 @@ int main(int argc, char* argv[])
       provinces.ParseTagInfo(tagInfoLine.substr(0, commentPos));
     }
   }
+  return provinces;
+}
 
-  provinces.CopyProvinceFiles(argv[2], argv[3]);
+int main(int argc, char* argv[])
+{
+  const char* const countriesHistoryPath = "\\history\\countries";
+  const char* const provincesHistoryPath = "\\history\\provinces";
 
-	//std::cout << provinces << std::endl;
+  try
+  {
+    if (argc < 4)
+    {
+      std::cout << "Insufficient arguments\nFORMAT: CreateProvinces [provinces file] [EU4 path] [mod path]" << std::endl;
+      return 1;
+    }
+    const char* provincesFileName = argv[1];
+    std::string eu4Path = argv[2];
+    std::string modPath = argv[3];
+
+    CountrySet countries;
+    countries.ReadCountries(modPath + countriesHistoryPath, true);
+    countries.ReadCountries(eu4Path + countriesHistoryPath, false);
+
+    auto provinces = BuildProvinceSet(provincesFileName);
+    provinces.CopyProvinceFiles(eu4Path + provincesHistoryPath, modPath + provincesHistoryPath, countries);
+  }
+  catch (const std::exception& e)
+  {
+    std::cerr << e.what() << std::endl;
+  }
 }

@@ -3,11 +3,15 @@
   <ItemGroup>
     <ClCompile Include="CreateProvinces.cpp" />
     <ClCompile Include="ProvinceSet.cpp" />
+    <ClCompile Include="Province.cpp" />
+    <ClCompile Include="Country.cpp" />
+    <ClCompile Include="CountrySet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Province.h" />
     <ClInclude Include="ProvinceSet.h" />
     <ClInclude Include="StringUtility.h" />
-    <ClInclude Include="..\dirent\dirent.h" />
+    <ClInclude Include="Country.h" />
+    <ClInclude Include="CountrySet.h" />
   </ItemGroup>
 </Project>
