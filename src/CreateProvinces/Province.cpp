@@ -122,11 +122,12 @@ void WriteProvinceLine(const std::string& line, std::ostream& out, ProvinceWrite
     }
   }
 
-  // Ignore cores, controller, owner and local autonomy.
+  // Ignore cores, controller, owner and other unwanted modifiers.
   if (StringUtility::StartsWith(line, "add_core") ||
       StringUtility::StartsWith(line, "owner") ||
       StringUtility::StartsWith(line, "controller") ||
-      StringUtility::StartsWith(line, "add_local_autonomy"))
+      StringUtility::StartsWith(line, "add_local_autonomy") ||
+      StringUtility::StartsWith(line, "unrest"))
     return;
     
   out << line << '\n';
@@ -179,6 +180,16 @@ void Province::AddCore(std::string tag)
   m_coreTags.insert(std::move(tag));
 }
 
+void Province::SetCulture(std::string culture)
+{
+  m_culture = std::move(culture);
+}
+
+void Province::SetReligion(std::string religion)
+{
+  m_religion = std::move(religion);
+}
+
 void Province::CopyProvinceFile(const std::string& sourceFileName, const std::string& destFileName, const CountrySet& countries) const
 {
   if (m_ownerTag.empty())
@@ -197,6 +208,10 @@ void Province::CopyProvinceFile(const std::string& sourceFileName, const std::st
     data.culture = country.GetCulture();
     data.religion = country.GetReligion();
   }
+  if (!m_culture.empty())
+    data.culture = m_culture;
+  if (!m_religion.empty())
+    data.religion = m_religion;
   std::ostringstream tagsLines;
   if (data.hasOwner)
     tagsLines << "owner = " << m_ownerTag << " # " << countries.GetCountry(m_ownerTag).GetName() << '\n'
@@ -216,6 +231,9 @@ void Province::CopyProvinceFile(const std::string& sourceFileName, const std::st
   {
     WriteProvinceLine(line, outputFile, state, data);
   }
+
+  if (!data.hasOwner)
+    outputFile << "discovered_by = western\ndiscovered_by = muslim\ndiscovered_by = ottoman\n";
 
   // For the dated entries, we only want the permanent modifiers set at 1000.1.1
   bool leadWithBlankLine = (state.successiveBlankLines > 0);

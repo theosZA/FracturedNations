@@ -1,8 +1,29 @@
 #include "ProvinceSet.h"
 
+#include <stdexcept>
+
 #include <dirent\dirent.h>
 
 #include "StringUtility.h"
+
+void SplitProvinceInfo(const std::string& provinceInfo, int& provinceID, std::string& culture, std::string& religion)
+{
+  auto items = StringUtility::Split(provinceInfo, '|');
+  if (items.empty())
+    throw std::runtime_error("No province ID in province info");
+  provinceID = std::stoi(items[0]);
+  for (size_t i = 1; i < items.size(); ++i)
+  {
+    auto key = StringUtility::GetKeyFromKeyValueLine(items[i]);
+    auto value = StringUtility::GetValueFromKeyValueLine(items[i]);
+    if (key == "c")
+      culture = value;
+    else if (key == "r")
+      religion = value;
+    else
+      throw std::runtime_error("Unknown province info key '" + key + "' for province " + items[0]);
+  }
+}
 
 void ProvinceSet::ParseTagInfo(const std::string& tagInfo)
 {
@@ -14,14 +35,17 @@ void ProvinceSet::ParseTagInfo(const std::string& tagInfo)
   // Get provinces.
   auto provinces = StringUtility::Split(tagInfo.substr(colonPos + 1), ',');
   bool owns = true;
-  for (auto& provinceIDStr : provinces)
+  for (auto& provinceInfo : provinces)
   {
-    provinceIDStr = StringUtility::Trim(provinceIDStr);
-    if (provinceIDStr == "(cores)")
+    provinceInfo = StringUtility::Trim(provinceInfo);
+    if (provinceInfo == "(cores)")
       owns = false;
     else
     {
-      auto provinceID = std::stoi(provinceIDStr);
+      int provinceID;
+      std::string culture;
+      std::string religion;
+      SplitProvinceInfo(provinceInfo, provinceID, culture, religion);
       auto provinceIter = m_provinces.find(provinceID);
       if (provinceIter == m_provinces.end())
         provinceIter = m_provinces.insert(std::make_pair(provinceID, Province(provinceID))).first;
@@ -30,6 +54,10 @@ void ProvinceSet::ParseTagInfo(const std::string& tagInfo)
         province.SetOwner(tag);
       else
         province.AddCore(tag);
+      if (!culture.empty())
+        province.SetCulture(culture);
+      if (!religion.empty())
+        province.SetReligion(religion);
     }
   }
 }
