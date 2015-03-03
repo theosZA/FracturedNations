@@ -1,6 +1,6 @@
 government = feudal_monarchy
 mercantilism = 0.1
-primary_culture = czech
+primary_culture = saxon
 religion = catholic
 capital = 1763 # Niederlausitz
 technology_group = western
