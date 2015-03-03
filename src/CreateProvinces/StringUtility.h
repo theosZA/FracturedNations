@@ -33,6 +33,15 @@ inline bool StartsWith(const std::string& s, const std::string& substring)
   return s.compare(0, substring.size(), substring) == 0;
 }
 
+inline std::string GetKeyFromKeyValueLine(const std::string& keyValueLine)
+{
+  auto equalPos = keyValueLine.find('=');
+  if (equalPos == std::string::npos)
+    return "";
+
+  return StringUtility::Trim(keyValueLine.substr(0, equalPos));
+}
+
 inline std::string GetValueFromKeyValueLine(const std::string& keyValueLine)
 {
   auto equalPos = keyValueLine.find('=');

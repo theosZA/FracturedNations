@@ -72,14 +72,17 @@ void WriteProvinceLine(const std::string& line, std::ostream& out, ProvinceWrite
     return;
   }
 
+  // Only write the last blank line in a row.
   if (line.empty())
-  { // Only write the first blank line in a row.
-    if (state.successiveBlankLines == 0)
-      out << '\n';
+  {
     ++state.successiveBlankLines;
     return;
   }
-  state.successiveBlankLines = 0;
+  if (state.successiveBlankLines > 0)
+  {
+    out << '\n';
+    state.successiveBlankLines = 0;
+  }
 
   // Write comments.
   if (line[0] == '#')
@@ -129,10 +132,22 @@ void WriteProvinceLine(const std::string& line, std::ostream& out, ProvinceWrite
   out << line << '\n';
 }
 
-void WriteProvinceDateEntry(std::string& currentLine, std::istream& in, std::ostream& out)
+void WriteProvinceDateEntry(std::string& currentLine, std::istream& in, std::ostream& out, bool leadWithBlankLine)
 {
-  out << currentLine << '\n';
+  // Check that this isn't a core/owner/controller entry.
+  auto dateEffect = StringUtility::Trim(StringUtility::GetValueFromKeyValueLine(currentLine), " \t{}");
+  auto dateEffectKey = StringUtility::GetKeyFromKeyValueLine(dateEffect);
+  if (dateEffectKey == "add_core" || dateEffectKey == "owner" || dateEffectKey == "controller" || dateEffectKey == "add_local_autonomy")
+  {
+    std::getline(in, currentLine);
+    return;
+  }
+
+  if (leadWithBlankLine)
+    out << '\n';
+
   // Write everything (except blank lines) until the next dated entry.
+  out << currentLine << '\n';
   while (std::getline(in, currentLine))
   {
     if (!currentLine.empty())
@@ -203,11 +218,13 @@ void Province::CopyProvinceFile(const std::string& sourceFileName, const std::st
   }
 
   // For the dated entries, we only want the permanent modifiers set at 1000.1.1
+  bool leadWithBlankLine = (state.successiveBlankLines > 0);
   do
   {
     while (StringUtility::StartsWith(line, "1000.1.1"))
     {
-      WriteProvinceDateEntry(line, inputFile, outputFile);
+      WriteProvinceDateEntry(line, inputFile, outputFile, leadWithBlankLine);
+      leadWithBlankLine = false;
     }
   } while (std::getline(inputFile, line));
 }
