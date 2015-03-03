@@ -1,9 +1,9 @@
 #Åland
 
-owner = FIN
-controller = FIN
-add_core = SWE
-add_core = FIN
+owner = FIN # Finland
+controller = FIN # Finland
+add_core = T85 # Svealand
+add_core = FIN # Finland
 culture = swedish
 religion = catholic
 capital = "Mariehamn"

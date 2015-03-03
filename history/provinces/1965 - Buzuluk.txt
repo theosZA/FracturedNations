@@ -1,16 +1,16 @@
 #1965 - Buzuluk
 
-owner = BSH
-controller = BSH
+owner = BSH # Bashkiria
+controller = BSH # Bashkiria
+add_core = BSH # Bashkiria
 culture = siberian
 religion = shamanism
 capital = "Buzuluk"
 trade_goods = iron
 hre = no
-base_tax = 6
-manpower = 5
+base_tax = 2
+manpower = 2
 citysize = 3140
-add_core = BSH
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

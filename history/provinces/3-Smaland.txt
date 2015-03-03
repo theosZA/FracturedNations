@@ -1,9 +1,9 @@
 #Småland, also contains Öland.  Kalmar, Jönköping etc..
 
-add_core = T37 # Gotaland
 owner = T37 # Gotaland
 controller = T37 # Gotaland
-culture = swedish
+add_core = T37 # Gotaland
+culture = swedish # guet
 religion = catholic
 hre = no
 base_tax = 2

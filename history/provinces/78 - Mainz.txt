@@ -1,0 +1,17 @@
+# 78 - Mainz
+owner = MAI # Mainz
+controller = MAI # Mainz
+add_core = MAI # Mainz
+capital = "Mainz"
+culture = rheinlaender
+religion = catholic
+trade_goods = grain
+base_tax = 6
+manpower = 2
+fort1 = yes
+citysize = 8000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

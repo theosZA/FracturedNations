@@ -1,17 +1,17 @@
 #306 - Nijni-Novgorod
 
-owner = NZH
-controller = NZH
+owner = NZH # Nizhny Novgorod
+controller = NZH # Nizhny Novgorod
+add_core = NZH # Nizhny Novgorod
 culture = russian
 religion = orthodox
 hre = no
 base_tax = 5
 trade_goods = grain    
-manpower = 4
+manpower = 3
 capital = "Nizhny Novgorod"
 citysize = 6700
 fort1 = yes
-add_core = NZH
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern

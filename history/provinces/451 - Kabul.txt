@@ -1,7 +1,9 @@
 #451 - Kabulistan
 
-owner = AFG
-controller = AFG
+owner = AFG # Afghanistan
+controller = AFG # Afghanistan
+add_core = AFG # Afghanistan
+add_core = TIM # Timurid Empire
 culture = afghani
 religion = sunni
 capital = "Kabul"
@@ -10,9 +12,6 @@ hre = no
 base_tax = 4
 manpower = 4
 citysize = 7110
-add_core = TIM
-add_core = MUG
-add_core = AFG
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman

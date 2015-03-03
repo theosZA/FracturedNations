@@ -1,7 +1,8 @@
 #319 - Mentese
 
-owner = MEN
-controller = MEN
+owner = MEN # Mentese
+controller = MEN # Mentese
+add_core = MEN # Mentese
 culture = turkish
 religion = sunni
 capital = "Mughla"
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 3
 citysize = 9100
 fort1 = yes
-add_core = MEN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

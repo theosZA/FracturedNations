@@ -2,6 +2,7 @@
 
 owner = T63 # Khwarezm
 controller = T63 # Khwarezm
+add_core = T63 # Khwarezm
 culture = persian
 religion = shiite
 capital = "Chimbay"
@@ -10,7 +11,7 @@ hre = no
 base_tax = 3
 manpower = 3
 citysize = 2680
-add_core = T63 # Khwarezm
+discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group

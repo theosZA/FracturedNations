@@ -1,8 +1,8 @@
 #Värmland+Dal
 
-add_core = NOR
-owner = NOR
-controller = NOR
+owner = NOR # Norway
+controller = NOR # Norway
+add_core = NOR # Norway
 culture = norwegian
 religion = catholic
 hre = no

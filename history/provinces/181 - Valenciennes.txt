@@ -2,6 +2,7 @@
 
 owner = T13 # Rethel
 controller = T13 # Rethel
+add_core = T13 # Rethel
 capital = "Rethel"
 citysize = 13000
 culture = wallonian
@@ -10,7 +11,6 @@ hre = no
 base_tax = 6
 trade_goods = cloth
 manpower = 2
-add_core = T13 # Rethel
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

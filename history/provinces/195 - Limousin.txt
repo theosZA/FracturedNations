@@ -1,7 +1,9 @@
 # 195 Limousin - Principal cities: Limoges
 
-owner = AUV
-controller = AUV
+owner = AUV # Auvergne
+controller = AUV # Auvergne
+add_core = AUV # Auvergne
+add_core = GUY # Guyenne
 capital = "Limoges"
 citysize = 10000
 culture = aquitaine
@@ -10,8 +12,6 @@ hre = no
 base_tax = 5
 trade_goods = grain
 manpower = 2
-add_core = AUV
-add_core = GUY
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

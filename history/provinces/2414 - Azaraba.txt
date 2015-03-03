@@ -1,7 +1,9 @@
 #2414 - Azaraba
 
-owner = CIR
-controller = CIR
+owner = CIR # Circassia
+controller = CIR # Circassia
+add_core = CIR # Circassia
+add_core = CRI # Crimea
 culture = crimean
 religion = sunni
 hre = no
@@ -11,8 +13,6 @@ manpower = 4
 capital = "Azaraba"
 citysize = 3671
 fort1 = yes
-add_core = CIR
-add_core = CRI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

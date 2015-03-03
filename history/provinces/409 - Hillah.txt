@@ -1,7 +1,9 @@
 #409 - Karbala
 
-owner = JAI
-controller = JAI
+owner = JAI # Jalayirid
+controller = JAI # Jalayirid
+add_core = IRQ # Iraq
+add_core = JAI # Jalayirid
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Kerbela"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 3540
-add_core = IRQ
-add_core = JAI
 fort1 = yes
 discovered_by = muslim
 discovered_by = ottoman

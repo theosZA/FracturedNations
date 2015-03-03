@@ -1,8 +1,8 @@
 #1233 - Kargah
 
-owner = MAK
-controller = MAK
-add_core = MAK
+owner = MAK # Makuria
+controller = MAK # Makuria
+add_core = MAK # Makuria
 culture = al_misr_arabic
 religion = sunni
 capital = "Kharga"
@@ -11,7 +11,6 @@ manpower = 1
 trade_goods = wool
 hre = no
 base_tax = 1
-add_local_autonomy = 25
 discovered_by = MAM
 discovered_by = muslim
 discovered_by = ottoman

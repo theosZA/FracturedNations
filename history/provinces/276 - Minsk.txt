@@ -2,17 +2,17 @@
 
 owner = T51 # Turov
 controller = T51 # Turov
+add_core = T51 # Turov
+add_core = PLT # Polotsk
 culture = byelorussian
 religion = orthodox
 hre = no
-base_tax = 8
+base_tax = 6
 trade_goods = naval_supplies 
 manpower = 5
 capital = "Minsk"
 citysize = 2850
 fort1 = yes 
-add_core = T51 # Turov
-add_core = PLT
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

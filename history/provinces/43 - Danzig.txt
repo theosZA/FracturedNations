@@ -1,9 +1,9 @@
 #43 - Danzig
 
-owner = DNZ
-controller = DNZ
-add_core = DNZ
-add_core = TEU
+owner = DNZ # Danzig
+controller = DNZ # Danzig
+add_core = DNZ # Danzig
+add_core = TEU # Teutonic Order
 capital = "Danzig"
 culture = prussian
 religion = catholic

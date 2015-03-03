@@ -1,7 +1,9 @@
 #2298 - Tekke
 
-owner = MEN
-controller = MEN
+owner = MEN # Mentese
+controller = MEN # Mentese
+add_core = KAR # Karaman
+add_core = MEN # Mentese
 culture = turkish
 religion = sunni
 capital = "Adalia"
@@ -11,8 +13,6 @@ base_tax = 3
 manpower = 2
 citysize = 4100
 fort1 = yes
-add_core = MEN
-add_core = KAR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

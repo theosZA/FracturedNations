@@ -1,8 +1,9 @@
 #419 - Yerevan
 
-
-owner = ARM
-controller = ARM
+owner = ARM # Armenia
+controller = ARM # Armenia
+add_core = ARM # Armenia
+add_core = QAR # Qara Koyunlu
 culture = armenian
 religion = coptic
 capital = "Yerevan"
@@ -11,8 +12,6 @@ hre = no
 base_tax = 3
 manpower = 3
 citysize = 2730
-add_core = QAR
-add_core = ARM 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

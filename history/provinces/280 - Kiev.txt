@@ -1,17 +1,17 @@
 #280 - Kiev
 
-owner = KIE
-controller = KIE
+owner = KIE # Kiev
+controller = KIE # Kiev
+add_core = KIE # Kiev
 culture = ruthenian
 religion = orthodox
 hre = no
-base_tax = 14	
+base_tax = 10	
 trade_goods = grain  
 manpower = 8	
 capital = "Kiev"
 citysize = 7980
 fort1 = yes
-add_core = KIE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

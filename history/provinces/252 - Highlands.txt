@@ -2,6 +2,7 @@
 
 owner = T07 # Alba
 controller = T07 # Alba
+add_core = T07 # Alba
 culture = scottish
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = wool
 manpower = 1
 capital = "Inverness"
 citysize = 1400
-add_core = T07 # Alba
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

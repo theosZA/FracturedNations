@@ -1,18 +1,18 @@
 #285 - Kaffa
 
-owner = FEO
-controller = FEO
+owner = FEO # Theodoro
+controller = FEO # Theodoro
+add_core = FEO # Theodoro
 culture = goths
 religion = orthodox
 hre = no
 base_tax = 5
 trade_goods = wine
 manpower = 5
-capital = FEO
+capital = "Kaffa"
 citysize = 10000
 fort1 = yes
 marketplace = yes
-add_core = FEO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

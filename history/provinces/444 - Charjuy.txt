@@ -1,7 +1,9 @@
 #444 - Charjuy
 
-owner = BUK
-controller = BUK
+owner = BUK # Bukhara
+controller = BUK # Bukhara
+add_core = TIM # Timurid Empire
+add_core = BUK # Bukhara
 culture = uzbehk
 religion = sunni
 capital = "Charjuy"
@@ -10,8 +12,7 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 1432
-add_core = BUK
-add_core = TIM
+discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

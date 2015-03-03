@@ -1,17 +1,17 @@
 #290 - Poltava
 
 owner = T54 # Pereyaslavl
-controller = T54 # Pereyaslavl 
+controller = T54 # Pereyaslavl
+add_core = T54 # Pereyaslavl
 culture = ruthenian
 religion = orthodox
 hre = no
-base_tax = 8
+base_tax = 5
 trade_goods = grain
-manpower = 5
+manpower = 3
 capital = "Poltava"
 citysize = 7050
 fort1 = yes
-add_core = T54 # Pereyaslavl
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

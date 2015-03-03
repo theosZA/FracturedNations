@@ -1,7 +1,9 @@
 #2305 - Erzincan
 
-owner = AKK
-controller = AKK
+owner = AKK # Ak Koyunlu
+controller = AKK # Ak Koyunlu
+add_core = AKK # Ak Koyunlu
+add_core = ERE # Eretna
 culture = turkish
 religion = sunni
 capital = "Erzindjan"
@@ -11,8 +13,6 @@ base_tax = 3
 manpower = 2
 citysize = 10480
 fort1 = yes
-add_core = AKK
-add_core = ERE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

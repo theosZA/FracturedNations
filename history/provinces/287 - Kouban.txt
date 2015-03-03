@@ -1,9 +1,12 @@
 #287 - Kouban
 
-owner = FEO
-controller = FEO
-culture = crimean
-religion = sunni
+owner = FEO # Theodoro
+controller = FEO # Theodoro
+add_core = FEO # Theodoro
+add_core = CIR # Circassia
+add_core = CRI # Crimea
+culture = goths
+religion = orthodox
 hre = no
 base_tax = 2
 trade_goods = wool
@@ -11,9 +14,6 @@ manpower = 2
 capital = "Stavropol"
 citysize = 4007
 fort1 = yes
-add_core = FEO
-add_core = CIR
-add_core = CRI
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman

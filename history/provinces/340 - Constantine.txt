@@ -1,7 +1,8 @@
 #340 - Constantine
 
-owner = KBA
-controller = KBA 
+owner = KBA # Kabylia
+controller = KBA # Kabylia
+add_core = KBA # Kabylia
 culture = algerian
 religion = sunni
 capital = "Constantine"
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 2
 citysize = 17000
 fort1 = yes
-add_core = KBA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -2,8 +2,9 @@
 
 owner = T30 # Catepanate
 controller = T30 # Catepanate
-culture = sicilian 
-religion = catholic 
+add_core = T30 # Catepanate
+culture = sicilian
+religion = catholic
 hre = no 
 base_tax = 2
 trade_goods = fish
@@ -12,7 +13,6 @@ fort1 = yes
 capital = "Reggio di Calabria"
 citysize = 22000 
 marketplace = yes
-add_core = T30 # Catepanate
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

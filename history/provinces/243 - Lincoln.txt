@@ -2,15 +2,15 @@
 
 owner = T06 # Anglia
 controller = T06 # Anglia
+add_core = T06 # Anglia
 culture = english
 religion = catholic
 hre = no
 base_tax = 5
-trade_goods = grain
+trade_goods = cloth
 manpower = 2
 capital = "Nottingham"
 citysize = 4500 # Includes Leicester
-add_core = T06 # Anglia
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

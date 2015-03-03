@@ -1,17 +1,17 @@
-#342 - Toubkhal
+# - Rabat
 
 owner = T78 # Anfa
-controller = T78 # Anfa  
+controller = T78 # Anfa
+add_core = T78 # Anfa
 culture = berber
 religion = sunni
-capital = "Casablanca"
-trade_goods = wool
+capital = "Rabat"
+trade_goods = grain
 hre = no
-base_tax = 2
-manpower = 1
+base_tax = 4
+manpower = 2
 citysize = 3750
 fort1 = yes
-add_core = T78 # Anfa
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

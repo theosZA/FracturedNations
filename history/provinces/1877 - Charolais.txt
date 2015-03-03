@@ -1,5 +1,6 @@
-owner = BUR
-controller = BUR 
+owner = BUR # Burgundy
+controller = BUR # Burgundy
+add_core = BUR # Burgundy
 capital = "Charolles"
 citysize = 3500
 culture = burgundian
@@ -8,7 +9,6 @@ hre = no
 base_tax = 3
 trade_goods = salt
 manpower = 2
-add_core = BUR
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

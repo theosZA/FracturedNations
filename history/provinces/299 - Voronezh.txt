@@ -1,16 +1,16 @@
 #299 - Voronezh
 
-owner = RYA
-controller = RYA
+owner = RYA # Ryazan
+controller = RYA # Ryazan
+add_core = RYA # Ryazan
 culture = russian
 religion = orthodox
 hre = no
-base_tax = 4
+base_tax = 3
 trade_goods = grain    
-manpower = 5
+manpower = 2
 capital = "Voronezh"
 citysize = 4000
-add_core = RYA
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

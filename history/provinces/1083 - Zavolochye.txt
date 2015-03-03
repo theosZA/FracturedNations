@@ -1,17 +1,17 @@
 #1083 - Vetluga ( formerly Zavolochye )
 
-owner = NZH
-controller = NZH
+owner = NZH # Nizhny Novgorod
+controller = NZH # Nizhny Novgorod
+add_core = NZH # Nizhny Novgorod
 capital = "Yur"
 culture = russian
 religion = orthodox
-trade_goods = naval_supplies
+trade_goods = grain
 hre = no
 base_tax = 1
 manpower = 2
 citysize = 1040
 fort1 = yes
-add_core = NZH
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

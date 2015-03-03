@@ -3,7 +3,7 @@
 owner = T31 # Iceland
 controller = T31 # Iceland
 add_core = T31 # Iceland
-culture = norwegian
+culture = norwegian # icelandic
 religion = animism
 hre = no
 base_tax = 1

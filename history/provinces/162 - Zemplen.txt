@@ -1,7 +1,8 @@
 #162 - Zemplén
 
 owner = T58 # Jazygia
-controller = T58 # Jazygia  
+controller = T58 # Jazygia
+add_core = T58 # Jazygia
 culture = ruthenian
 religion = orthodox
 capital = "Kassa"
@@ -11,7 +12,6 @@ base_tax = 2
 manpower = 2
 citysize = 5233
 fort1 = yes
-add_core = T58 # Jazygia
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

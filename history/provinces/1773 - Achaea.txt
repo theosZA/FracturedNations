@@ -1,9 +1,10 @@
 #1773 - Achaea
 
-owner = ACH
-controller = ACH
-culture = greek
-religion = orthodox
+owner = ACH # Principality of Achaia
+controller = ACH # Principality of Achaia
+add_core = ACH # Principality of Achaia
+culture = lombard
+religion = catholic
 capital = "Nafplio"
 trade_goods = wine
 hre = no
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 3
 citysize = 4300
 fort1 = yes
-add_core = ACH
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

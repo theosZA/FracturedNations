@@ -2,6 +2,7 @@
 
 owner = T05 # Jorvik
 controller = T05 # Jorvik
+add_core = T05 # Jorvik
 culture = english
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = iron
 manpower = 2
 capital = "Derby"
 citysize = 6500
-add_core = T05 # Jorvik
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

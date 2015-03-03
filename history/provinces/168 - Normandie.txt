@@ -1,7 +1,8 @@
 # 168 Normandie - Principal cities: Caen
 
-owner = NRM
-controller = NRM
+owner = NRM # Normandy
+controller = NRM # Normandy
+add_core = NRM # Normandy
 capital = "Caen"
 citysize = 9500
 culture = normand
@@ -14,6 +15,5 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = NRM
 fort1 = yes
 fort2 = yes # A way to represent the important Mont Saint-Michel & the Palais Ducal

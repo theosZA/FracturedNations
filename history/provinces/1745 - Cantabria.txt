@@ -1,9 +1,9 @@
 #1745 - Cantabria
 
-owner = NAV
-controller = NAV
-add_core = NAV
-add_core = CAS
+owner = NAV # Navarra
+controller = NAV # Navarra
+add_core = CAS # Castile
+add_core = NAV # Navarra
 culture = castillian
 religion = catholic
 hre = no

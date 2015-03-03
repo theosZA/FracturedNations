@@ -1,8 +1,8 @@
 #222 - Almería
 
-owner = GRA		#Mustapha Sa'd King of Granada
-controller = GRA
-add_core = GRA
+owner = GRA # Granada
+controller = GRA # Granada
+add_core = GRA # Granada
 culture = andalucian
 religion = sunni
 hre = no

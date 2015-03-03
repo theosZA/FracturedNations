@@ -1,9 +1,9 @@
 #1768 - Lienz
 
-owner = SLZ
-controller = SLZ
-add_core = STY
-add_core = SLZ
+owner = SLZ # Salzburg
+controller = SLZ # Salzburg
+add_core = SLZ # Salzburg
+add_core = STY # Styria
 culture = austrian
 religion = catholic
 base_tax = 5

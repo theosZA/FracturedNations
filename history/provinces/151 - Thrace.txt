@@ -2,17 +2,18 @@
 
 owner = T73 # Latin Order
 controller = T73 # Latin Order
-culture = greek
-religion = orthodox
+add_core = T73 # Latin Order
+culture = umbrian # Empire reformed as Latin Order under direction of the Papacy
+religion = catholic
 capital = "Constantinople"
 trade_goods = grain
 hre = no
 base_tax = 9
 manpower = 5
 citysize = 140000
+temple = yes
 fort1 = yes
 fort2 = yes
-add_core = T73 # Latin Order
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

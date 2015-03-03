@@ -1,16 +1,16 @@
 # 203 Lyonnais - Principal cities: Lyon
 
-owner = DAU
-controller = DAU
+owner = DAU # Dauphine
+controller = DAU # Dauphine
+add_core = DAU # Dauphine
 capital = "Lyon"
 citysize = 40000
 culture = occitain
 religion = catholic
 hre = no
-base_tax = 7
+base_tax = 6
 trade_goods = grain
 manpower = 8
-add_core = DAU
 fort1 = yes
 marketplace = yes
 temple = yes # La Primatiale Saint-Jean-Baptiste

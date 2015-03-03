@@ -2,17 +2,17 @@
 
 owner = T73 # Latin Order
 controller = T73 # Latin Order
+add_core = T69 # Thessalonica
+add_core = T73 # Latin Order
 culture = greek
 religion = orthodox
 capital = "Edirne"
 trade_goods = grain
 hre = no
-base_tax = 6
+base_tax = 5
 manpower = 2
 citysize = 13500
 fort1 = yes
-add_core = T73 # Latin Order
-add_core = T69 # Thessalonica
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

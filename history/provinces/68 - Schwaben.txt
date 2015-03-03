@@ -1,9 +1,9 @@
 #68 - Schwaben
 
-owner = AUG
-controller = AUG
-add_core = AUG
-add_core = BAV
+owner = AUG # Augsburg
+controller = AUG # Augsburg
+add_core = AUG # Augsburg
+add_core = BAV # Bavaria
 culture = bavarian
 religion = catholic
 hre = yes

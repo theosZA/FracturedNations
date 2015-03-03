@@ -1,8 +1,8 @@
 #132 - Steiermark
 
-owner = T39 # Uberenns
-controller = T39 # Uberenns
-add_core = T39 # Uberenns
+owner = T39 # Oberenns
+controller = T39 # Oberenns
+add_core = T39 # Oberenns
 culture = austrian
 religion = catholic
 base_tax = 6

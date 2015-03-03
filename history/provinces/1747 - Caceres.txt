@@ -2,8 +2,8 @@
 
 owner = T17 # Toledo
 controller = T17 # Toledo
-add_core = T17 # Toledo
 add_core = T16 # Badajoz
+add_core = T17 # Toledo
 culture = andalucian
 religion = sunni
 hre = no

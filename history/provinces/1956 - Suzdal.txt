@@ -1,7 +1,8 @@
 #Suzdal
 
-owner = NZH
-controller = NZH
+owner = NZH # Nizhny Novgorod
+controller = NZH # Nizhny Novgorod
+add_core = NZH # Nizhny Novgorod
 culture = russian
 religion = orthodox
 hre = no
@@ -11,7 +12,6 @@ manpower = 3
 capital = "Suzdal"
 citysize = 6700
 fort1 = yes
-add_core = NZH
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern

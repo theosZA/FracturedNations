@@ -1,7 +1,9 @@
 #378 - Tripoli
 
-owner = SYR
-controller = SYR
+owner = SYR # Syria
+controller = SYR # Syria
+add_core = KOJ # Jerusalem
+add_core = SYR # Syria
 culture = al_suryah_arabic
 religion = sunni
 capital = "Trablos" #Tripoli in the East.
@@ -12,9 +14,6 @@ manpower = 4
 citysize = 20100
 fort1 = yes
 temple = yes #The Great Mosque of Tripoli in the west
-add_core = LEB
-add_core = SYR
-add_core = KOJ
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

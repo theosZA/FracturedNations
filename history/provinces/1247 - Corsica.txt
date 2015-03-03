@@ -1,0 +1,19 @@
+#1247 - Corsica
+
+owner = GEN # Genoa
+controller = GEN # Genoa
+add_core = COR # Corsica
+add_core = GEN # Genoa
+culture = lombard
+religion = catholic
+capital = "Bastia"
+hre = yes
+base_tax = 3
+trade_goods = naval_supplies
+manpower = 2
+fort1 = yes
+citysize = 5000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

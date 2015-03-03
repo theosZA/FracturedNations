@@ -2,15 +2,15 @@
 
 owner = T01 # Mercia
 controller = T01 # Mercia
+add_core = T01 # Mercia
 culture = english
 religion = catholic
 hre = no
 base_tax = 6
-trade_goods = cloth
+trade_goods = wool
 manpower = 3
 capital = "Chester"
 citysize = 2800
-add_core = T01 # Mercia
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

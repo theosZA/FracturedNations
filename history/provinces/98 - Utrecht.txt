@@ -1,0 +1,18 @@
+# 98 Utrecht - Principal cities: Utrecht
+
+owner = UTR # Utrecht
+controller = UTR # Utrecht
+add_core = UTR # Utrecht
+capital = "Utrecht"
+citysize = 15500
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 7
+trade_goods = cloth
+manpower = 3
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

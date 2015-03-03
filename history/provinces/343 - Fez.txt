@@ -1,18 +1,19 @@
 #343 - Fez
 
-owner = FEZ
-controller = FEZ
-culture = berber
+owner = FEZ # Fez
+controller = FEZ # Fez
+add_core = FEZ # Fez
+culture = moroccan
 religion = sunni
 capital = "Fez"
-trade_goods = grain
+trade_goods = cloth
 hre = no
-base_tax = 7
-manpower = 3
+base_tax = 4
+manpower = 2
 citysize = 10440
 fort1 = yes
-add_core = FEZ
 temple = yes	# Kariouyine mosque
+marketplace = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

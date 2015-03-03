@@ -2,6 +2,8 @@
 
 owner = T59 # Murom
 controller = T59 # Murom
+add_core = T59 # Murom
+add_core = QAS # QasimKhanate
 culture = qasim
 religion = sunni
 hre = no
@@ -11,7 +13,6 @@ manpower = 5
 capital = "Novy Nizovoy"
 citysize = 2000
 fort1 = yes
-add_core = T59 # Murom
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

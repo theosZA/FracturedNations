@@ -1,8 +1,8 @@
 #209 - Vizcaya
 
-owner = NAV
-controller = NAV
-add_core = NAV
+owner = NAV # Navarra
+controller = NAV # Navarra
+add_core = NAV # Navarra
 culture = basque
 religion = catholic
 hre = no

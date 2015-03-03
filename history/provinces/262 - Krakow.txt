@@ -1,19 +1,19 @@
 #262 - Krakow
 
-owner = KRA
-controller = KRA
+owner = KRA # Krakow
+controller = KRA # Krakow
+add_core = KRA # Krakow
 culture = polish
 religion = catholic
 capital = "Kraków"
 hre = no
 base_tax = 10
-trade_goods = cloth
+trade_goods = salt
 manpower = 7
 citysize = 24000
 fort1 = yes
 marketplace = yes
 university = yes #Jagiellonian University established in 1364 by Casimir III the Great
-add_core = KRA
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -21,7 +21,7 @@ discovered_by = ottoman
 
 1000.1.1 = {
 		add_permanent_province_modifier = {
-			name = center_of_trade_modifier
+			name = inland_center_of_trade_modifier
 			duration = -1
 		}
 }

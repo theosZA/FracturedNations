@@ -1,7 +1,8 @@
 #328 - Sinope
 
-owner = CND
-controller = CND
+owner = CND # Candar
+controller = CND # Candar
+add_core = CND # Candar
 culture = greek
 religion = orthodox
 capital = "Sinop"
@@ -12,7 +13,6 @@ manpower = 2
 citysize = 4224
 fort1 = yes
 dock = yes #Shipyard of the Isfendiyarids, later Ottoman Shipyard
-add_core = CND
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

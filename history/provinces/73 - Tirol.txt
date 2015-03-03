@@ -1,8 +1,8 @@
 #73 - Tirol
 
-owner = TIR
-controller = TIR
-add_core = TIR
+owner = TIR # Tyrol
+controller = TIR # Tyrol
+add_core = TIR # Tyrol
 culture = austrian
 religion = catholic
 base_tax = 8

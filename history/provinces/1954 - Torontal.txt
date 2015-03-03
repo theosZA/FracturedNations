@@ -1,7 +1,8 @@
 #1954 - Torontál
 
 owner = T57 # Banat
-controller = T57 # Banat 
+controller = T57 # Banat
+add_core = T57 # Banat
 culture = hungarian
 religion = catholic
 capital = "Zrenjanin"
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 2
 citysize = 3760
 fort1 = yes
-add_core = T57 # Banat
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

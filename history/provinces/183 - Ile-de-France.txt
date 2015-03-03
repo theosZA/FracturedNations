@@ -2,6 +2,7 @@
 
 owner = T10 # Capet
 controller = T10 # Capet
+add_core = T10 # Capet
 capital = "Paris"
 citysize = 70000
 culture = cosmopolitan_french
@@ -10,7 +11,6 @@ hre = no
 base_tax = 15
 trade_goods = cloth
 manpower = 8
-add_core = T10 # Capet
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

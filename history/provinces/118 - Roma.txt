@@ -1,0 +1,27 @@
+#118 - Roma
+
+owner = PAP # Papal States
+controller = PAP # Papal States
+add_core = PAP # Papal States
+culture = umbrian
+religion = catholic
+hre = no
+base_tax = 12
+trade_goods = grain
+manpower = 8
+fort1 = yes 
+capital = "Roma" 
+citysize = 47000 
+temple = yes
+marketplace = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+1000.1.1 = {
+		add_permanent_province_modifier = {
+			name = religious_center
+			duration = -1
+		}
+}

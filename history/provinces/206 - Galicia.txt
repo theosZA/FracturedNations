@@ -1,8 +1,8 @@
 #206 - Galicia
 
-owner = GAL
-controller = GAL
-add_core = GAL
+owner = GAL # Galicia
+controller = GAL # Galicia
+add_core = GAL # Galicia
 culture = galician
 religion = catholic
 hre = no

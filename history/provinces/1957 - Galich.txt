@@ -1,7 +1,8 @@
 #Galich
 
-owner = YAR
-controller = YAR
+owner = YAR # Yaroslavl
+controller = YAR # Yaroslavl
+add_core = YAR # Yaroslavl
 capital = "Galich"
 culture = russian
 religion = orthodox
@@ -11,7 +12,6 @@ base_tax = 2
 manpower = 2
 citysize = 1040
 fort1 = yes
-add_core = YAR
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

@@ -1,7 +1,10 @@
 #411 - Mosul
 
-owner = IRQ
-controller = IRQ
+owner = IRQ # Iraq
+controller = IRQ # Iraq
+add_core = IRQ # Iraq
+add_core = QAR # Qara Koyunlu
+add_core = JAI # Jalayirid
 culture = kurdish
 religion = sunni
 capital = "Al Mawsil"
@@ -11,9 +14,6 @@ base_tax = 4
 manpower = 4
 citysize = 7140
 fort1 = yes
-add_core = IRQ
-add_core = JAI
-add_core = QAR
 discovered_by = muslim
 discovered_by = indian
 discovered_by = ottoman

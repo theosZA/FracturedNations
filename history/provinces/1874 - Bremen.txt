@@ -1,7 +1,8 @@
 #1874 - Bremen
 
-owner = BRE
-controller = BRE
+owner = BRE # Bremen
+controller = BRE # Bremen
+add_core = BRE # Bremen
 culture = hannoverian
 religion = catholic
 capital = "Bremen"
@@ -11,7 +12,6 @@ base_tax = 8
 manpower = 4
 citysize = 20500
 fort1 = yes
-add_core = BRE
 temple = yes
 discovered_by = eastern
 discovered_by = western

@@ -1,10 +1,9 @@
 #Dalaskogen, northwesten part of Dalarna, including Mora and entire Siljan area.
 
-add_core = SWE
-add_core = NOR
-owner = NOR
-controller = NOR
-culture = swedish # maybe norwegian?
+owner = NOR # Norway
+controller = NOR # Norway
+add_core = NOR # Norway
+culture = norwegian
 religion = catholic
 hre = no
 base_tax = 1

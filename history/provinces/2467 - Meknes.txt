@@ -1,7 +1,9 @@
 # - Meknes
 
-owner = FEZ
-controller = FEZ
+owner = FEZ # Fez
+controller = FEZ # Fez
+add_core = FEZ # Fez
+add_core = MOR # Morocco
 culture = moroccan
 religion = sunni
 capital = "Figuig"
@@ -11,8 +13,6 @@ base_tax = 4
 manpower = 2
 citysize = 5000
 fort1 = yes
-add_core = FEZ
-add_core = MOR
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western

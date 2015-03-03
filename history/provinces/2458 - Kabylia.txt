@@ -1,7 +1,8 @@
 # - Hodna
 
-owner = KBA
-controller = KBA
+owner = KBA # Kabylia
+controller = KBA # Kabylia
+add_core = KBA # Kabylia
 culture = algerian
 religion = sunni
 capital = "Msila"
@@ -11,7 +12,6 @@ base_tax = 1
 manpower = 1
 citysize = 5000
 fort1 = yes
-add_core = KBA
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western

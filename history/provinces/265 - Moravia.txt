@@ -2,6 +2,7 @@
 
 owner = T41 # Moravia
 controller = T41 # Moravia
+add_core = T41 # Moravia
 capital = "Brunn"
 culture = czech
 religion = catholic
@@ -11,7 +12,6 @@ base_tax = 6
 manpower = 5
 citysize = 14000
 fort1 = yes
-add_core = T41 # Moravia
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

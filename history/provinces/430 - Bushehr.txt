@@ -2,6 +2,8 @@
 
 owner = T67 # Hormozgan
 controller = T67 # Hormozgan
+add_core = T67 # Hormozgan
+add_core = TIM # Timurid Empire
 culture = persian
 religion = shiite
 capital = "Bushehr"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 4
 manpower = 2
 citysize = 7670
-add_core = T67 # Hormozgan
-add_core = TIM
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

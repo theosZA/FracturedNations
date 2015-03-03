@@ -1,7 +1,9 @@
 #405 - Al Jawf
 
-owner = BHT
-controller = BHT
+owner = BHT # Bohtan
+controller = BHT # Bohtan
+add_core = SYR # Syria
+add_core = BHT # Bohtan
 culture = al_suryah_arabic
 religion = sunni
 capital = "Tadmuriyah"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 1897
-add_core = BHT
-add_core = SYR
 fort1 = yes
 discovered_by = muslim
 discovered_by = ottoman

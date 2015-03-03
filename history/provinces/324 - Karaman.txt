@@ -1,17 +1,17 @@
 #324 - Karaman
 
-owner = KAR
-controller = KAR
+owner = KAR # Karaman
+controller = KAR # Karaman
+add_core = KAR # Karaman
 culture = turkish
 religion = sunni
 capital = "Karaman"
 trade_goods = wool
 hre = no
-base_tax = 5
-manpower = 3
+base_tax = 6
+manpower = 5
 citysize = 5100
 fort1 = yes
-add_core = KAR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

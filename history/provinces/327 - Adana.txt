@@ -1,17 +1,17 @@
 #327 - Adana
 
-owner = RAM
-controller = RAM
+owner = RAM # Ramazan
+controller = RAM # Ramazan
+add_core = RAM # Ramazan
 culture = turkish
 religion = sunni
 capital = "Adana"
-trade_goods = fish
+trade_goods = cotton
 hre = no
-base_tax = 3
-manpower = 3
+base_tax = 4
+manpower = 4
 citysize = 2544
 fort1 = yes
-add_core = RAM
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

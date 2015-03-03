@@ -1,7 +1,9 @@
 #2307 - Van
 
-owner = ARM
-controller = ARM
+owner = ARM # Armenia
+controller = ARM # Armenia
+add_core = ARM # Armenia
+add_core = QAR # Qara Koyunlu
 culture = armenian
 religion = coptic
 capital = "Van"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 3
 manpower = 2
 citysize = 8500
-add_core = QAR
-add_core = ARM
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

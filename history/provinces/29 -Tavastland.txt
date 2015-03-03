@@ -1,8 +1,8 @@
 #Tavastland, incl. Tavastehus.
 
-owner = FIN
-controller = FIN
-add_core = FIN
+owner = FIN # Finland
+controller = FIN # Finland
+add_core = FIN # Finland
 culture = finnish
 religion = catholic
 hre = no

@@ -2,6 +2,7 @@
 
 owner = T69 # Thessalonica
 controller = T69 # Thessalonica
+add_core = T69 # Thessalonica
 culture = greek
 religion = orthodox
 capital = "Thessaloniki"
@@ -11,7 +12,6 @@ base_tax = 6
 manpower = 2
 citysize = 9800
 fort1 = yes
-add_core = T69 # Thessalonica
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,8 +1,8 @@
 #Bornholm
 
-add_core = T34 # Skane
 owner = T34 # Skane
 controller = T34 # Skane
+add_core = T34 # Skane
 culture = danish
 religion = catholic
 hre = no
@@ -10,6 +10,7 @@ base_tax = 1
 trade_goods = fish
 manpower = 1
 capital = "Ronne"
+fort1 = yes	#Hammershus
 is_city = yes
 discovered_by = eastern
 discovered_by = western

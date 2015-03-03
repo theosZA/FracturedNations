@@ -1,0 +1,15 @@
+#1077 - Solikamsk
+
+owner = PRM # Perm
+controller = PRM # Perm
+add_core = PRM # Perm
+capital = "Usolye Kamskoye"
+culture = uralic
+religion = shamanism
+trade_goods = salt # was center of salt mining
+hre = no
+base_tax = 2
+manpower = 1
+citysize = 1290
+discovered_by = eastern
+discovered_by = nomad_group

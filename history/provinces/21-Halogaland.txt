@@ -13,4 +13,3 @@ capital = "Steig"
 citysize = 1000 # Estimated
 discovered_by = western
 discovered_by = eastern
-

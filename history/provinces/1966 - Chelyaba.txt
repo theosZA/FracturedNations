@@ -1,0 +1,16 @@
+#1966 - Chelyaba
+
+owner = NOG # Nogai
+controller = NOG # Nogai
+add_core = NOG # Nogai
+capital = "Chelyaba"
+culture = bashkir
+religion = sunni
+trade_goods = fur
+hre = no
+base_tax = 3
+manpower = 3
+citysize = 1840
+discovered_by = nomad_group
+discovered_by = muslim
+fort1 = yes

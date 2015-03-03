@@ -2,17 +2,17 @@
 
 owner = T74 # Nicaea
 controller = T74 # Nicaea
+add_core = T74 # Nicaea
 culture = greek
 religion = orthodox
 capital = "Bursa"
 trade_goods = silk
 hre = no
-base_tax = 6
+base_tax = 7
 manpower = 4
 citysize = 18500
 fort1 = yes
 marketplace = yes
-add_core = T74 # Nicaea
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

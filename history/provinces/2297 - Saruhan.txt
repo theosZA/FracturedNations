@@ -1,17 +1,17 @@
 #2297 - Saruhan
 
-owner = SRU
-controller = SRU
+owner = SRU # Saruhan
+controller = SRU # Saruhan
+add_core = SRU # Saruhan
 culture = turkish
 religion = sunni
 capital = "Manisa"
 trade_goods = cotton
 hre = no
-base_tax = 5
+base_tax = 4
 manpower = 3
 citysize = 9500
 fort1 = yes
-add_core = SRU
 temple = yes	# Isabey Mosque
 discovered_by = western
 discovered_by = eastern

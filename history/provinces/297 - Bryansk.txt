@@ -1,17 +1,17 @@
 #297 - Bryansk
 
-owner = CHR
-controller = CHR
+owner = CHR # Chernigov
+controller = CHR # Chernigov
+add_core = CHR # Chernigov
+add_core = SMO # Smolensk
 culture = russian
-religion = orthodox 
+religion = orthodox
 hre = no
 base_tax = 4
 trade_goods = grain
 manpower = 3
 capital = "Bryansk"
 citysize = 8450
-add_core = CHR
-add_core = SMO
 fort1 = yes
 discovered_by = western
 discovered_by = eastern

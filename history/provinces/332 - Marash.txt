@@ -1,7 +1,8 @@
 #332 - Marash
 
-owner = DUL
-controller = DUL
+owner = DUL # Dulkadir
+controller = DUL # Dulkadir
+add_core = DUL # Dulkadir
 culture = turkish
 religion = sunni
 capital = "Maras"
@@ -11,7 +12,6 @@ base_tax = 5
 manpower = 4
 citysize = 2546
 fort1 = yes
-add_core = DUL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

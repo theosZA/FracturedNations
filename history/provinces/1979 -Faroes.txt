@@ -1,8 +1,9 @@
 #1979 - Färöarna
 
 owner = T31 # Iceland
-controller = T31 # Iceland 
-culture = norwegian
+controller = T31 # Iceland
+add_core = T31 # Iceland
+culture = norwegian # icelandic
 religion = animism
 hre = no
 base_tax = 1
@@ -11,5 +12,4 @@ manpower = 0.5
 capital = "Torshavn"
 citysize = 1000 		# Estimated
 fort1 = yes
-add_core = T31 # Iceland
 discovered_by = western

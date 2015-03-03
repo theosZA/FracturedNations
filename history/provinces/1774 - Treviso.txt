@@ -2,8 +2,10 @@
 
 owner = T26 # Verona
 controller = T26 # Verona
-culture = lombard 
-religion = catholic 
+add_core = T26 # Verona
+add_core = VEN # Venice
+culture = lombard
+religion = catholic
 hre = yes
 base_tax = 9  
 trade_goods = fish
@@ -12,8 +14,6 @@ fort1 = yes
 capital = "Treviso" 
 citysize = 65000	# Estimated 
 marketplace = yes
-add_core = T26 # Verona
-add_core = VEN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

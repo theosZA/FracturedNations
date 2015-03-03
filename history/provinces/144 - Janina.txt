@@ -1,7 +1,8 @@
 #144 - Janina
 
-owner = EPI
-controller = EPI
+owner = EPI # Despotate of Epirus
+controller = EPI # Despotate of Epirus
+add_core = EPI # Despotate of Epirus
 culture = greek
 religion = orthodox
 capital = "Ioannina"
@@ -11,7 +12,6 @@ base_tax = 2
 manpower = 2
 citysize = 3500
 fort1 = yes
-add_core = EPI
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

@@ -1,18 +1,25 @@
 #336 - Tlemcen
 
-owner = TLC
-controller = TLC
+owner = TLC # Tlemcen
+controller = TLC # Tlemcen
+add_core = TLC # Tlemcen
 culture = berber
 religion = ibadi
 capital = "Tlemcen"
-trade_goods = wool
+trade_goods = cloth
 hre = no
-base_tax = 4
-manpower = 2
+base_tax = 5
+manpower = 3
 citysize = 69772
 fort1 = yes
-add_core = TLC
 discovered_by = western
+discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-discovered_by = eastern
+
+1000.1.1 = {
+		add_permanent_province_modifier = {
+			name = center_of_trade_modifier
+			duration = -1
+		}
+}

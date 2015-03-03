@@ -1,7 +1,9 @@
 # 194 Périgord - Principal cities: Bergerac
 
-owner = AMG
-controller = AMG
+owner = AMG # Armangnac
+controller = AMG # Armangnac
+add_core = AMG # Armangnac
+add_core = GUY # Guyenne
 capital = "Bergerac"
 citysize = 3500
 culture = aquitaine
@@ -10,8 +12,6 @@ hre = no
 base_tax = 5
 trade_goods = iron
 manpower = 2
-add_core = AMG
-add_core = GUY
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

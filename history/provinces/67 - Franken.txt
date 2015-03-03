@@ -3,7 +3,7 @@
 owner = T40 # Nuremberg
 controller = T40 # Nuremberg
 add_core = T40 # Nuremberg
-add_core = BAV
+add_core = BAV # Bavaria
 culture = bavarian
 religion = catholic
 base_tax = 12

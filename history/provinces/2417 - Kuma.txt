@@ -1,7 +1,9 @@
 #2417 - Kuma
 
-owner = GAZ
-controller = GAZ
+owner = GAZ # Gazikumukh
+controller = GAZ # Gazikumukh
+add_core = AST # Astrakhan
+add_core = GAZ # Gazikumukh
 culture = astrakhani
 religion = sunni
 hre = no
@@ -11,8 +13,6 @@ manpower = 2
 capital = "Kuma"
 citysize = 3206
 fort1 = yes
-add_core = GAZ
-add_core = AST
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

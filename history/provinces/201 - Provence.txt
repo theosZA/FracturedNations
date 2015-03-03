@@ -1,7 +1,8 @@
 # 201 Provence - Principal cities: Aix-en-Provence, Marseille
 
-owner = PRO
-controller = PRO 
+owner = PRO # Provence
+controller = PRO # Provence
+add_core = PRO # Provence
 capital = "Aix-en-Provence"
 citysize = 20000
 culture = occitain
@@ -10,10 +11,20 @@ hre = no
 base_tax = 9
 trade_goods = wine
 manpower = 7
-add_core = PRO
 fort1 = yes
 marketplace = yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+1000.1.1 = {
+	add_permanent_province_modifier = {
+	name = rhone_estuary_modifier
+	duration = -1
+	}
+	add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+	}
+}

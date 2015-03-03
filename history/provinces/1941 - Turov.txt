@@ -1,7 +1,8 @@
 #Turov
 
 owner = T51 # Turov
-controller = T51 # Turov  
+controller = T51 # Turov
+add_core = T51 # Turov
 culture = byelorussian
 religion = orthodox
 hre = no
@@ -11,7 +12,6 @@ manpower = 2
 capital = "Turov"
 citysize = 16500
 fort1 = yes
-add_core = T51 # Turov
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

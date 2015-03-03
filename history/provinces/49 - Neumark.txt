@@ -3,8 +3,8 @@
 owner = T43 # Lusatia
 controller = T43 # Lusatia
 add_core = T43 # Lusatia
-add_core = TEU
-add_core = BRA
+add_core = BRA # Brandenburg
+add_core = TEU # Teutonic Order
 culture = saxon
 religion = catholic
 hre = yes

@@ -2,6 +2,8 @@
 
 owner = T12 # Antwerp
 controller = T12 # Antwerp
+add_core = T12 # Antwerp
+add_core = FLA # Flanders
 capital = "Antwerp"
 citysize = 75000
 culture = flemish
@@ -10,9 +12,6 @@ hre = no
 base_tax = 8
 trade_goods = cloth
 manpower = 3
-add_core = T12 # Antwerp
-add_core = FLA
-revolt_risk = 4
 marketplace = yes
 courthouse = yes # Exception, organised in this region
 fort1 = yes

@@ -2,8 +2,8 @@
 
 owner = T60 # Pomory
 controller = T60 # Pomory
-add_core = FIN
 add_core = T60 # Pomory
+add_core = FIN # Finland
 culture = finnish
 religion = orthodox
 hre = no

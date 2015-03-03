@@ -1,7 +1,8 @@
 #296 - Mozhaisk
 
-owner = SMO
-controller = SMO     
+owner = SMO # Smolensk
+controller = SMO # Smolensk
+add_core = SMO # Smolensk
 culture = russian
 religion = orthodox
 hre = no
@@ -11,7 +12,6 @@ manpower = 2
 capital = "Mozhaisk"
 citysize = 2010
 fort1 = yes
-add_core = SMO
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

@@ -1,7 +1,9 @@
 #2406 - Ingil
 
-owner = ZAZ
-controller = ZAZ
+owner = ZAZ # Zaporozhie
+controller = ZAZ # Zaporozhie
+add_core = CRI # Crimea
+add_core = ZAZ # Zaporozhie
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -10,10 +12,7 @@ trade_goods = wine
 manpower = 2
 capital = "Kyzy-Kermen"
 citysize = 3671
-add_local_autonomy = 25
 fort1 = yes
-add_core = CRI
-add_core = ZAZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

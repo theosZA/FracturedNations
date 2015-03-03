@@ -1,9 +1,11 @@
 #107 - Brescia
 
-owner = MAN
-controller = MAN
-culture = lombard 
-religion = catholic 
+owner = MAN # Mantua
+controller = MAN # Mantua
+add_core = MAN # Mantua
+add_core = MLO # Milan
+culture = lombard
+religion = catholic
 hre = yes 
 base_tax = 8        
 trade_goods = cloth
@@ -12,8 +14,6 @@ fort1 = yes
 capital = "Brescia" 
 citysize = 47000 	# Estimated 
 temple = yes		# 11th cent.
-add_core = MAN
-add_core = MLO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

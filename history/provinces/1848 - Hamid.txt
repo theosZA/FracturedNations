@@ -1,18 +1,18 @@
 #1848 - Hamid
 
-owner = MEN
-controller = MEN
+owner = MEN # Mentese
+controller = MEN # Mentese
+add_core = MEN # Mentese
+add_core = SRU # Saruhan
 culture = turkish
 religion = sunni
-capital = "Isparta"
+capital = "Burdur"
 trade_goods = grain
 hre = no
-base_tax = 4
-manpower = 3
+base_tax = 5
+manpower = 4
 citysize = 10330
 fort1 = yes
-add_core = MEN
-add_core = SRU
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,0 +1,18 @@
+#Kurland, center at Goldingen
+
+owner = LIV # LivonianOrder
+controller = LIV # LivonianOrder
+add_core = LIV # LivonianOrder
+culture = old_prussian
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = naval_supplies
+manpower = 1
+capital = "Goldingen"
+citysize = 1200 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

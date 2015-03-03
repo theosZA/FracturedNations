@@ -1,8 +1,8 @@
 #Ingermanland, incl. Ivangorod, Jama, and Kopore.
 
-owner = PSK
-controller = PSK
-add_core = PSK
+owner = PSK # Pskov
+controller = PSK # Pskov
+add_core = PSK # Pskov
 culture = finnish
 religion = orthodox
 hre = no

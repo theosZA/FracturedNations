@@ -1,9 +1,11 @@
 #105 - Parma
 
-owner = MOD
-controller = MOD
-culture = lombard 
-religion = catholic 
+owner = MOD # Modena
+controller = MOD # Modena
+add_core = MLO # Milan
+add_core = MOD # Modena
+culture = lombard
+religion = catholic
 hre = yes 
 base_tax = 5  
 trade_goods = wine
@@ -13,8 +15,6 @@ capital = "Parma"
 citysize = 35000	# Estimated 
 temple = yes 	# Completed bef. 12th century
 university = yes	# Founded 1065
-add_core = MOD
-add_core = MLO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

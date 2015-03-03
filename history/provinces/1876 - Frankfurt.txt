@@ -1,0 +1,24 @@
+# 1876 - Frankfurt
+owner = FRN # Frankfurt
+controller = FRN # Frankfurt
+add_core = FRN # Frankfurt
+capital = "Frankfurt"
+culture = rheinlaender
+religion = catholic
+trade_goods = grain
+base_tax = 8
+manpower = 4
+fort1 = yes
+citysize = 8000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1000.1.1 = {
+		add_permanent_province_modifier = {
+			name = inland_center_of_trade_modifier
+			duration = -1
+		}
+}

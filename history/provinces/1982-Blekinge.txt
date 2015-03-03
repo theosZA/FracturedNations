@@ -1,9 +1,9 @@
 #Blekinge
 
-add_core = T34 # Skane
-add_core = T37 # Gotaland
 owner = T34 # Skane
 controller = T34 # Skane
+add_core = T34 # Skane
+add_core = T37 # Gotaland
 culture = danish
 religion = catholic
 hre = no

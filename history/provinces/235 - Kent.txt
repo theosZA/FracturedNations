@@ -2,6 +2,7 @@
 
 owner = T04 # Boulogne
 controller = T04 # Boulogne
+add_core = T04 # Boulogne
 culture = english
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = grain
 manpower = 2
 capital = "Canterbury"
 citysize = 4000
-add_core = T04 # Boulogne
 fort1 = yes
 temple = yes # Canterbury Cathedral
 discovered_by = western

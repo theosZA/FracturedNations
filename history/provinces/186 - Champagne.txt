@@ -1,7 +1,8 @@
 # 186 Champagne - Principal cities: Reims
 
-owner = CHP
-controller = CHP
+owner = CHP # Champagne
+controller = CHP # Champagne
+add_core = CHP # Champagne
 capital = "Reims"
 citysize = 15000
 culture = cosmopolitan_french
@@ -10,7 +11,6 @@ hre = no
 base_tax = 7
 trade_goods = wine
 manpower = 6
-add_core = CHP
 fort1 = yes
 marketplace = yes
 temple = yes # Cathedral of Reims, coronation place of the French kings
@@ -21,7 +21,7 @@ discovered_by = ottoman
 
 1000.1.1 = {
 	add_permanent_province_modifier = {
-			name = inland_center_of_trade_modifier
-			duration = -1
-		}
+		name = inland_center_of_trade_modifier
+		duration = -1
+	}
 }

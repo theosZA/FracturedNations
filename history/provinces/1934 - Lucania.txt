@@ -2,8 +2,9 @@
 
 owner = T30 # Catepanate
 controller = T30 # Catepanate
-culture = sicilian 
-religion = catholic 
+add_core = T30 # Catepanate
+culture = sicilian
+religion = catholic
 hre = no 
 base_tax = 2
 trade_goods = wine
@@ -11,7 +12,6 @@ manpower = 1
 fort1 = yes
 capital = "Potenza"
 citysize = 22000 
-add_core = T30 # Catepanate
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -2,6 +2,8 @@
 
 owner = T59 # Murom
 controller = T59 # Murom
+add_core = T59 # Murom
+add_core = NZH # Nizhny Novgorod
 culture = russian
 religion = orthodox
 hre = no
@@ -11,8 +13,6 @@ manpower = 2
 capital = "Alatyr"
 citysize = 3671
 fort1 = yes
-add_core = NZH
-add_core = T59 # Murom
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group

@@ -1,16 +1,16 @@
 #305 - Perm
 
-owner = PRM
-controller = PRM
+owner = PRM # Perm
+controller = PRM # Perm
+add_core = PRM # Perm
 culture = uralic
 religion = shamanism
 hre = no
-base_tax = 6
+base_tax = 3
 trade_goods = copper
-manpower = 5
+manpower = 3
 capital = "Yagoshiha"
 citysize = 3250
-add_core = PRM
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group

@@ -1,7 +1,8 @@
 # 96 Zeeland - Principal cities: Middelburg, Vlissingen & Zierikzee
 
-owner = HOL
-controller = HOL 
+owner = HOL # Holland
+controller = HOL # Holland
+add_core = HOL # Holland
 capital = "Middelburg"
 citysize = 8000
 culture = dutch
@@ -10,7 +11,6 @@ hre = yes
 base_tax = 8
 trade_goods = salt
 manpower = 3
-add_core = HOL
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

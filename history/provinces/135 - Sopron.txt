@@ -1,7 +1,8 @@
 #135 - Sopron
 
 owner = T56 # Balaton
-controller = T56 # Balaton  
+controller = T56 # Balaton
+add_core = T56 # Balaton
 culture = hungarian
 religion = catholic
 capital = "Sopron"
@@ -11,7 +12,6 @@ base_tax = 5
 manpower = 2
 citysize = 4000
 fort1 = yes
-add_core = T56 # Balaton
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

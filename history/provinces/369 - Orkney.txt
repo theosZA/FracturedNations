@@ -2,15 +2,15 @@
 
 owner = T32 # Shetland
 controller = T32 # Shetland
+add_core = T32 # Shetland
 culture = norwegian
-religion = animism
+religion = animist
 hre = no
 base_tax = 1
 trade_goods = fish
 manpower = 1
 capital = "Kirkwall"
 citysize = 1000 # Estimated
-add_core = T32 # Shetland
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

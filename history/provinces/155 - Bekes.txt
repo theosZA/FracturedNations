@@ -2,6 +2,8 @@
 
 owner = T57 # Banat
 controller = T57 # Banat
+add_core = T57 # Banat
+add_core = T86 # Arpad
 culture = hungarian
 religion = catholic
 capital = "Gyula"
@@ -11,8 +13,6 @@ base_tax = 3
 manpower = 2
 citysize = 3700
 fort1 = yes
-add_core = T57 # Banat
-add_core = T86 # Arpad
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

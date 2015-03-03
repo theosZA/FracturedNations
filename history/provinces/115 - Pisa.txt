@@ -1,9 +1,11 @@
 #115 - Pisa
 
-owner = PIS
-controller = PIS
-culture = lombard 
-religion = catholic 
+owner = PIS # Pisa
+controller = PIS # Pisa
+add_core = TUS # Tuscany
+add_core = PIS # Pisa
+culture = lombard
+religion = catholic
 hre = yes 
 base_tax = 6        
 trade_goods = wine
@@ -15,8 +17,6 @@ workshop = yes
 marketplace = yes 
 temple = yes		# Completed
 #university = yes	# Founded 1338
-add_core = PIS
-add_core = TUS
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

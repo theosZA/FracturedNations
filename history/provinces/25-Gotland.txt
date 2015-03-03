@@ -1,9 +1,9 @@
 #Gotland- Visby etc
 
-owner = GOT
-controller = GOT
-add_core = GOT
-add_core = TEU
+owner = GOT # Gotland
+controller = GOT # Gotland
+add_core = TEU # Teutonic Order
+add_core = GOT # Gotland
 culture = swedish
 religion = catholic
 hre = no

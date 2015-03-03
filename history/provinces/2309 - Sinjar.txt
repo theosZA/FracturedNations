@@ -1,7 +1,11 @@
 #2309 - Sinjar
 
-owner = BHT
-controller = BHT
+owner = BHT # Bohtan
+controller = BHT # Bohtan
+add_core = IRQ # Iraq
+add_core = BHT # Bohtan
+add_core = QAR # Qara Koyunlu
+add_core = JAI # Jalayirid
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Sindjar"
@@ -11,10 +15,6 @@ base_tax = 2
 manpower = 2
 citysize = 3140
 fort1 = yes
-add_core = IRQ
-add_core = JAI
-add_core = QAR
-add_core = BHT
 discovered_by = muslim
 discovered_by = indian
 discovered_by = ottoman

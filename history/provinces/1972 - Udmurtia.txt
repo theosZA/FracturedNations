@@ -1,7 +1,9 @@
 #1972 - Udmurtia
 
-owner = BSH
-controller = BSH
+owner = BSH # Bashkiria
+controller = BSH # Bashkiria
+add_core = PRM # Perm
+add_core = BSH # Bashkiria
 capital = "Izhkar"
 culture = uralic
 religion = shamanism
@@ -11,11 +13,10 @@ base_tax = 2
 manpower = 2
 citysize = 20050
 fort1 = yes
-add_core = BSH
-add_core = PRM
 discovered_by = SIB
 discovered_by = NOG
 discovered_by = GOL
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+discovered_by = ottoman

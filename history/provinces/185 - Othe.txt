@@ -1,7 +1,9 @@
 # 185 Nemours
 
-owner = BER
-controller = BER
+owner = BER # Berry
+controller = BER # Berry
+add_core = BER # Berry
+add_core = CHP # Champagne
 capital = "Nemours"
 citysize = 14000
 culture = cosmopolitan_french
@@ -10,8 +12,6 @@ hre = no
 base_tax = 5
 trade_goods = grain
 manpower = 5
-add_core = CHP
-add_core = BER
 fort1 = yes
 marketplace = yes
 temple = yes

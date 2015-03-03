@@ -1,9 +1,10 @@
 #124 - Messina
 
-owner = SIC
-controller = SIC
-culture = sicilian 
-religion = catholic 
+owner = SIC # Sicily
+controller = SIC # Sicily
+add_core = SIC # Sicily
+culture = sicilian
+religion = catholic
 hre = no 
 base_tax = 6
 trade_goods = fish
@@ -11,8 +12,6 @@ manpower = 5
 fort1 = yes 
 capital = "Messina"
 citysize = 39000 # Estimated 
-add_core = SIC
-add_core = NAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

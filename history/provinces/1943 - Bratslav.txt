@@ -1,7 +1,9 @@
 #Bratslav/East Podolia
 
-owner = ZAZ
-controller = ZAZ
+owner = ZAZ # Zaporozhie
+controller = ZAZ # Zaporozhie
+add_core = ZAZ # Zaporozhie
+add_core = VOL # Volyn
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,9 +13,6 @@ manpower = 2
 capital = "Bratslav"
 citysize = 3100
 fort1 = yes
-add_local_autonomy = 25
-add_core = VOL
-add_core = ZAZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

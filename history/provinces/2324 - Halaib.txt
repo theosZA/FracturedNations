@@ -1,11 +1,11 @@
 #2324 - Halaib
 
-owner = MAK
-controller = MAK
-add_core = MAK
-add_core = MAM
+owner = MAK # Makuria
+controller = MAK # Makuria
 add_core = T77 # Ayyubid
-culture = nubian #beja
+add_core = MAK # Makuria
+add_core = MAM # Mameluks
+culture = nubian
 religion = sunni
 capital = "Halaib"
 citysize = 1000
@@ -29,24 +29,3 @@ discovered_by = MBA
 discovered_by = MDI
 discovered_by = MLI
 discovered_by = SFA
-
-1450.1.1 = { citysize = 1200 }
-1500.1.1 = { citysize = 1500 }
-1510.1.1 = {	discovered_by = NUB
-		owner = NUB
-		controller = NUB
-		add_core = NUB
-		remove_core = MAM
-	   } # Funj replace Mamluks in control of Suakin
-1524.1.1 = {	owner = TUR
-		controller = TUR
-		add_core = TUR	
-	   } # Ottomans occupy Suakin
-1550.1.1 = { citysize = 1800 }
-1571.1.1 = { unrest = 8 } # Local Beja revolt against Ottoman governors
-1572.1.1 = { unrest = 0 } # Ottomans crush Beja revolt
-1600.1.1 = { citysize = 2000 }
-1650.1.1 = { citysize = 2500 }
-1700.1.1 = { citysize = 3000 }
-1750.1.1 = { citysize = 3500 }
-1800.1.1 = { citysize = 4000 }

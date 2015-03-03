@@ -1,7 +1,8 @@
 #2300 - Bozok
 
-owner = ERE
-controller = ERE
+owner = ERE # Eretna
+controller = ERE # Eretna
+add_core = ERE # Eretna
 culture = turkish
 religion = sunni
 capital = "Yozgat"
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 2
 citysize = 4450
 fort1 = yes
-add_core = ERE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

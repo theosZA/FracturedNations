@@ -2,15 +2,15 @@
 
 owner = T08 # Strathclyde
 controller = T08 # Strathclyde
-culture = scottish # was english
+add_core = T08 # Strathclyde
+culture = scottish
 religion = catholic
 hre = no
 base_tax = 3
-trade_goods = fish
+trade_goods = wool
 manpower = 1
 capital = "Carlisle"
 citysize = 1200
-add_core = T08 # Strathclyde
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

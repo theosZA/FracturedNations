@@ -1,8 +1,8 @@
 #110 - Trent
 
-owner = TIR
-controller = TIR
-add_core = TIR
+owner = TIR # Tyrol
+controller = TIR # Tyrol
+add_core = TIR # Tyrol
 culture = austrian
 religion = catholic
 hre = yes

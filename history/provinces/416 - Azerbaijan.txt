@@ -1,16 +1,17 @@
 #416 - Azerbaijan
 
-owner = QAR
-controller = QAR
+owner = QAR # Qara Koyunlu
+controller = QAR # Qara Koyunlu
+add_core = QAR # Qara Koyunlu
 culture = azerbaijani
 religion = shiite
 capital = "Tabriz"
 trade_goods = silk
 hre = no
-base_tax = 5
+base_tax = 6
 manpower = 3
 citysize = 7788
-add_core = QAR
+marketplace = yes
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

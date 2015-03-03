@@ -1,7 +1,8 @@
 #232 - Bragança
 
-owner = GAL
-controller = GAL
+owner = GAL # Galicia
+controller = GAL # Galicia
+add_core = GAL # Galicia
 culture = galician
 religion = catholic
 capital = "Bragança"
@@ -10,7 +11,6 @@ hre = no
 base_tax = 6
 manpower = 2
 citysize = 5500
-add_core = GAL
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

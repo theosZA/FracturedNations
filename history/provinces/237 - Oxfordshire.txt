@@ -2,6 +2,7 @@
 
 owner = T01 # Mercia
 controller = T01 # Mercia
+add_core = T01 # Mercia
 culture = english
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = grain
 manpower = 3
 capital = "Oxford"
 citysize = 5000 # Includes Reading
-add_core = T01 # Mercia
 fort1 = yes
 university = yes # Oxford University
 discovered_by = western

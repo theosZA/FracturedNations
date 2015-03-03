@@ -1,7 +1,8 @@
 #2207 - Maragheh
 
-owner = QAR
-controller = QAR
+owner = QAR # Qara Koyunlu
+controller = QAR # Qara Koyunlu
+add_core = QAR # Qara Koyunlu
 culture = azerbaijani
 religion = shiite
 capital = "Marageh"
@@ -10,7 +11,6 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 6600
-add_core = QAR
 fort1 = yes
 discovered_by = muslim
 discovered_by = ottoman

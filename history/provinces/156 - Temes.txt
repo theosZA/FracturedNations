@@ -1,7 +1,8 @@
 #156 - Temes
 
 owner = T57 # Banat
-controller = T57 # Banat 
+controller = T57 # Banat
+add_core = T57 # Banat
 culture = hungarian
 religion = catholic
 capital = "Timisoara"
@@ -11,7 +12,6 @@ base_tax = 2
 manpower = 2
 citysize = 5640
 fort1 = yes
-add_core = T57 # Banat
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

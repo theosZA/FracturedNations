@@ -1,7 +1,8 @@
 # Narbonne - Principal cities: Narbonne
 
-owner = TOU
-controller = TOU
+owner = TOU # Toulouse
+controller = TOU # Toulouse
+add_core = TOU # Toulouse
 capital = "Narbonne"
 citysize = 4500
 culture = occitain
@@ -10,7 +11,6 @@ hre = no
 base_tax = 4
 trade_goods = wine
 manpower = 1
-add_core = TOU
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

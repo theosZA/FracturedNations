@@ -2,14 +2,14 @@
 
 owner = T36 # Sapmi
 controller = T36 # Sapmi
+add_core = T36 # Sapmi
 capital = "Kem"
 culture = sapmi
 religion = shamanism
-add_core = T36 # Sapmi
 hre = no
 is_city = yes
 base_tax = 1
-trade_goods = copper
+trade_goods = salt
 manpower = 1
 discovered_by = western
 discovered_by = eastern

@@ -2,6 +2,8 @@
 
 owner = T23 # Nice
 controller = T23 # Nice
+add_core = T23 # Nice
+add_core = SAV # Savoy
 culture = lombard
 religion = catholic
 hre = yes
@@ -11,8 +13,6 @@ manpower = 5
 fort1 = yes
 capital = "Cuneo"
 citysize = 9000		# Estimated
-add_core = T23 # Nice
-add_core = SAV
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

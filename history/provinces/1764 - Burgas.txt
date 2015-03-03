@@ -2,19 +2,21 @@
 
 owner = T72 # Dobruja
 controller = T72 # Dobruja
+add_core = T71 # Tarnovo
+add_core = T72 # Dobruja
 culture = bulgarian
 religion = orthodox
 capital = "Burgas"
 trade_goods = grain
 hre = no
-base_tax = 5
-manpower = 2
+base_tax = 4
+manpower = 1
 citysize = 11000
 fort1 = yes
-add_core = T71 # Tarnovo
-add_core = T72 # Dobruja
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+
+#Country breaks

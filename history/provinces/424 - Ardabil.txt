@@ -1,7 +1,9 @@
 #424 - Ardabil
 
-owner = SRV
-controller = SRV
+owner = SRV # Shirvan
+controller = SRV # Shirvan
+add_core = QAR # Qara Koyunlu
+add_core = SRV # Shirvan
 culture = azerbaijani
 religion = shiite
 capital = "Ardabil"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 2520
-add_core = QAR
-add_core = SRV
 fort1 = yes
 discovered_by = muslim
 discovered_by = ottoman

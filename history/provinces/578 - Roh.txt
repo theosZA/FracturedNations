@@ -1,7 +1,9 @@
 #578 - Roh
 
-owner = AFG
-controller = AFG
+owner = AFG # Afghanistan
+controller = AFG # Afghanistan
+add_core = AFG # Afghanistan
+add_core = TIM # Timurid Empire
 culture = afghani
 religion = sunni
 capital = "Peshawar"
@@ -12,8 +14,6 @@ manpower = 2
 citysize = 10000
 fort1 = yes
 fort2 = yes #Bala Hisar
-add_core = TIM
-add_core = AFG
 discovered_by = KAS
 discovered_by = indian
 discovered_by = muslim

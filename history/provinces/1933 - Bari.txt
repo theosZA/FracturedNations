@@ -2,8 +2,9 @@
 
 owner = T30 # Catepanate
 controller = T30 # Catepanate
-culture = greek # sicilian-greek
-religion = orthodox 
+add_core = T30 # Catepanate
+culture = greek
+religion = orthodox
 hre = no 
 base_tax = 3
 trade_goods = fish
@@ -11,7 +12,6 @@ manpower = 2
 fort1 = yes 
 capital = "Bari"
 citysize = 25000 # Estimated 
-add_core = T30 # Catepanate
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

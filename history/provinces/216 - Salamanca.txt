@@ -3,7 +3,7 @@
 owner = T15 # Leon
 controller = T15 # Leon
 add_core = T15 # Leon
-culture = galician # TBD: leonese
+culture = galician # TBD: leonese and asturian
 religion = catholic
 hre = no
 base_tax = 6

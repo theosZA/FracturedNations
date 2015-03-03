@@ -1,7 +1,8 @@
 #2304 - Canik
 
-owner = CND
-controller = CND
+owner = CND # Candar
+controller = CND # Candar
+add_core = CND # Candar
 culture = turkish
 religion = sunni
 capital = "Samsun"
@@ -12,7 +13,6 @@ manpower = 3
 citysize = 2224
 fort1 = yes
 dock = yes #Shipyard of the Isfendiyarids, later Ottoman Shipyard
-add_core = CND
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

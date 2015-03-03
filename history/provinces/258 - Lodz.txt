@@ -1,17 +1,17 @@
 #258 - Lodz
 
-owner = KRA
-controller = KRA
+owner = KRA # Krakow
+controller = KRA # Krakow
+add_core = KRA # Krakow
 capital = "Sieradz"
 culture = polish
 religion = catholic
-trade_goods = cloth
+trade_goods = grain
 hre = no
 base_tax = 6
 manpower = 4
 fort1 = yes
 citysize = 1000
-add_core = KRA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

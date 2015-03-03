@@ -1,9 +1,9 @@
 #1759 - Potsdam
 
-owner = MAG
-controller = MAG
-add_core = MAG
-add_core = BRA
+owner = MAG # Magdeburg
+controller = MAG # Magdeburg
+add_core = MAG # Magdeburg
+add_core = BRA # Brandenburg
 culture = saxon
 religion = catholic
 hre = yes

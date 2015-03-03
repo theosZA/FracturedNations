@@ -1,7 +1,9 @@
 #457 - Tashkent
 
-owner = KOK
-controller = KOK
+owner = KOK # Kokkand
+controller = KOK # Kokkand
+add_core = KOK # Kokkand
+add_core = TIM # Timurid Empire
 culture = uzbehk
 religion = sunni
 capital = "Tashkent"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 3
 manpower = 3
 citysize = 1066
-add_core = TIM
-add_core = KOK
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman

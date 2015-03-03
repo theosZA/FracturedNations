@@ -1,10 +1,10 @@
 #1231 - Ibrim
 
-owner = MAK
-controller = MAK
-add_core = MAM
-add_core = MAK
+owner = MAK # Makuria
+controller = MAK # Makuria
 add_core = T77 # Ayyubid
+add_core = MAK # Makuria
+add_core = MAM # Mameluks
 culture = al_misr_arabic
 religion = sunni
 capital = "Aswan"

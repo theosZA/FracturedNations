@@ -1,0 +1,18 @@
+#56 - Osnabrück
+
+owner = MUN # Munster
+controller = MUN # Munster
+add_core = MUN # Munster
+culture = hannoverian
+religion = catholic
+capital = "Osnabrück"
+trade_goods = salt
+hre = yes
+base_tax = 4
+manpower = 2
+citysize = 5000
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,7 +1,8 @@
 #242 - Gwynedd
 
-owner = WLS
-controller = WLS
+owner = WLS # Wales
+controller = WLS # Wales
+add_core = WLS # Wales
 culture = welsh
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = fish
 manpower = 1
 capital = "Caernarvon"
 citysize = 1000
-add_core = WLS 
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

@@ -1,7 +1,9 @@
 #410 - Iraq-i-Arab
 
-owner = IRQ
-controller = IRQ
+owner = IRQ # Iraq
+controller = IRQ # Iraq
+add_core = IRQ # Iraq
+add_core = JAI # Jalayirid
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Baghdad"
@@ -11,8 +13,6 @@ base_tax = 7
 manpower = 5
 citysize = 40150
 fort1 = yes
-add_core = IRQ
-add_core = JAI
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

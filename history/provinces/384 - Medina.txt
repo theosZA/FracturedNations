@@ -1,7 +1,9 @@
 #384 - Medina
 
-owner = SHM
-controller = SHM
+owner = SHM # Shammar
+controller = SHM # Shammar
+add_core = HED # The Hedjaz
+add_core = SHM # Shammar
 culture = bedouin_arabic
 religion = sunni
 capital = "Medina"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 3
 manpower = 2
 citysize = 4950
-add_core = SHM
-add_core = HED
 temple = yes
 fort1 = yes
 discovered_by = muslim

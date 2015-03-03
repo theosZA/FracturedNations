@@ -1,0 +1,19 @@
+#119 - Ancona
+
+owner = URB # Urbino
+controller = URB # Urbino
+add_core = URB # Urbino
+culture = umbrian
+religion = catholic
+hre = no 
+base_tax = 5        
+trade_goods = wool
+manpower = 4        
+fort1 = yes 
+capital = "Urbino" 
+citysize = 28000 # Estimated 
+temple = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,7 +1,8 @@
 # 182 Vermandois - Principal cities: Compiègne
 
-owner = CHP
-controller = CHP
+owner = CHP # Champagne
+controller = CHP # Champagne
+add_core = CHP # Champagne
 capital = "Compiègne"
 citysize = 10000
 culture = cosmopolitan_french
@@ -10,7 +11,6 @@ hre = no
 base_tax = 5
 trade_goods = grain
 manpower = 4
-add_core = CHP
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

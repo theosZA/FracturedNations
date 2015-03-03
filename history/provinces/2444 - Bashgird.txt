@@ -1,7 +1,8 @@
 #2444 - Bashgird
 
-owner = BSH
-controller = BSH
+owner = BSH # Bashkiria
+controller = BSH # Bashkiria
+add_core = BSH # Bashkiria
 culture = bashkir
 religion = sunni
 capital = "Bashgird"
@@ -10,7 +11,6 @@ hre = no
 base_tax = 2
 manpower = 2
 citysize = 1550
-add_core = BSH
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman

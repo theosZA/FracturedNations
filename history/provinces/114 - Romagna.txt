@@ -1,9 +1,11 @@
 #114 - Romagna
 
-owner = FER
-controller = FER
-culture = umbrian 
-religion = catholic 
+owner = FER # Ferrara
+controller = FER # Ferrara
+add_core = FER # Ferrara
+add_core = PAP # Papal States
+culture = umbrian
+religion = catholic
 hre = no 
 base_tax = 6       
 trade_goods = salt
@@ -13,8 +15,6 @@ capital = "Bologna"
 citysize = 47000	# Estimated 
 temple = yes		# Completed 1135
 university = yes	# Founded 1088
-add_core = FER
-add_core = PAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

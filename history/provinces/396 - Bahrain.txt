@@ -1,16 +1,16 @@
 #396 - Bahrain
 
-owner = ALH
-controller = ALH
+owner = ALH # Haasa
+controller = ALH # Haasa
+add_core = ALH # Haasa
 culture = bedouin_arabic
 religion = shiite
 capital = "Manama"
-trade_goods = wool
+trade_goods = fish
 hre = no
 base_tax = 1
 manpower = 2
 citysize = 1200
-add_core = ALH
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

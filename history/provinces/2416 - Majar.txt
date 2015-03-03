@@ -1,7 +1,9 @@
 #2416 - Majar
 
-owner = CIR
-controller = CIR
+owner = CIR # Circassia
+controller = CIR # Circassia
+add_core = AST # Astrakhan
+add_core = CIR # Circassia
 culture = astrakhani
 religion = sunni
 hre = no
@@ -11,8 +13,6 @@ manpower = 1
 capital = "Majar"
 citysize = 3671
 fort1 = yes
-add_core = CIR
-add_core = AST
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,8 @@
 # 92 Brabant - Principal cities: Brussel & Mechelen
 
-owner = BRB
-controller = BRB 
+owner = BRB # Brabant
+controller = BRB # Brabant
+add_core = BRB # Brabant
 capital = "Brussel"
 citysize = 42000
 culture = flemish
@@ -10,7 +11,6 @@ hre = yes
 base_tax = 8
 trade_goods = cloth
 manpower = 4
-add_core = BRB
 university = yes
 marketplace = yes
 fort1 = yes

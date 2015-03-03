@@ -1,17 +1,17 @@
 #323 - Konya
 
-owner = KAR
-controller = KAR
+owner = KAR # Karaman
+controller = KAR # Karaman
+add_core = KAR # Karaman
 culture = turkish
 religion = sunni
 capital = "Konya"
 trade_goods = salt
 hre = no
-base_tax = 4
-manpower = 3
+base_tax = 5
+manpower = 5
 citysize = 10330
 fort1 = yes
-add_core = KAR
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,7 +1,8 @@
 # 1743 Cambray
 
-owner = T14 # Cambray
-controller = T14 # Cambray
+owner = T14 # Cambrai
+controller = T14 # Cambrai
+add_core = T14 # Cambrai
 capital = "Cambray"
 citysize = 15500
 culture = wallonian
@@ -10,7 +11,6 @@ hre = yes
 base_tax = 5
 trade_goods = grain
 manpower = 2
-add_core = T14 # Cambray
 marketplace = yes
 fort1 = yes
 discovered_by = eastern

@@ -1,7 +1,9 @@
 #264 - Breslau
 
-owner = SIL
-controller = SIL
+owner = SIL # Silesia
+controller = SIL # Silesia
+add_core = BOH # Bohemia
+add_core = SIL # Silesia
 culture = schlesian
 religion = catholic
 capital = "Breslau"
@@ -9,9 +11,8 @@ trade_goods = iron
 hre = yes
 base_tax = 6
 citysize = 20500 
-manpower = 10
+manpower = 4
 fort1 = yes
-add_core = SIL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

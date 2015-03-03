@@ -1,7 +1,8 @@
 #241 - Glamorgan
 
-owner = WLS
-controller = WLS
+owner = WLS # Wales
+controller = WLS # Wales
+add_core = WLS # Wales
 culture = welsh
 religion = catholic
 hre = no
@@ -10,7 +11,6 @@ trade_goods = iron
 manpower = 2
 capital = "Carmarthen"
 citysize = 1200
-add_core = WLS
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

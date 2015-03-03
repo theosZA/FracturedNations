@@ -2,6 +2,8 @@
 
 owner = T56 # Balaton
 controller = T56 # Balaton
+add_core = T56 # Balaton
+add_core = CRO # Croatia
 culture = croatian
 religion = catholic
 capital = "Osijek"
@@ -11,8 +13,6 @@ base_tax = 3
 manpower = 2
 citysize = 4500
 fort1 = yes
-add_core = T56 # Balaton
-add_core = CRO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

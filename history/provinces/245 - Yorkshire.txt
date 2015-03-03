@@ -2,17 +2,17 @@
 
 owner = T05 # Jorvik
 controller = T05 # Jorvik
+add_core = T05 # Jorvik
 culture = english
 religion = animism	# Norse
 hre = no
 base_tax = 7
-trade_goods = iron
+trade_goods = cloth
 manpower = 3
 capital = "York"
 citysize = 9000
-add_core = T05 # Jorvik
 fort1 = yes
-temple = yes #York Cathedral?
+temple = yes #York Cathedral
 marketplace = yes
 discovered_by = western
 discovered_by = muslim

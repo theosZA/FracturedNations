@@ -1,9 +1,9 @@
 #128 - Kärnten
 
-owner = STY
-controller = STY
-add_core = STY
-culture	= austrian
+owner = STY # Styria
+controller = STY # Styria
+add_core = STY # Styria
+culture = austrian
 religion = catholic
 base_tax = 9
 trade_goods = iron 

@@ -1,0 +1,18 @@
+#257 - Mazovia
+
+owner = MAZ # Mazovia
+controller = MAZ # Mazovia
+add_core = MAZ # Mazovia
+capital = "Warszawa"
+culture = polish
+religion = catholic
+trade_goods = cloth
+hre = no
+base_tax = 7
+manpower = 4
+citysize = 6000
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

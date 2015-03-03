@@ -1,7 +1,9 @@
 # 89 Picardie - Principal cities: Amiens
 
-owner = CHP
-controller = CHP 
+owner = CHP # Champagne
+controller = CHP # Champagne
+add_core = FLA # Flanders
+add_core = CHP # Champagne
 capital = "Amiens"
 citysize = 15000
 culture = cosmopolitan_french
@@ -10,8 +12,6 @@ hre = no
 base_tax = 6
 trade_goods = grain
 manpower = 5
-add_core = CHP
-add_core = FLA
 fort1 = yes
 temple = yes # Notre Dame d'Amiens
 discovered_by = eastern

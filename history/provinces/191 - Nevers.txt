@@ -1,7 +1,8 @@
 # 191 Nevers - Principal cities: Nevers
 
-owner = NEV
-controller = NEV 
+owner = NEV # Nevers
+controller = NEV # Nevers
+add_core = NEV # Nevers
 capital = "Nevers"
 citysize = 4500
 culture = burgundian
@@ -10,7 +11,6 @@ hre = no
 base_tax = 6
 trade_goods = grain
 manpower = 4
-add_core = NEV
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

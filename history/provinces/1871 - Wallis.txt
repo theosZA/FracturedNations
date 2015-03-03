@@ -2,6 +2,7 @@
 
 owner = T22 # Romandie
 controller = T22 # Romandie
+add_core = T22 # Romandie
 culture = burgundian
 religion = catholic
 capital = "Sion"
@@ -11,7 +12,6 @@ base_tax = 3
 manpower = 1
 citysize = 3900
 fort1 = yes
-add_core = T22 # Romandie
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

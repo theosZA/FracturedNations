@@ -1,0 +1,29 @@
+#1228 - Dongola
+
+owner = MAK # Makuria
+controller = MAK # Makuria
+add_core = MAK # Makuria
+culture = nubian
+religion = shiite
+capital = "Dunqula"
+#native_size = 50
+#native_ferocity = 4
+#native_hostileness = 9 
+citysize = 5000
+trade_goods = grain
+manpower = 1
+#trade_goods = unknown
+hre = no
+base_tax = 1
+discovered_by = ETH
+discovered_by = ADA
+discovered_by = NUB
+discovered_by = ZAN
+discovered_by = ZIM
+discovered_by = AJU
+discovered_by = MBA
+discovered_by = MDI
+discovered_by = MLI
+discovered_by = SFA
+discovered_by = muslim
+discovered_by = ottoman

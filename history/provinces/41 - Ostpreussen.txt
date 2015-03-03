@@ -1,0 +1,25 @@
+#41 - Ostpreussen
+
+owner = TEU # Teutonic Order
+controller = TEU # Teutonic Order
+add_core = TEU # Teutonic Order
+capital = "Königsberg"
+culture = prussian
+religion = catholic
+trade_goods = naval_supplies
+hre = no
+base_tax = 6
+manpower = 3
+citysize = 20500
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1000.1.1   = {
+		add_permanent_province_modifier = {
+			name = neman_estuary_modifier
+			duration = -1
+		}
+}

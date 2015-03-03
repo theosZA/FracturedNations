@@ -2,6 +2,8 @@
 
 owner = T87 # Samarkand
 controller = T87 # Samarkand
+add_core = T87 # Samarkand
+add_core = TIM # Timurid Empire
 culture = uzbehk
 religion = sunni
 capital = "Samarkand"
@@ -10,8 +12,6 @@ hre = no
 base_tax = 7
 manpower = 7
 citysize = 7908
-add_core = T87 # Samarkand
-add_core = TIM
 fort1 = yes
 discovered_by = KAS
 discovered_by = muslim

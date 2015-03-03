@@ -1,7 +1,8 @@
 #157 - Bihar
 
-owner = TRA
-controller = TRA 
+owner = TRA # Transylvania
+controller = TRA # Transylvania
+add_core = TRA # Transylvania
 culture = hungarian
 religion = catholic
 capital = "Oradea"
@@ -11,7 +12,6 @@ base_tax = 1
 manpower = 1
 citysize = 1510
 fort1 = yes
-add_core = TRA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

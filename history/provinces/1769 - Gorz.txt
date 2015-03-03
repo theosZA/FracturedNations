@@ -1,8 +1,8 @@
 # 1769 - Görz
-owner = AQU
-controller = AQU
-add_core = AQU
-add_core = STY
+owner = AQU # Aquileia
+controller = AQU # Aquileia
+add_core = AQU # Aquileia
+add_core = STY # Styria
 culture = austrian
 religion = catholic
 base_tax = 7

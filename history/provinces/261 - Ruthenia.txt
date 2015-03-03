@@ -1,17 +1,17 @@
 #261 - Ruthenia
 
-owner = VOL
-controller = VOL
+owner = VOL # Volyn
+controller = VOL # Volyn
+add_core = VOL # Volyn
 capital= "Lviv"
 culture = ruthenian
 religion = orthodox
-trade_goods = grain
+trade_goods = dyes #Polish cochineal
 hre = no
 base_tax = 2
 manpower = 3
 citysize = 2000
 fort1 = yes
-add_core = VOL
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

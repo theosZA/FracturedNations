@@ -1,7 +1,8 @@
 #1853 - Kozani
 
-owner = EPI
-controller = EPI
+owner = EPI # Despotate of Epirus
+controller = EPI # Despotate of Epirus
+add_core = EPI # Despotate of Epirus
 culture = greek
 religion = orthodox
 capital = "Monastir"
@@ -11,7 +12,6 @@ base_tax = 6
 manpower = 2
 citysize = 26887
 fort1 = yes
-add_core = EPI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

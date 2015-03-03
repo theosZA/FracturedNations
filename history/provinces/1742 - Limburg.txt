@@ -1,7 +1,9 @@
 # 1742 Limburg
 
-owner = LIE
-controller = LIE
+owner = LIE # Liege
+controller = LIE # Liege
+add_core = BRB # Brabant
+add_core = LIE # Liege
 capital = "Maastricht"
 citysize = 17000
 culture = flemish
@@ -10,8 +12,6 @@ hre = yes
 base_tax = 6
 trade_goods = iron
 manpower = 4
-add_core = LIE
-add_core = BRB
 marketplace = yes
 courthouse = yes
 fort1 = yes

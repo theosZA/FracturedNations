@@ -1,7 +1,8 @@
 #329 - Sivas
 
-owner = ERE
-controller = ERE
+owner = ERE # Eretna
+controller = ERE # Eretna
+add_core = ERE # Eretna
 culture = turkish
 religion = sunni
 capital = "Sivas"
@@ -12,7 +13,6 @@ manpower = 4
 citysize = 8300
 fort1 = yes
 temple = yes #Divrigi Great Mosque
-add_core = ERE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

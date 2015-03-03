@@ -1,7 +1,9 @@
 # 197 Roussillon - Principal cities: Perpignan
 
-owner = CAT
-controller = CAT
+owner = CAT # Catalunya
+controller = CAT # Catalunya
+add_core = CAT # Catalunya
+add_core = TOU # Toulouse
 capital = "Perpignan"
 citysize = 5000
 culture = catalan
@@ -10,8 +12,6 @@ hre = no
 base_tax = 4
 trade_goods = wine
 manpower = 4
-add_core = CAT
-add_core = TOU
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

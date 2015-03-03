@@ -2,6 +2,8 @@
 
 owner = T10 # Capet
 controller = T10 # Capet
+add_core = T10 # Capet
+add_core = ORL # Orleans
 capital = "Orléans"
 citysize = 15500
 culture = cosmopolitan_french
@@ -10,8 +12,6 @@ hre = no
 base_tax = 8
 trade_goods = grain
 manpower = 7
-add_core = ORL
-add_core = T10 # Capet
 fort1 = yes
 marketplace = yes
 temple = yes # La Notre Dame de Chartres

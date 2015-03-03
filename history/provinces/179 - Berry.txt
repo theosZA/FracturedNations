@@ -1,16 +1,16 @@
 # 179 Berry
 
-owner = BER
-controller = BER
+owner = BER # Berry
+controller = BER # Berry
+add_core = BER # Berry
 capital = "Bourges"
 citysize = 15000
-culture = cosmopolitan_french
+culture = occitain
 religion = catholic
 hre = no
 base_tax = 7
 trade_goods = wine
 manpower = 5
-add_core = BER
 fort1 = yes
 discovered_by = eastern
 discovered_by = western

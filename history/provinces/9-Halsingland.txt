@@ -1,8 +1,8 @@
 #Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
 
-add_core = T85 # Svealand
 owner = T85 # Svealand
 controller = T85 # Svealand
+add_core = T85 # Svealand
 culture = swedish
 religion = catholic
 hre = no

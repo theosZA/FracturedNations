@@ -1,0 +1,18 @@
+#160 - Oltenia
+
+owner = WAL # Wallachia
+controller = WAL # Wallachia
+add_core = WAL # Wallachia
+culture = romanian
+religion = orthodox
+capital = "Craiova"
+trade_goods = wool
+hre = no
+base_tax = 3
+manpower = 2
+citysize = 7050
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

@@ -2,6 +2,7 @@
 
 owner = T16 # Badajoz
 controller = T16 # Badajoz
+add_core = T16 # Badajoz
 culture = andalucian
 religion = sunni
 capital = "Évora"
@@ -10,7 +11,6 @@ hre = no
 base_tax = 4
 manpower = 3
 citysize = 8000
-add_core = T16 # Badajoz
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

@@ -1,8 +1,8 @@
 #Skåne
 
-add_core = T34 # Skane
 owner = T34 # Skane
 controller = T34 # Skane
+add_core = T34 # Skane
 culture = danish
 religion = catholic
 hre = no

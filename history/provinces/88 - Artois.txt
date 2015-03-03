@@ -1,7 +1,8 @@
 # 88 Artois - Principal cities: Arras, Saint-Omer & Lille
 
-owner = FLA
-controller = FLA
+owner = FLA # Flanders
+controller = FLA # Flanders
+add_core = FLA # Flanders
 capital = "Arras"
 citysize = 35500
 culture = wallonian
@@ -10,7 +11,6 @@ hre = no
 base_tax = 6
 trade_goods = cloth
 manpower = 3
-add_core = FLA
 marketplace = yes
 fort1 = yes
 discovered_by = eastern

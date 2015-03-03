@@ -1,17 +1,17 @@
 #466 - Sarai
 
-owner = AST
-controller = AST
+owner = AST # Astrakhan
+controller = AST # Astrakhan
+add_core = AST # Astrakhan
+add_core = GOL # Golden Horde
 culture = astrakhani
 religion = sunni
 capital = "Sarai"
 trade_goods = wool
 hre = no
-base_tax = 1
+base_tax = 6
 manpower = 5
 citysize = 3769
-add_core = GOL
-add_core = AST
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

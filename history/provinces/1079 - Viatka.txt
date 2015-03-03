@@ -1,7 +1,8 @@
 #1079 - Viatka
 
-owner = NZH
-controller = NZH
+owner = NZH # Nizhny Novgorod
+controller = NZH # Nizhny Novgorod
+add_core = NZH # Nizhny Novgorod
 capital = "Hlynov"
 culture = russian
 religion = orthodox
@@ -10,7 +11,6 @@ hre = no
 base_tax = 2
 manpower = 1
 citysize = 1200
-add_core = NZH
 fort1 = yes
 discovered_by = western
 discovered_by = eastern

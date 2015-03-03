@@ -1,7 +1,10 @@
 #2319 - Asyut
 
-owner = MAK
-controller = MAK
+owner = MAK # Makuria
+controller = MAK # Makuria
+add_core = T77 # Ayyubid
+add_core = MAK # Makuria
+add_core = MAM # Mameluks
 culture = al_misr_arabic
 religion = sunni
 capital = "Akhmim"
@@ -11,9 +14,6 @@ base_tax = 2
 manpower = 2
 citysize = 1687
 fort1 = yes
-add_core = MAK
-add_core = MAM
-add_core = T77 # Ayyubid
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

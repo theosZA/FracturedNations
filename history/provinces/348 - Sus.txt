@@ -1,7 +1,9 @@
 #348 - Sus
 
-owner = TFL
-controller = TFL
+owner = SOS # Sus
+controller = SOS # Sus
+add_core = SOS # Sus
+add_core = TFL # Tafilalt
 culture = berber
 religion = sunni
 capital = "Taroudant"
@@ -11,8 +13,6 @@ base_tax = 5
 manpower = 2
 citysize = 5000
 fort1 = yes
-add_core = SOS
-add_core = TFL
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

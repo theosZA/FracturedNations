@@ -1,7 +1,8 @@
 #284 - Crimea
 
-owner = CRI
-controller = CRI
+owner = CRI # Crimea
+controller = CRI # Crimea
+add_core = CRI # Crimea
 culture = crimean
 religion = sunni
 hre = no
@@ -11,7 +12,6 @@ manpower = 5
 capital = "Qirq-Yer"
 citysize = 3671
 fort1 = yes
-add_core = CRI
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

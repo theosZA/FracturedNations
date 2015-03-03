@@ -1,7 +1,9 @@
 #1968 - Kulob
 
-owner = KOK
-controller = KOK
+owner = KOK # Kokkand
+controller = KOK # Kokkand
+add_core = KOK # Kokkand
+add_core = TIM # Timurid Empire
 culture = uzbehk
 religion = sunni
 capital = "Kulob"
@@ -10,7 +12,6 @@ hre = no
 base_tax = 2
 manpower = 3
 citysize = 1870
-add_core = TIM
 fort1 = yes
 discovered_by = KAS
 discovered_by = muslim

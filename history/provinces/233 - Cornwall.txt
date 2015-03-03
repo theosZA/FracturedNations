@@ -2,6 +2,8 @@
 
 owner = T02 # Wessex
 controller = T02 # Wessex
+add_core = T02 # Wessex
+add_core = CRN # Cornwall
 culture = welsh
 religion = catholic
 hre = no
@@ -10,8 +12,6 @@ trade_goods = copper
 manpower = 3
 capital = "Exeter"
 citysize = 6000
-add_core = T02 # Wessex
-add_core = CRN
 fort1 = yes
 discovered_by = western
 discovered_by = muslim

@@ -1,8 +1,10 @@
 #1953 - Szabolcs
 
 owner = T58 # Jazygia
-controller = T58 # Jazygia 
-culture = hungarian
+controller = T58 # Jazygia
+add_core = T58 # Jazygia
+add_core = T86 # Arpad
+culture = hungarian # Should be Jasz
 religion = catholic
 capital = "Debrecen"
 trade_goods = naval_supplies
@@ -11,8 +13,6 @@ base_tax = 2
 manpower = 1
 citysize = 1510
 fort1 = yes
-add_core = T58 # Jazygia
-add_core = T86 # Arpad
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

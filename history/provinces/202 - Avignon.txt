@@ -1,7 +1,10 @@
 # 202 Avignon - Principal cities: Avignon
 
-owner = AVI		# The great Schism
-controller = AVI
+owner = AVI # Avignon
+controller = AVI # Avignon
+add_core = AVI # Avignon
+add_core = PAP # Papal States
+add_core = PRO # Provence
 capital = "Avignon"
 citysize = 17000
 culture = occitain
@@ -10,9 +13,6 @@ hre = no
 base_tax = 3
 trade_goods = cloth
 manpower = 4
-add_core = AVI
-add_core = PRO
-add_core = PAP
 courthouse = yes # Exception, Papal justice well established
 fort1 = yes
 fort2 = yes

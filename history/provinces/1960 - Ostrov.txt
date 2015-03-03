@@ -1,0 +1,16 @@
+#Ostrov
+
+owner = PSK # Pskov
+controller = PSK # Pskov
+add_core = PSK # Pskov
+culture = russian
+religion = orthodox
+hre = no
+base_tax = 2
+trade_goods = grain
+manpower = 2
+capital = "Ostrov"
+citysize = 2000
+fort1 = yes
+discovered_by = western
+discovered_by = eastern

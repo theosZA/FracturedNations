@@ -2,6 +2,7 @@
 
 owner = T36 # Sapmi
 controller = T36 # Sapmi
+add_core = T36 # Sapmi
 culture = sapmi
 religion = shamanism
 hre = no
@@ -11,6 +12,5 @@ trade_goods = fish
 capital = "Vardø"
 citysize = 500
 fort1 = yes
-add_core = T36 # Sapmi
 discovered_by = eastern
 discovered_by = western

@@ -1,17 +1,17 @@
 #325 - Kastamonu
 
-owner = CND
-controller = CND
+owner = CND # Candar
+controller = CND # Candar
+add_core = CND # Candar
 culture = turkish
 religion = sunni
 capital = "Kastamonu"
-trade_goods = wine
+trade_goods = copper
 hre = no
 base_tax = 3
 manpower = 3
 citysize = 18300
 fort1 = yes
-add_core = CND
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

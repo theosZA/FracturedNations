@@ -1,0 +1,25 @@
+#1226 - Taka
+
+owner = ALO # Alodia
+controller = ALO # Alodia
+add_core = ALO # Alodia
+culture = nubian
+religion = animism
+capital = "Qoz Rajab"
+manpower = 1
+trade_goods = grain
+hre = no
+base_tax = 1
+citysize = 3000
+discovered_by = ETH
+discovered_by = ADA
+discovered_by = NUB
+discovered_by = ZAN
+discovered_by = AJU
+discovered_by = MBA
+discovered_by = MDI
+discovered_by = MLI
+discovered_by = SFA
+discovered_by = ZIM
+discovered_by = muslim
+discovered_by = ottoman

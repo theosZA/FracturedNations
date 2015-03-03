@@ -2,16 +2,16 @@
 
 owner = T24 # Azov
 controller = T24 # Azov
+add_core = T24 # Azov
 culture = lombard
 religion = catholic
 hre = no
-base_tax = 4 
-trade_goods = salt
-manpower = 5
+base_tax = 3 
+trade_goods = slaves
+manpower = 3
 capital = "Tana"
 citysize = 2757
 fort1 = yes
-add_core = T24 # Azov
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

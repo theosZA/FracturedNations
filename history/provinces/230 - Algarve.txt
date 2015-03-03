@@ -2,6 +2,7 @@
 
 owner = T20 # Silves
 controller = T20 # Silves
+add_core = T20 # Silves
 culture = andalucian
 religion = sunni
 capital = "Faro"
@@ -10,7 +11,6 @@ hre = no
 base_tax = 7
 manpower = 4
 citysize = 3500 
-add_core = T20 # Silves
 fort1 = yes
 discovered_by = western
 discovered_by = muslim
