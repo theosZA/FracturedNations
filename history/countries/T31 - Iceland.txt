@@ -1,6 +1,6 @@
 government = oligarchic_republic
 mercantilism = 0.1
 primary_culture = norwegian # icelandic
-religion = animism
+religion = norse_pagan_reformed
 technology_group = western
 capital = 370 # Reykjavik
