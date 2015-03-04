@@ -1,9 +1,9 @@
 # 67 - Franken
 
-owner = T40 # Nuremberg
-controller = T40 # Nuremberg
-add_core = T40 # Nuremberg
+owner = NUM # Nuremberg
+controller = NUM # Nuremberg
 add_core = BAV # Bavaria
+add_core = NUM # Nuremberg
 culture = bavarian
 religion = catholic
 base_tax = 12

@@ -37,7 +37,6 @@ T36: 18,315,1776,1777 # Sapmi
 T37: 2,3,7,(cores),26,1982 # Gotaland
 T38: 134,1770 # Ostmark
 T39: 132,133 # Oberenns
-T40: 67 # Nuremberg
 T41: 265 # Moravia
 T42: 1771 # Sudetes
 T43: 49,60,1763 # Lusatia
@@ -208,6 +207,7 @@ NOG: 465,469,470,471,472,474,1966|c=bashkir,2351|c=khazak,2353|c=khazak,2365,236
 NOR: 5,8,16,17,24,(cores),23 # Norway
 NOV: 33|c=finnish,310,1961,2749,(cores),1959 # Novgorod
 NRM: 167,168 # Normandy
+NUM: 67 # Nuremberg
 NZH: 306,1079,1083,1956,(cores),2423 # Nizhny-Novgorod
 OLD: 55 # Oldenburg
 OMA: 398,399,400,401,403,2341,2342 # Oman
