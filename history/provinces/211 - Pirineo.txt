@@ -3,7 +3,7 @@
 owner = ARA # Aragon
 controller = ARA # Aragon
 add_core = ARA # Aragon
-culture = catalan
+culture = aragonese
 religion = catholic
 hre = no
 base_tax = 4
