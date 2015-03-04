@@ -12,7 +12,6 @@ T11: 177,178,1879 # Maine
 T12: 1744 # Antwerp
 T13: 181 # Rethel
 T14: 1743 # Cambresis
-T15: 207,208,216 # Leon
 T16: 218,227,229,(cores),1747 # Badajoz
 T17: 219,1747,2754 # Toledo
 T18: 224,225,1749 # Seville
@@ -178,6 +177,7 @@ LEI: 374 # Leinster
 LIE: 93,1742|c=flemish # Liege
 LIT: 270,271,272,770,1936 # Lithuania
 LIV: 39|c=old_prussian,40,273,1935,(cores),37 # Livonian Order
+LON: 207,208,216 # Leon
 LOR: 188,189 # Lorraine
 LUN: 53 # Luneburg
 LUX: 94 # Luxembourg

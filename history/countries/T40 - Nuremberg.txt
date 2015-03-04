@@ -1,6 +1,0 @@
-government = administrative_republic
-mercantilism = 0.1
-technology_group = western
-primary_culture = bavarian
-religion = catholic
-capital = 67	# Franken (Nürnberg)

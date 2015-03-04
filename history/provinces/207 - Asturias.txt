@@ -1,9 +1,9 @@
 #207 - Asturias
 
-owner = T15 # Leon
-controller = T15 # Leon
-add_core = T15 # Leon
-culture = galician # TBD: leonese and asturian
+owner = LON # Leon
+controller = LON # Leon
+add_core = LON # Leon
+culture = leonese
 religion = catholic
 hre = no
 base_tax = 6
