@@ -1,2 +1,2 @@
 Fractured Nations
-version 0.4a
+version 0.4.1a
