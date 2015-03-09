@@ -3,6 +3,7 @@
 owner = T03 # London
 controller = T03 # London
 add_core = T03 # London
+add_core = NRM # Normandy
 culture = english
 religion = catholic
 hre = no

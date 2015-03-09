@@ -30,10 +30,14 @@ country_decisions = {
 				owns_core_province = 235
 				owns_core_province = 236
 				owns_core_province = 237
+				owns_core_province = 238
 				owns_core_province = 239
 				owns_core_province = 240
+				owns_core_province = 243
 				owns_core_province = 244
-				amount = 6
+				owns_core_province = 1860
+				owns_core_province = 1861
+				amount = 8
 			}
 		}
 		effect = {
@@ -46,9 +50,13 @@ country_decisions = {
 						province_id = 235
 						province_id = 236
 						province_id = 237
+						province_id = 238
 						province_id = 239
 						province_id = 240
+						province_id = 243
 						province_id = 244
+						province_id = 1860
+						province_id = 1861
 					}
 				}
 				add_claim = ENG

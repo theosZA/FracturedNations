@@ -2,6 +2,7 @@
 
 owner = T05 # Jorvik
 controller = T05 # Jorvik
+add_core = T01 # Mercia
 add_core = T05 # Jorvik
 culture = english
 religion = catholic

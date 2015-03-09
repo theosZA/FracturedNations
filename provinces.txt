@@ -1,4 +1,4 @@
-T01: 237,240,244 # Mercia
+T01: 237,240,244,(cores),1861 # Mercia
 T02: 233|c=welsh,234,239 # Wessex
 T03: 236 # London
 T04: 87,235|c=english # Boulogne
@@ -206,7 +206,7 @@ NEV: 191 # Nevers
 NOG: 465,469,470,471,472,474,1966|c=bashkir,2351|c=khazak,2353|c=khazak,2365,2366,2367,2420|c=bashkir # Nogai
 NOR: 5,8,16,17,24,(cores),23 # Norway
 NOV: 33|c=finnish,310,1961,2749,(cores),1959 # Novgorod
-NRM: 167,168 # Normandy
+NRM: 167,168,(cores),236 # Normandy
 NUM: 67 # Nuremberg
 NZH: 306,1079,1083,1956,(cores),2423 # Nizhny-Novgorod
 OLD: 55 # Oldenburg
