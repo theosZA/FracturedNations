@@ -1,4 +1,4 @@
-#144 - Janina
+#144 - Epiros
 
 owner = EPI # Despotate of Epirus
 controller = EPI # Despotate of Epirus
