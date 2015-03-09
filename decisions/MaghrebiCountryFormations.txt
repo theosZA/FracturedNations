@@ -1,0 +1,1 @@
+# Remove Algiers, Morocco, Tripoli, Tunis as formable nations since they are all starting nations.
